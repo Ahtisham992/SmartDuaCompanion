@@ -1,7 +1,7 @@
 # Smart Dua Companion
 
 <div align="center">
-  <img src="src/assets/images/logo.png" alt="Smart Dua Companion Logo" width="120" height="120" />
+  <img src="website/logo.png" alt="Smart Dua Companion Logo" width="120" height="120" />
   <h1>Smart Dua Companion</h1>
   <p>
     <strong>Your Pocket Companion for Authentic Islamic Supplications</strong>
