@@ -1,0 +1,200 @@
+/* Variables matching your React Native App Theme */
+:root {
+    --primary: #2D5F3F;
+    --primary-light: #4A8B63;
+    --secondary: #D4AF37;
+    --bg-light: #FAFAFA;
+    --text-dark: #2C2C2C;
+    --text-light: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background: var(--primary);
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+}
+
+.logo span {
+    color: var(--text-light);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #1A3F2A 0%, #2D5F3F 100%);
+    color: white;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.badge {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: var(--secondary);
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 20px 0;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn-primary {
+    background-color: var(--secondary);
+    color: #1a1a1a;
+}
+
+.btn-secondary {
+    border: 2px solid rgba(255,255,255,0.3);
+    color: white;
+}
+
+.small-text {
+    font-size: 0.8rem;
+    margin-top: 15px;
+    opacity: 0.7;
+}
+
+/* Phone Mockup Placeholder */
+.image-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.phone-mockup {
+    background: rgba(255,255,255,0.1);
+    width: 280px;
+    height: 550px;
+    border-radius: 40px;
+    border: 8px solid #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+}
+
+.phone-mockup img {
+    width: 100px;
+    opacity: 0.8;
+}
+
+/* Features */
+.features {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.card i {
+    font-size: 2.5rem;
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: var(--primary);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .buttons {
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .phone-mockup {
+        display: none; /* Hide phone on small screens to save space */
+    }
+}
