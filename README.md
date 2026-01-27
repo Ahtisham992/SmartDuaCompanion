@@ -7,10 +7,10 @@
     <strong>Your Pocket Companion for Authentic Islamic Supplications</strong>
   </p>
   <p>
-    <a href="#features">Features</a> •
-    <a href="#tech-stack">Tech Stack</a> •
-    <a href="#getting-started">Getting Started</a> •
-    <a href="#download">Download</a>
+    <a href="#-key-features">Features</a> •
+    <a href="#-tech-stack">Tech Stack</a> •
+    <a href="#-getting-started">Getting Started</a> •
+    <a href="#-download">Download</a>
   </p>
 </div>
 
