@@ -36,7 +36,7 @@ const SettingsScreen = () => {
   const colors = useThemeColors();
 
 // 👇 Use this RAW GitHub link
-const REMOTE_JSON_URL = 'https://raw.githubusercontent.com/Ahtisham992/SmartDuaCompanion/main/SmartDuaCompanion/src/data/initial-duas.json';
+const REMOTE_JSON_URL = 'https://raw.githubusercontent.com/Ahtisham992/SmartDuaCompanion/main/SmartDuaCompanionNew/src/data/initial-duas.json';
   // --- HANDLERS ---
 
   const handleToggleTransliteration = () => { dispatch(toggleTransliteration()); };
