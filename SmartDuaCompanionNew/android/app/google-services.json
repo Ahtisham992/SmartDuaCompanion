@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "618271097655",
+    "project_id": "smart-dua-companion",
+    "storage_bucket": "smart-dua-companion.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618271097655:android:417b121159db55222350b2",
+        "android_client_info": {
+          "package_name": "com.smartduacompanion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvWYIkeoRn-nGriySLH34yE7SVxH077tE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
