@@ -286,7 +286,7 @@ const REMOTE_JSON_URL = 'https://raw.githubusercontent.com/Ahtisham992/SmartDuaC
       </View>
 
       {/* 6. Developer Tools (Factory Reset) */}
-      <View style={[styles.section, { backgroundColor: colors.background.paper }]}>
+      {/*<View style={[styles.section, { backgroundColor: colors.background.paper }]}>
         <Text style={[styles.sectionTitle, { color: colors.accent.error }]}>
           Advanced
         </Text>
@@ -303,6 +303,7 @@ const REMOTE_JSON_URL = 'https://raw.githubusercontent.com/Ahtisham992/SmartDuaC
           Use this if you encounter issues or want to clear all data.
         </Text>
       </View>
+      */}
 
       {/* App Info */}
       <View style={[styles.section, { backgroundColor: colors.background.paper }]}>

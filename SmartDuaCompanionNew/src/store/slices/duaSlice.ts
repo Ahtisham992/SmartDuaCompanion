@@ -1,7 +1,4 @@
-// =====================================================
 // src/store/slices/duaSlice.ts
-// UPDATED: Added fetchRemoteUpdate Action
-// =====================================================
 import { createSlice, createAsyncThunk, PayloadAction } from '@reduxjs/toolkit';
 import { Dua, DuaCategory } from '../../types/dua.types';
 import DatabaseService from '../../services/database/DatabaseService';
@@ -10,7 +7,7 @@ interface DuaState {
   duas: Dua[];
   categories: DuaCategory[];
   favorites: string[];
-  version: number; // <--- Added Version
+  version: number;
   loading: boolean;
   error: string | null;
 }
@@ -24,29 +21,16 @@ const initialState: DuaState = {
   error: null,
 };
 
-// --- EXISTING THUNKS ---
-export const fetchDuas = createAsyncThunk('dua/fetchDuas', async () => {
-  return await DatabaseService.getAllDuas();
+// ... (Keep existing thunks: fetchDuas, fetchCategories, fetchFavorites, toggleFavorite) ...
+export const fetchDuas = createAsyncThunk('dua/fetchDuas', async () => await DatabaseService.getAllDuas());
+export const fetchCategories = createAsyncThunk('dua/fetchCategories', async () => await DatabaseService.getCategories());
+export const fetchFavorites = createAsyncThunk('dua/fetchFavorites', async () => await DatabaseService.getFavorites());
+export const toggleFavorite = createAsyncThunk('dua/toggleFavorite', async (duaId: string) => {
+  const isFavorite = await DatabaseService.toggleFavorite(duaId);
+  return { duaId, isFavorite };
 });
 
-export const fetchCategories = createAsyncThunk('dua/fetchCategories', async () => {
-  return await DatabaseService.getCategories();
-});
-
-export const fetchFavorites = createAsyncThunk('dua/fetchFavorites', async () => {
-  return await DatabaseService.getFavorites();
-});
-
-export const toggleFavorite = createAsyncThunk(
-  'dua/toggleFavorite',
-  async (duaId: string) => {
-    const isFavorite = await DatabaseService.toggleFavorite(duaId);
-    return { duaId, isFavorite };
-  }
-);
-
-// --- NEW UPDATE THUNK ---
-// Fetches JSON from Firebase Storage and updates local DB
+// --- UPDATED FETCH REMOTE UPDATE ---
 export const fetchRemoteUpdate = createAsyncThunk(
   'dua/fetchRemoteUpdate',
   async (url: string, { rejectWithValue }) => {
@@ -72,16 +56,20 @@ export const fetchRemoteUpdate = createAsyncThunk(
       console.log(`📊 Current Version: ${currentVersion}, New Version: ${newVersion}`);
 
       if (newVersion <= currentVersion) {
-        // We throw a specific string to handle "Up to date" in UI gracefully
         return rejectWithValue('App is already up to date.');
       }
 
-      // 2. Save to Offline Storage (Persistence)
-      await DatabaseService.updateLocalData(data.duas, data.categories, newVersion);
+      // --- 👇 CRITICAL FIX: Transform raw data before saving 👇 ---
+      // This converts objects {id, name} into proper strings so the app doesn't crash
+      const cleanedDuas = DatabaseService.transformInitialDuas(data.duas);
+      const cleanedCategories = DatabaseService.transformInitialCategories(data.categories);
+
+      // Save the CLEANED data
+      await DatabaseService.updateLocalData(cleanedDuas, cleanedCategories, newVersion);
 
       return {
-        duas: data.duas,
-        categories: data.categories,
+        duas: cleanedDuas,
+        categories: cleanedCategories,
         version: newVersion
       };
 
@@ -104,39 +92,17 @@ const duaSlice = createSlice({
   },
   extraReducers: (builder) => {
     builder
-      // Fetch Duas
-      .addCase(fetchDuas.pending, (state) => {
-        state.loading = true;
-        state.error = null;
-      })
       .addCase(fetchDuas.fulfilled, (state, action) => {
         state.loading = false;
         state.duas = action.payload;
-      })
-      .addCase(fetchDuas.rejected, (state, action) => {
-        state.loading = false;
-        state.error = action.error.message || 'Failed to fetch duas';
-      })
-      
-      // Fetch Categories
-      .addCase(fetchCategories.pending, (state) => {
-        state.loading = true;
       })
       .addCase(fetchCategories.fulfilled, (state, action) => {
         state.loading = false;
         state.categories = action.payload;
       })
-      .addCase(fetchCategories.rejected, (state, action) => {
-        state.loading = false;
-        state.error = action.error.message || 'Failed to fetch categories';
-      })
-      
-      // Fetch Favorites
       .addCase(fetchFavorites.fulfilled, (state, action) => {
         state.favorites = action.payload;
       })
-      
-      // Toggle Favorite
       .addCase(toggleFavorite.fulfilled, (state, action) => {
         const { duaId, isFavorite } = action.payload;
         if (isFavorite) {
@@ -145,21 +111,20 @@ const duaSlice = createSlice({
           state.favorites = state.favorites.filter(id => id !== duaId);
         }
       })
-
-      // --- HANDLE UPDATE ---
+      // --- Update Logic ---
       .addCase(fetchRemoteUpdate.pending, (state) => {
         state.loading = true;
         state.error = null;
       })
       .addCase(fetchRemoteUpdate.fulfilled, (state, action) => {
         state.loading = false;
+        // The payload is now CLEAN data
         state.duas = action.payload.duas;
         state.categories = action.payload.categories;
         state.version = action.payload.version;
       })
       .addCase(fetchRemoteUpdate.rejected, (state, action) => {
         state.loading = false;
-        // Don't show error if it's just "up to date"
         if (action.payload !== 'App is already up to date.') {
            state.error = action.payload as string;
         }
