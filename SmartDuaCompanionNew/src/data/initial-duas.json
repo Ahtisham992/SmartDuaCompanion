@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "categories": [
     {
       "id": "daily",
@@ -1783,6 +1783,27 @@
       "reference": { "source": "hadith", "book": "Abu Dawud", "hadithNumber": "1554", "authenticity": "sahih" },
       "tags": ["health", "protection", "illness"],
       "searchKeywords": ["illness", "disease", "bimari", "بیماری"]
+    },
+    {
+      "id": "travel_006",
+      "title": "Aoa. When Starting a Journey",
+      "titleArabic": "دعاء السفر",
+      "titleUrdu": "سفر شروع کرتے وقت کی دعا",
+      "category": {
+        "id": "travel",
+        "name": "Travel"
+      },
+      "arabicText": "سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَٰذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ وَإِنَّا إِلَىٰ رَبِّنَا لَمُنقَلِبُونَ",
+      "transliteration": "Subhanal-ladhi sakhkhara lana hadha wa ma kunna lahu muqrinin, wa inna ila rabbina lamunqalibun",
+      "translation": "Glory be to Him Who has subjected this to us, and we could never have it by our efforts. Surely, unto our Lord we are to return",
+      "translationUrdu": "پاک ہے وہ ذات جس نے اس کو ہمارے لیے مسخر کر دیا اور ہم اس کی طاقت نہیں رکھتے تھے، اور بے شک ہم اپنے رب کی طرف لوٹنے والے ہیں",
+      "reference": {
+        "source": "quran",
+        "chapter": "Az-Zukhruf",
+        "verse": "43:13-14"
+      },
+      "tags": ["travel", "journey", "safety"],
+      "searchKeywords": ["travel", "journey", "trip", "car", "flight", "سفر"]
     }
   ]
 }
