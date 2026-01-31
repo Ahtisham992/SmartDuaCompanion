@@ -16,6 +16,8 @@ import duaReducer from './slices/duaSlice';
 import userReducer from './slices/userSlice';
 import settingsReducer from './slices/settingsSlice';
 import searchReducer from './slices/searchSlice';
+import tasbihReducer from './slices/tasbihSlice';     // ADD THIS
+import namesReducer from './slices/namesSlice';       // ADD THIS
 
 // 1. Define the combined reducer first
 const appReducer = combineReducers({
@@ -23,6 +25,8 @@ const appReducer = combineReducers({
   user: userReducer,
   settings: settingsReducer,
   search: searchReducer,
+  tasbih: tasbihReducer,     // ADD THIS
+  names: namesReducer,        // ADD THIS
 });
 
 // 2. Extract the RootState type from it
@@ -43,9 +47,9 @@ const rootReducer: Reducer<RootState, AnyAction> = (state, action) => {
 const persistConfig = {
   key: 'root',
   storage: AsyncStorage,
-  // Whitelist: only persist these slices. 
+  // Whitelist: persist these slices. 
   // 'dua' is excluded so it always reloads from JSON on a reset/update.
-  whitelist: ['user', 'settings'], 
+  whitelist: ['user', 'settings', 'tasbih', 'names'], // ADD 'tasbih' and 'names'
 };
 
 // 5. Wrap the rootReducer

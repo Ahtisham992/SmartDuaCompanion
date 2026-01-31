@@ -7,13 +7,14 @@ import { TabParamList } from './types';
 import HomeScreen from '../screens/HomeScreen';
 import SearchScreen from '../screens/SearchScreen';
 import FavoritesScreen from '../screens/FavoritesScreen';
+import TasbihScreen from '../screens/TasbihScreen'; // NEW
 import SettingsScreen from '../screens/SettingsScreen';
-import { useThemeColors } from '../hooks/useThemeColors'; // <--- IMPORT HOOK
+import { useThemeColors } from '../hooks/useThemeColors';
 
 const Tab = createBottomTabNavigator<TabParamList>();
 
 const TabNavigator = () => {
-  const colors = useThemeColors(); // <--- GET DYNAMIC COLORS
+  const colors = useThemeColors();
 
   return (
     <Tab.Navigator
@@ -24,11 +25,11 @@ const TabNavigator = () => {
           paddingBottom: 5,
           paddingTop: 5,
           height: 60,
-          backgroundColor: colors.background.paper, // Dark Mode Support
+          backgroundColor: colors.background.paper,
           borderTopColor: colors.background.subtle,
         },
         headerStyle: {
-          backgroundColor: colors.primary.main, // Dark Mode Support
+          backgroundColor: colors.primary.main,
           height: 110,
         },
         headerTintColor: '#fff',
@@ -74,6 +75,16 @@ const TabNavigator = () => {
         options={{
           tabBarLabel: 'Search',
           tabBarIcon: ({ color, size }) => <Icon name="magnify" size={size} color={color} />,
+        }}
+      />
+      {/* NEW: Tasbih Counter Tab */}
+      <Tab.Screen
+        name="Tasbih"
+        component={TasbihScreen}
+        options={{
+          title: 'Digital Tasbih',
+          tabBarLabel: 'Tasbih',
+          tabBarIcon: ({ color, size }) => <Icon name="counter" size={size} color={color} />,
         }}
       />
       <Tab.Screen

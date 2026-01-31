@@ -1,0 +1,994 @@
+{
+  "names": [
+    {
+      "id": 1,
+      "number": 1,
+      "arabic": "ٱلْرَّحْمَـانُ",
+      "transliteration": "Ar-Rahman",
+      "translation": "The Most Compassionate",
+      "translationUrdu": "نہایت مہربان",
+      "meaning": "The One who has plenty of mercy for the believers and the blasphemers in this world and especially for the believers in the hereafter.",
+      "meaningUrdu": "وہ جو دنیا میں مومنوں اور کافروں دونوں پر رحم کرتا ہے اور آخرت میں خاص طور پر مومنوں پر۔"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "arabic": "ٱلْرَّحِيْمُ",
+      "transliteration": "Ar-Raheem",
+      "translation": "The Most Merciful",
+      "translationUrdu": "بے حد رحم کرنے والا",
+      "meaning": "The One who has plenty of mercy for the believers.",
+      "meaningUrdu": "وہ جو مومنوں پر بہت زیادہ رحم کرتا ہے۔"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "arabic": "ٱلْمَلِكُ",
+      "transliteration": "Al-Malik",
+      "translation": "The King",
+      "translationUrdu": "بادشاہ",
+      "meaning": "The One with the complete Dominion, the One whose Dominion is clear from imperfection.",
+      "meaningUrdu": "مکمل اقتدار والا، جس کی بادشاہی ہر عیب سے پاک ہے۔"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "arabic": "ٱلْقُدُّوسُ",
+      "transliteration": "Al-Quddus",
+      "translation": "The Most Holy",
+      "translationUrdu": "سب سے زیادہ پاک",
+      "meaning": "The One who is pure from any imperfection and clear from children and adversaries.",
+      "meaningUrdu": "وہ جو ہر عیب سے پاک ہے اور اولاد اور مخالفین سے بالاتر ہے۔"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "arabic": "ٱلْسَّلَامُ",
+      "transliteration": "As-Salam",
+      "translation": "The Source of Peace",
+      "translationUrdu": "سلامتی دینے والا",
+      "meaning": "The One who is free from every imperfection.",
+      "meaningUrdu": "وہ جو ہر عیب سے آزاد ہے۔"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "arabic": "ٱلْمُؤْمِنُ",
+      "transliteration": "Al-Mu'min",
+      "translation": "The Granter of Security",
+      "translationUrdu": "امن دینے والا",
+      "meaning": "The One who witnessed for Himself that no one is God but Him. And He witnessed for His believers that they are truthful in their belief that no one is God but Him.",
+      "meaningUrdu": "وہ جس نے خود گواہی دی کہ اس کے سوا کوئی معبود نہیں۔"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "arabic": "ٱلْمُهَيْمِنُ",
+      "transliteration": "Al-Muhaymin",
+      "translation": "The Guardian",
+      "translationUrdu": "نگہبان",
+      "meaning": "The One who witnesses the saying and deeds of His creatures.",
+      "meaningUrdu": "وہ جو اپنی مخلوق کے اقوال و افعال کا گواہ ہے۔"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "arabic": "ٱلْعَزِيزُ",
+      "transliteration": "Al-Aziz",
+      "translation": "The Almighty",
+      "translationUrdu": "غالب",
+      "meaning": "The Defeater who is not defeated.",
+      "meaningUrdu": "وہ غالب جو کبھی مغلوب نہیں ہوتا۔"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "arabic": "ٱلْجَبَّارُ",
+      "transliteration": "Al-Jabbar",
+      "translation": "The Compeller",
+      "translationUrdu": "زبردست",
+      "meaning": "The One that nothing happens in His Dominion except that which He willed.",
+      "meaningUrdu": "وہ جس کی سلطنت میں اس کی مرضی کے بغیر کچھ نہیں ہوتا۔"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "arabic": "ٱلْمُتَكَبِّرُ",
+      "transliteration": "Al-Mutakabbir",
+      "translation": "The Supreme",
+      "translationUrdu": "سب سے بڑا",
+      "meaning": "The One who is clear from the attributes of the creatures and from resembling them.",
+      "meaningUrdu": "وہ جو مخلوق کی صفات اور ان سے مشابہت سے پاک ہے۔"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "arabic": "ٱلْخَالِقُ",
+      "transliteration": "Al-Khaliq",
+      "translation": "The Creator",
+      "translationUrdu": "پیدا کرنے والا",
+      "meaning": "The One who brings everything from non-existence to existence.",
+      "meaningUrdu": "وہ جو ہر چیز کو عدم سے وجود میں لاتا ہے۔"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "arabic": "ٱلْبَارِئُ",
+      "transliteration": "Al-Bari",
+      "translation": "The Evolver",
+      "translationUrdu": "بنانے والا",
+      "meaning": "The Maker, the One who has created all things in proportion.",
+      "meaningUrdu": "تخلیق کار، جس نے تمام چیزوں کو تناسب کے ساتھ بنایا۔"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "arabic": "ٱلْمُصَوِّرُ",
+      "transliteration": "Al-Musawwir",
+      "translation": "The Fashioner",
+      "translationUrdu": "صورت بنانے والا",
+      "meaning": "The One who forms His creatures in different pictures.",
+      "meaningUrdu": "وہ جو اپنی مخلوق کو مختلف صورتوں میں بناتا ہے۔"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "arabic": "ٱلْغَفَّارُ",
+      "transliteration": "Al-Ghaffar",
+      "translation": "The Constant Forgiver",
+      "translationUrdu": "بہت بخشنے والا",
+      "meaning": "The One who forgives a lot.",
+      "meaningUrdu": "وہ جو بہت زیادہ بخشتا ہے۔"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "arabic": "ٱلْقَهَّارُ",
+      "transliteration": "Al-Qahhar",
+      "translation": "The Subduer",
+      "translationUrdu": "زبردست قابو پانے والا",
+      "meaning": "The Dominant One over His creatures. Nothing happens without His Will.",
+      "meaningUrdu": "اپنی مخلوق پر غالب۔ اس کی مرضی کے بغیر کچھ نہیں ہوتا۔"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "arabic": "ٱلْوَهَّابُ",
+      "transliteration": "Al-Wahhab",
+      "translation": "The Supreme Bestower",
+      "translationUrdu": "بہت دینے والا",
+      "meaning": "The One who is Generous in giving plenty without any particular reason.",
+      "meaningUrdu": "وہ جو بغیر کسی خاص وجہ کے فیاضی سے دیتا ہے۔"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "arabic": "ٱلْرَّزَّاقُ",
+      "transliteration": "Ar-Razzaq",
+      "translation": "The Provider",
+      "translationUrdu": "رزق دینے والا",
+      "meaning": "The One who provides everything needed.",
+      "meaningUrdu": "وہ جو ہر ضروری چیز فراہم کرتا ہے۔"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "arabic": "ٱلْفَتَّاحُ",
+      "transliteration": "Al-Fattah",
+      "translation": "The Opener",
+      "translationUrdu": "کھولنے والا",
+      "meaning": "The One who opens for His slaves the closed worldly and religious matters.",
+      "meaningUrdu": "وہ جو اپنے بندوں کے لیے دنیوی اور دینی معاملات کھولتا ہے۔"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "arabic": "ٱلْعَلِيمُ",
+      "transliteration": "Al-Alim",
+      "translation": "The All-Knowing",
+      "translationUrdu": "سب جانے والا",
+      "meaning": "The One who knows everything.",
+      "meaningUrdu": "وہ جو ہر چیز جانتا ہے۔"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "arabic": "ٱلْقَابِضُ",
+      "transliteration": "Al-Qabid",
+      "translation": "The Withholder",
+      "translationUrdu": "روکنے والا",
+      "meaning": "The One who constricts the sustenance by His Wisdom.",
+      "meaningUrdu": "وہ جو اپنی حکمت سے رزق روکتا ہے۔"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "arabic": "ٱلْبَاسِطُ",
+      "transliteration": "Al-Basit",
+      "translation": "The Extender",
+      "translationUrdu": "پھیلانے والا",
+      "meaning": "The One who expands and widens sustenance by His Wisdom.",
+      "meaningUrdu": "وہ جو اپنی حکمت سے رزق پھیلاتا اور وسیع کرتا ہے۔"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "arabic": "ٱلْخَافِضُ",
+      "transliteration": "Al-Khafid",
+      "translation": "The Reducer",
+      "translationUrdu": "نیچا کرنے والا",
+      "meaning": "The One who lowers whoever He willed by His Destruction.",
+      "meaningUrdu": "وہ جو جسے چاہے ذلیل کر دیتا ہے۔"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "arabic": "ٱلْرَّافِعُ",
+      "transliteration": "Ar-Rafi",
+      "translation": "The Exalter",
+      "translationUrdu": "بلند کرنے والا",
+      "meaning": "The One who raises whoever He wills by His Endowment.",
+      "meaningUrdu": "وہ جو جسے چاہے بلند کرتا ہے۔"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "arabic": "ٱلْمُعِزُّ",
+      "transliteration": "Al-Mu'izz",
+      "translation": "The Honorer",
+      "translationUrdu": "عزت دینے والا",
+      "meaning": "The One who gives honor and dignity to whomever He wills.",
+      "meaningUrdu": "وہ جو جسے چاہے عزت اور وقار دیتا ہے۔"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "arabic": "ٱلْمُذِلُّ",
+      "transliteration": "Al-Mudhill",
+      "translation": "The Humiliator",
+      "translationUrdu": "ذلیل کرنے والا",
+      "meaning": "The One who debases and dishonors whoever He willed.",
+      "meaningUrdu": "وہ جو جسے چاہے ذلیل اور بے عزت کرے۔"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "arabic": "ٱلْسَّمِيعُ",
+      "transliteration": "As-Sami",
+      "translation": "The All-Hearing",
+      "translationUrdu": "سب سننے والا",
+      "meaning": "The One who hears all things that are heard.",
+      "meaningUrdu": "وہ جو تمام آوازیں سنتا ہے۔"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "arabic": "ٱلْبَصِيرُ",
+      "transliteration": "Al-Basir",
+      "translation": "The All-Seeing",
+      "translationUrdu": "سب دیکھنے والا",
+      "meaning": "The One who sees all things that are seen.",
+      "meaningUrdu": "وہ جو تمام چیزیں دیکھتا ہے۔"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "arabic": "ٱلْحَكَمُ",
+      "transliteration": "Al-Hakam",
+      "translation": "The Judge",
+      "translationUrdu": "فیصلہ کرنے والا",
+      "meaning": "The One who is the supreme arbitrating judge.",
+      "meaningUrdu": "وہ جو سب سے بڑا فیصلہ کرنے والا ہے۔"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "arabic": "ٱلْعَدْلُ",
+      "transliteration": "Al-Adl",
+      "translation": "The Just",
+      "translationUrdu": "انصاف کرنے والا",
+      "meaning": "The One who is entitled to do what He does.",
+      "meaningUrdu": "وہ جو جو چاہے کرنے کا حق رکھتا ہے۔"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "arabic": "ٱلْلَّطِيفُ",
+      "transliteration": "Al-Latif",
+      "translation": "The Subtle One",
+      "translationUrdu": "نرم مہربان",
+      "meaning": "The One who is kind to His slaves and endows upon them.",
+      "meaningUrdu": "وہ جو اپنے بندوں پر مہربان ہے۔"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "arabic": "ٱلْخَبِيرُ",
+      "transliteration": "Al-Khabir",
+      "translation": "The All-Aware",
+      "translationUrdu": "باخبر",
+      "meaning": "The One who knows the truth of things.",
+      "meaningUrdu": "وہ جو چیزوں کی حقیقت جانتا ہے۔"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "arabic": "ٱلْحَلِيمُ",
+      "transliteration": "Al-Halim",
+      "translation": "The Forbearing",
+      "translationUrdu": "بردبار",
+      "meaning": "The One who delays the punishment for those who deserve it.",
+      "meaningUrdu": "وہ جو مستحقین کی سزا میں تاخیر کرتا ہے۔"
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "arabic": "ٱلْعَظِيمُ",
+      "transliteration": "Al-Azim",
+      "translation": "The Magnificent",
+      "translationUrdu": "عظیم",
+      "meaning": "The One deserving the attributes of Exaltment, Glory, Extolment, and Purity.",
+      "meaningUrdu": "وہ جو بلندی، جلال اور پاکیزگی کی صفات کا مستحق ہے۔"
+    },
+    {
+      "id": 34,
+      "number": 34,
+      "arabic": "ٱلْغَفُورُ",
+      "transliteration": "Al-Ghafur",
+      "translation": "The Great Forgiver",
+      "translationUrdu": "بخشنے والا",
+      "meaning": "The One who forgives the sins of His slaves time and time again.",
+      "meaningUrdu": "وہ جو اپنے بندوں کے گناہ بار بار معاف کرتا ہے۔"
+    },
+    {
+      "id": 35,
+      "number": 35,
+      "arabic": "ٱلْشَّكُورُ",
+      "transliteration": "Ash-Shakur",
+      "translation": "The Appreciative",
+      "translationUrdu": "قدر کرنے والا",
+      "meaning": "The One who gives a lot of reward for a little obedience.",
+      "meaningUrdu": "وہ جو تھوڑی عبادت پر بہت زیادہ انعام دیتا ہے۔"
+    },
+    {
+      "id": 36,
+      "number": 36,
+      "arabic": "ٱلْعَلِيُّ",
+      "transliteration": "Al-Ali",
+      "translation": "The Most High",
+      "translationUrdu": "سب سے بلند",
+      "meaning": "The One who is clear from the attributes of the creatures.",
+      "meaningUrdu": "وہ جو مخلوق کی صفات سے پاک ہے۔"
+    },
+    {
+      "id": 37,
+      "number": 37,
+      "arabic": "ٱلْكَبِيرُ",
+      "transliteration": "Al-Kabir",
+      "translation": "The Most Great",
+      "translationUrdu": "بہت بڑا",
+      "meaning": "The One who is greater than everything in status.",
+      "meaningUrdu": "وہ جو مرتبے میں ہر چیز سے بڑا ہے۔"
+    },
+    {
+      "id": 38,
+      "number": 38,
+      "arabic": "ٱلْحَفِيظُ",
+      "transliteration": "Al-Hafiz",
+      "translation": "The Preserver",
+      "translationUrdu": "محفوظ رکھنے والا",
+      "meaning": "The One who protects whatever and whoever He willed to protect.",
+      "meaningUrdu": "وہ جو جسے چاہے محفوظ رکھتا ہے۔"
+    },
+    {
+      "id": 39,
+      "number": 39,
+      "arabic": "ٱلْمُقِيتُ",
+      "transliteration": "Al-Muqit",
+      "translation": "The Sustainer",
+      "translationUrdu": "طاقت دینے والا",
+      "meaning": "The One who has the Power to maintain everything.",
+      "meaningUrdu": "وہ جو ہر چیز کو برقرار رکھنے کی طاقت رکھتا ہے۔"
+    },
+    {
+      "id": 40,
+      "number": 40,
+      "arabic": "ٱلْحَسِيبُ",
+      "transliteration": "Al-Hasib",
+      "translation": "The Reckoner",
+      "translationUrdu": "حساب کرنے والا",
+      "meaning": "The One who gives the satisfaction and is sufficient for the one who puts his trust in Him.",
+      "meaningUrdu": "وہ جو بھروسہ کرنے والوں کے لیے کافی ہے۔"
+    },
+    {
+      "id": 41,
+      "number": 41,
+      "arabic": "ٱلْجَلِيلُ",
+      "transliteration": "Al-Jalil",
+      "translation": "The Majestic",
+      "translationUrdu": "با جلال",
+      "meaning": "The One who is attributed with greatness of Power and Glory of status.",
+      "meaningUrdu": "وہ جو طاقت کی عظمت اور مرتبے کے جلال سے متصف ہے۔"
+    },
+    {
+      "id": 42,
+      "number": 42,
+      "arabic": "ٱلْكَرِيمُ",
+      "transliteration": "Al-Karim",
+      "translation": "The Generous",
+      "translationUrdu": "سخی",
+      "meaning": "The One who is clear from abjectness.",
+      "meaningUrdu": "وہ جو ذلت سے پاک ہے۔"
+    },
+    {
+      "id": 43,
+      "number": 43,
+      "arabic": "ٱلْرَّقِيبُ",
+      "transliteration": "Ar-Raqib",
+      "translation": "The Watchful",
+      "translationUrdu": "نگرانی کرنے والا",
+      "meaning": "The One that nothing is absent from Him. Everything is in front of His eye.",
+      "meaningUrdu": "وہ جس سے کچھ پوشیدہ نہیں۔ سب کچھ اس کی نظر میں ہے۔"
+    },
+    {
+      "id": 44,
+      "number": 44,
+      "arabic": "ٱلْمُجِيبُ",
+      "transliteration": "Al-Mujib",
+      "translation": "The Responsive",
+      "translationUrdu": "قبول کرنے والا",
+      "meaning": "The One who answers the one in need if he asks Him and rescues the yearner if he calls upon Him.",
+      "meaningUrdu": "وہ جو ضرورت مند کی دعا قبول کرتا ہے۔"
+    },
+    {
+      "id": 45,
+      "number": 45,
+      "arabic": "ٱلْوَاسِعُ",
+      "transliteration": "Al-Wasi",
+      "translation": "The All-Encompassing",
+      "translationUrdu": "وسیع",
+      "meaning": "The One who is all-encompassing in His mercy, knowledge, and power.",
+      "meaningUrdu": "وہ جس کی رحمت، علم اور طاقت سب کچھ گھیرے ہوئے ہے۔"
+    },
+    {
+      "id": 46,
+      "number": 46,
+      "arabic": "ٱلْحَكِيمُ",
+      "transliteration": "Al-Hakim",
+      "translation": "The Wise",
+      "translationUrdu": "حکمت والا",
+      "meaning": "The One who is correct in His doings.",
+      "meaningUrdu": "وہ جو اپنے کاموں میں درست ہے۔"
+    },
+    {
+      "id": 47,
+      "number": 47,
+      "arabic": "ٱلْوَدُودُ",
+      "transliteration": "Al-Wadud",
+      "translation": "The Loving",
+      "translationUrdu": "محبت کرنے والا",
+      "meaning": "The One who loves His believing slaves and His believing slaves love Him.",
+      "meaningUrdu": "وہ جو اپنے مومن بندوں سے محبت کرتا ہے۔"
+    },
+    {
+      "id": 48,
+      "number": 48,
+      "arabic": "ٱلْمَجِيدُ",
+      "transliteration": "Al-Majid",
+      "translation": "The Glorious",
+      "translationUrdu": "بزرگ و برتر",
+      "meaning": "The One who is with perfect Power, High Status, Compassion, Generosity and Kindness.",
+      "meaningUrdu": "وہ جو کامل طاقت، بلند مرتبہ اور سخاوت والا ہے۔"
+    },
+    {
+      "id": 49,
+      "number": 49,
+      "arabic": "ٱلْبَاعِثُ",
+      "transliteration": "Al-Ba'ith",
+      "translation": "The Resurrector",
+      "translationUrdu": "دوبارہ اٹھانے والا",
+      "meaning": "The One who resurrects His slaves after death for reward and/or punishment.",
+      "meaningUrdu": "وہ جو موت کے بعد اپنے بندوں کو اٹھائے گا۔"
+    },
+    {
+      "id": 50,
+      "number": 50,
+      "arabic": "ٱلْشَّهِيدُ",
+      "transliteration": "Ash-Shahid",
+      "translation": "The Witness",
+      "translationUrdu": "گواہ",
+      "meaning": "The One who nothing is absent from Him.",
+      "meaningUrdu": "وہ جس سے کچھ پوشیدہ نہیں۔"
+    },
+    {
+      "id": 51,
+      "number": 51,
+      "arabic": "ٱلْحَقُّ",
+      "transliteration": "Al-Haqq",
+      "translation": "The Truth",
+      "translationUrdu": "حق",
+      "meaning": "The One who truly exists.",
+      "meaningUrdu": "وہ جو واقعی موجود ہے۔"
+    },
+    {
+      "id": 52,
+      "number": 52,
+      "arabic": "ٱلْوَكِيلُ",
+      "transliteration": "Al-Wakil",
+      "translation": "The Trustee",
+      "translationUrdu": "کارساز",
+      "meaning": "The One who gives satisfaction and is sufficient.",
+      "meaningUrdu": "وہ جو اطمینان دیتا ہے اور کافی ہے۔"
+    },
+    {
+      "id": 53,
+      "number": 53,
+      "arabic": "ٱلْقَوِيُّ",
+      "transliteration": "Al-Qawiyy",
+      "translation": "The Strong",
+      "translationUrdu": "طاقتور",
+      "meaning": "The One with the complete Power.",
+      "meaningUrdu": "وہ جو مکمل طاقت والا ہے۔"
+    },
+    {
+      "id": 54,
+      "number": 54,
+      "arabic": "ٱلْمَتِينُ",
+      "transliteration": "Al-Matin",
+      "translation": "The Firm",
+      "translationUrdu": "مضبوط",
+      "meaning": "The One with extreme Power which is un-interrupted and He does not get tired.",
+      "meaningUrdu": "وہ جس کی طاقت لامحدود ہے اور تھکتا نہیں۔"
+    },
+    {
+      "id": 55,
+      "number": 55,
+      "arabic": "ٱلْوَلِيُّ",
+      "transliteration": "Al-Waliyy",
+      "translation": "The Protecting Friend",
+      "translationUrdu": "دوست و مددگار",
+      "meaning": "The One who supports and protects.",
+      "meaningUrdu": "وہ جو مدد اور حفاظت کرتا ہے۔"
+    },
+    {
+      "id": 56,
+      "number": 56,
+      "arabic": "ٱلْحَمِيدُ",
+      "transliteration": "Al-Hamid",
+      "translation": "The Praiseworthy",
+      "translationUrdu": "قابل تعریف",
+      "meaning": "The One who is praised for His characteristics and actions.",
+      "meaningUrdu": "وہ جس کی صفات اور اعمال کی تعریف کی جاتی ہے۔"
+    },
+    {
+      "id": 57,
+      "number": 57,
+      "arabic": "ٱلْمُحْصِي",
+      "transliteration": "Al-Muhsi",
+      "translation": "The Accounter",
+      "translationUrdu": "شمار کرنے والا",
+      "meaning": "The One who counts all things.",
+      "meaningUrdu": "وہ جو تمام چیزوں کا شمار رکھتا ہے۔"
+    },
+    {
+      "id": 58,
+      "number": 58,
+      "arabic": "ٱلْمُبْدِئُ",
+      "transliteration": "Al-Mubdi",
+      "translation": "The Originator",
+      "translationUrdu": "شروع کرنے والا",
+      "meaning": "The One who started the creation from nothing.",
+      "meaningUrdu": "وہ جس نے عدم سے تخلیق شروع کی۔"
+    },
+    {
+      "id": 59,
+      "number": 59,
+      "arabic": "ٱلْمُعِيدُ",
+      "transliteration": "Al-Mu'id",
+      "translation": "The Restorer",
+      "translationUrdu": "دوبارہ کرنے والا",
+      "meaning": "The One who brings back the creatures after death.",
+      "meaningUrdu": "وہ جو موت کے بعد مخلوق کو واپس لائے گا۔"
+    },
+    {
+      "id": 60,
+      "number": 60,
+      "arabic": "ٱلْمُحْيِي",
+      "transliteration": "Al-Muhyi",
+      "translation": "The Giver of Life",
+      "translationUrdu": "زندگی دینے والا",
+      "meaning": "The One who took out a living human from semen that does not have a soul.",
+      "meaningUrdu": "وہ جو بے جان چیز سے زندہ انسان پیدا کرتا ہے۔"
+    },
+    {
+      "id": 61,
+      "number": 61,
+      "arabic": "ٱلْمُمِيتُ",
+      "transliteration": "Al-Mumit",
+      "translation": "The Bringer of Death",
+      "translationUrdu": "موت دینے والا",
+      "meaning": "The One who renders the living dead.",
+      "meaningUrdu": "وہ جو زندوں کو مردہ کر دیتا ہے۔"
+    },
+    {
+      "id": 62,
+      "number": 62,
+      "arabic": "ٱلْحَيُّ",
+      "transliteration": "Al-Hayy",
+      "translation": "The Ever-Living",
+      "translationUrdu": "ہمیشہ زندہ",
+      "meaning": "The One who is alive and will never die.",
+      "meaningUrdu": "وہ جو زندہ ہے اور کبھی نہیں مرے گا۔"
+    },
+    {
+      "id": 63,
+      "number": 63,
+      "arabic": "ٱلْقَيُّومُ",
+      "transliteration": "Al-Qayyum",
+      "translation": "The Self-Sustaining",
+      "translationUrdu": "قائم رہنے والا",
+      "meaning": "The One who maintains His creation without any need.",
+      "meaningUrdu": "وہ جو بغیر کسی ضرورت کے اپنی مخلوق کو سنبھالتا ہے۔"
+    },
+    {
+      "id": 64,
+      "number": 64,
+      "arabic": "ٱلْوَاجِدُ",
+      "transliteration": "Al-Wajid",
+      "translation": "The Finder",
+      "translationUrdu": "پانے والا",
+      "meaning": "The One who is Rich who does not need anything.",
+      "meaningUrdu": "وہ جو مالدار ہے اور کسی چیز کا محتاج نہیں۔"
+    },
+    {
+      "id": 65,
+      "number": 65,
+      "arabic": "ٱلْمَاجِدُ",
+      "transliteration": "Al-Majid",
+      "translation": "The Noble",
+      "translationUrdu": "بزرگ",
+      "meaning": "The One who is Glorious.",
+      "meaningUrdu": "وہ جو عظیم الشان ہے۔"
+    },
+    {
+      "id": 66,
+      "number": 66,
+      "arabic": "ٱلْوَاحِدُ",
+      "transliteration": "Al-Wahid",
+      "translation": "The Unique",
+      "translationUrdu": "واحد",
+      "meaning": "The One without a partner.",
+      "meaningUrdu": "وہ جس کا کوئی شریک نہیں۔"
+    },
+    {
+      "id": 67,
+      "number": 67,
+      "arabic": "ٱلْأَحَد",
+      "transliteration": "Al-Ahad",
+      "translation": "The One",
+      "translationUrdu": "ایک",
+      "meaning": "The One without an equal.",
+      "meaningUrdu": "وہ جس کا کوئی ہمسر نہیں۔"
+    },
+    {
+      "id": 68,
+      "number": 68,
+      "arabic": "ٱلْصَّمَدُ",
+      "transliteration": "As-Samad",
+      "translation": "The Eternal Refuge",
+      "translationUrdu": "بے نیاز",
+      "meaning": "The One who does not need anything and everything needs Him.",
+      "meaningUrdu": "وہ جسے کسی چیز کی ضرورت نہیں اور سب اسی کے محتاج ہیں۔"
+    },
+    {
+      "id": 69,
+      "number": 69,
+      "arabic": "ٱلْقَادِرُ",
+      "transliteration": "Al-Qadir",
+      "translation": "The Capable",
+      "translationUrdu": "قادر",
+      "meaning": "The One who is able to do anything He wills.",
+      "meaningUrdu": "وہ جو جو چاہے کر سکتا ہے۔"
+    },
+    {
+      "id": 70,
+      "number": 70,
+      "arabic": "ٱلْمُقْتَدِرُ",
+      "transliteration": "Al-Muqtadir",
+      "translation": "The Powerful",
+      "translationUrdu": "اقتدار والا",
+      "meaning": "The One who measures everything and has the Power to carry it out.",
+      "meaningUrdu": "وہ جو ہر چیز کو ماپتا ہے اور اسے کرنے کی طاقت رکھتا ہے۔"
+    },
+    {
+      "id": 71,
+      "number": 71,
+      "arabic": "ٱلْمُقَدِّمُ",
+      "transliteration": "Al-Muqaddim",
+      "translation": "The Expediter",
+      "translationUrdu": "آگے کرنے والا",
+      "meaning": "The One who puts things in their right place and brings forward whoever He wills.",
+      "meaningUrdu": "وہ جو چیزوں کو صحیح جگہ رکھتا ہے۔"
+    },
+    {
+      "id": 72,
+      "number": 72,
+      "arabic": "ٱلْمُؤَخِّرُ",
+      "transliteration": "Al-Mu'akhkhir",
+      "translation": "The Delayer",
+      "translationUrdu": "پیچھے کرنے والا",
+      "meaning": "The One who delays what He wills.",
+      "meaningUrdu": "وہ جو جسے چاہے پیچھے کر دیتا ہے۔"
+    },
+    {
+      "id": 73,
+      "number": 73,
+      "arabic": "ٱلْأَوَّلُ",
+      "transliteration": "Al-Awwal",
+      "translation": "The First",
+      "translationUrdu": "پہلا",
+      "meaning": "The One whose Existence is without a beginning.",
+      "meaningUrdu": "وہ جس کی ہستی کی کوئی ابتدا نہیں۔"
+    },
+    {
+      "id": 74,
+      "number": 74,
+      "arabic": "ٱلْآخِرُ",
+      "transliteration": "Al-Akhir",
+      "translation": "The Last",
+      "translationUrdu": "آخری",
+      "meaning": "The One whose Existence is without an end.",
+      "meaningUrdu": "وہ جس کی ہستی کی کوئی انتہا نہیں۔"
+    },
+    {
+      "id": 75,
+      "number": 75,
+      "arabic": "ٱلْظَّاهِرُ",
+      "transliteration": "Az-Zahir",
+      "translation": "The Manifest",
+      "translationUrdu": "ظاہر",
+      "meaning": "The One who is above everything in status.",
+      "meaningUrdu": "وہ جو مرتبے میں سب سے اوپر ہے۔"
+    },
+    {
+      "id": 76,
+      "number": 76,
+      "arabic": "ٱلْبَاطِنُ",
+      "transliteration": "Al-Batin",
+      "translation": "The Hidden",
+      "translationUrdu": "باطن",
+      "meaning": "The One who knows the hidden secrets.",
+      "meaningUrdu": "وہ جو پوشیدہ رازوں کو جانتا ہے۔"
+    },
+    {
+      "id": 77,
+      "number": 77,
+      "arabic": "ٱلْوَالِي",
+      "transliteration": "Al-Wali",
+      "translation": "The Governor",
+      "translationUrdu": "حکمران",
+      "meaning": "The One who owns things and manages them.",
+      "meaningUrdu": "وہ جو چیزوں کا مالک ہے اور انہیں منظم کرتا ہے۔"
+    },
+    {
+      "id": 78,
+      "number": 78,
+      "arabic": "ٱلْمُتَعَالِي",
+      "transliteration": "Al-Muta'ali",
+      "translation": "The Self Exalted",
+      "translationUrdu": "بلند و بالا",
+      "meaning": "The One who is clear from the attributes of the creation.",
+      "meaningUrdu": "وہ جو مخلوق کی صفات سے پاک ہے۔"
+    },
+    {
+      "id": 79,
+      "number": 79,
+      "arabic": "ٱلْبَرُّ",
+      "transliteration": "Al-Barr",
+      "translation": "The Source of Goodness",
+      "translationUrdu": "نیکی کرنے والا",
+      "meaning": "The One who is kind to His creatures and merciful.",
+      "meaningUrdu": "وہ جو اپنی مخلوق پر مہربان ہے۔"
+    },
+    {
+      "id": 80,
+      "number": 80,
+      "arabic": "ٱلْتَّوَّابُ",
+      "transliteration": "At-Tawwab",
+      "translation": "The Acceptor of Repentance",
+      "translationUrdu": "توبہ قبول کرنے والا",
+      "meaning": "The One who grants repentance to whoever He willed among His creatures.",
+      "meaningUrdu": "وہ جو توبہ قبول کرتا ہے۔"
+    },
+    {
+      "id": 81,
+      "number": 81,
+      "arabic": "ٱلْمُنْتَقِمُ",
+      "transliteration": "Al-Muntaqim",
+      "translation": "The Avenger",
+      "translationUrdu": "بدلہ لینے والا",
+      "meaning": "The One who victoriously prevails over His enemies.",
+      "meaningUrdu": "وہ جو اپنے دشمنوں پر غالب آتا ہے۔"
+    },
+    {
+      "id": 82,
+      "number": 82,
+      "arabic": "ٱلْعَفُوُّ",
+      "transliteration": "Al-Afuww",
+      "translation": "The Pardoner",
+      "translationUrdu": "معاف کرنے والا",
+      "meaning": "The One who erases the sins of His slaves.",
+      "meaningUrdu": "وہ جو اپنے بندوں کے گناہ مٹا دیتا ہے۔"
+    },
+    {
+      "id": 83,
+      "number": 83,
+      "arabic": "ٱلْرَّؤُفُ",
+      "transliteration": "Ar-Ra'uf",
+      "translation": "The Most Kind",
+      "translationUrdu": "شفقت کرنے والا",
+      "meaning": "The One who is compassionate.",
+      "meaningUrdu": "وہ جو رحم دل ہے۔"
+    },
+    {
+      "id": 84,
+      "number": 84,
+      "arabic": "مَالِكُ ٱلْمُلْكُ",
+      "transliteration": "Malik-ul-Mulk",
+      "translation": "Master of the Kingdom",
+      "translationUrdu": "بادشاہی کا مالک",
+      "meaning": "The One who controls the dominion and gives dominion to whoever He wills.",
+      "meaningUrdu": "وہ جو بادشاہی کا مالک ہے۔"
+    },
+    {
+      "id": 85,
+      "number": 85,
+      "arabic": "ذُو ٱلْجَلَالِ وَٱلْإِكْرَامُ",
+      "transliteration": "Dhul-Jalali wal-Ikram",
+      "translation": "Possessor of Glory and Honor",
+      "translationUrdu": "جلال اور عزت والا",
+      "meaning": "The One who deserves to be Exalted and not denied.",
+      "meaningUrdu": "وہ جو بلندی اور عزت کا مستحق ہے۔"
+    },
+    {
+      "id": 86,
+      "number": 86,
+      "arabic": "ٱلْمُقْسِطُ",
+      "transliteration": "Al-Muqsit",
+      "translation": "The Equitable",
+      "translationUrdu": "انصاف کرنے والا",
+      "meaning": "The One who is Just in His judgment.",
+      "meaningUrdu": "وہ جو اپنے فیصلے میں منصف ہے۔"
+    },
+    {
+      "id": 87,
+      "number": 87,
+      "arabic": "ٱلْجَامِعُ",
+      "transliteration": "Al-Jami",
+      "translation": "The Gatherer",
+      "translationUrdu": "جمع کرنے والا",
+      "meaning": "The One who gathers the creatures on a Day that there is no doubt about.",
+      "meaningUrdu": "وہ جو قیامت کے دن سب کو جمع کرے گا۔"
+    },
+    {
+      "id": 88,
+      "number": 88,
+      "arabic": "ٱلْغَنيُّ",
+      "transliteration": "Al-Ghani",
+      "translation": "The Self-Sufficient",
+      "translationUrdu": "بے نیاز",
+      "meaning": "The One who does not need anything.",
+      "meaningUrdu": "وہ جسے کسی چیز کی ضرورت نہیں۔"
+    },
+    {
+      "id": 89,
+      "number": 89,
+      "arabic": "ٱلْمُغْنِيُ",
+      "transliteration": "Al-Mughni",
+      "translation": "The Enricher",
+      "translationUrdu": "مالدار بنانے والا",
+      "meaning": "The One who satisfies the necessities of His creatures.",
+      "meaningUrdu": "وہ جو اپنی مخلوق کی ضروریات پوری کرتا ہے۔"
+    },
+    {
+      "id": 90,
+      "number": 90,
+      "arabic": "ٱلْمَانِعُ",
+      "transliteration": "Al-Mani",
+      "translation": "The Preventer",
+      "translationUrdu": "روکنے والا",
+      "meaning": "The One who prevents harm or gives harm.",
+      "meaningUrdu": "وہ جو نقصان روکتا یا دیتا ہے۔"
+    },
+    {
+      "id": 91,
+      "number": 91,
+      "arabic": "ٱلْضَّارُ",
+      "transliteration": "Ad-Darr",
+      "translation": "The Distresser",
+      "translationUrdu": "نقصان دینے والا",
+      "meaning": "The One who makes harm reach whoever He wills.",
+      "meaningUrdu": "وہ جو جسے چاہے نقصان پہنچائے۔"
+    },
+    {
+      "id": 92,
+      "number": 92,
+      "arabic": "ٱلْنَّافِعُ",
+      "transliteration": "An-Nafi",
+      "translation": "The Benefactor",
+      "translationUrdu": "فائدہ دینے والا",
+      "meaning": "The One who gives benefit to whoever He wills.",
+      "meaningUrdu": "وہ جو جسے چاہے فائدہ دے۔"
+    },
+    {
+      "id": 93,
+      "number": 93,
+      "arabic": "ٱلْنُّورُ",
+      "transliteration": "An-Nur",
+      "translation": "The Light",
+      "translationUrdu": "نور",
+      "meaning": "The One who guides His creatures.",
+      "meaningUrdu": "وہ جو اپنی مخلوق کی رہنمائی کرتا ہے۔"
+    },
+    {
+      "id": 94,
+      "number": 94,
+      "arabic": "ٱلْهَادِي",
+      "transliteration": "Al-Hadi",
+      "translation": "The Guide",
+      "translationUrdu": "ہدایت دینے والا",
+      "meaning": "The One who guides.",
+      "meaningUrdu": "وہ جو ہدایت دیتا ہے۔"
+    },
+    {
+      "id": 95,
+      "number": 95,
+      "arabic": "ٱلْبَدِيعُ",
+      "transliteration": "Al-Badi",
+      "translation": "The Incomparable Originator",
+      "translationUrdu": "نیا بنانے والا",
+      "meaning": "The One who created the creation and formed it without any preceding example.",
+      "meaningUrdu": "وہ جس نے بغیر کسی مثال کے تخلیق کی۔"
+    },
+    {
+      "id": 96,
+      "number": 96,
+      "arabic": "ٱلْبَاقِي",
+      "transliteration": "Al-Baqi",
+      "translation": "The Everlasting",
+      "translationUrdu": "ہمیشہ رہنے والا",
+      "meaning": "The One who remains after the creation has perished.",
+      "meaningUrdu": "وہ جو مخلوق کے فنا ہونے کے بعد باقی رہے گا۔"
+    },
+    {
+      "id": 97,
+      "number": 97,
+      "arabic": "ٱلْوَارِثُ",
+      "transliteration": "Al-Warith",
+      "translation": "The Inheritor",
+      "translationUrdu": "وارث",
+      "meaning": "The One whose Existence remains after the extinction of all creatures.",
+      "meaningUrdu": "وہ جس کی ہستی تمام مخلوق کے ختم ہونے کے بعد باقی رہے گی۔"
+    },
+    {
+      "id": 98,
+      "number": 98,
+      "arabic": "ٱلْرَّشِيدُ",
+      "transliteration": "Ar-Rashid",
+      "translation": "The Guide to the Right Path",
+      "translationUrdu": "صحیح راستہ دکھانے والا",
+      "meaning": "The One who guides to the right way.",
+      "meaningUrdu": "وہ جو سیدھے راستے کی طرف رہنمائی کرتا ہے۔"
+    },
+    {
+      "id": 99,
+      "number": 99,
+      "arabic": "ٱلْصَّبُورُ",
+      "transliteration": "As-Sabur",
+      "translation": "The Patient",
+      "translationUrdu": "صبر کرنے والا",
+      "meaning": "The One who does not quickly punish the sinners.",
+      "meaningUrdu": "وہ جو گناہگاروں کو جلدی سزا نہیں دیتا۔"
+    }
+  ]
+}

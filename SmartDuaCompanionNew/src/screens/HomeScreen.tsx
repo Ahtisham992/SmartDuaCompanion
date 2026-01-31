@@ -12,7 +12,7 @@ import { spacing, typography } from '../theme';
 import Loading from '../components/common/Loading';
 import { RootStackParamList } from '../navigation/types';
 import DuaCard from '../components/dua/DuaCard';
-import { useThemeColors } from '../hooks/useThemeColors'; // <--- IMPORT HOOK
+import { useThemeColors } from '../hooks/useThemeColors';
 
 type NavigationProp = StackNavigationProp<RootStackParamList>;
 
@@ -21,7 +21,7 @@ const HomeScreen = () => {
   const { categories, loading: categoriesLoading, refresh: refreshCategories } = useCategories();
   const { duas, loading: duasLoading, refresh: refreshDuas } = useDuas();
   const language = useSelector((state: RootState) => state.settings.language);
-  const colors = useThemeColors(); // <--- GET COLORS
+  const colors = useThemeColors();
 
   const [refreshing, setRefreshing] = React.useState(false);
 
@@ -48,6 +48,7 @@ const HomeScreen = () => {
         <RefreshControl refreshing={refreshing} onRefresh={onRefresh} tintColor={colors.primary.main} />
       }
     >
+      {/* Welcome Section */}
       <View style={[styles.welcomeSection, { backgroundColor: colors.primary.main }]}>
         <View>
           <Text style={styles.welcomeText}>
@@ -60,6 +61,30 @@ const HomeScreen = () => {
         <Image source={require('../assets/images/logo.png')} style={styles.logo} />
       </View>
 
+      {/* 👇 NEW FEATURE: 99 Names of Allah Card 👇 */}
+      <TouchableOpacity
+        style={[styles.featureCard, { backgroundColor: colors.background.paper }]}
+        onPress={() => navigation.navigate('NamesOfAllah')}
+      >
+        <View style={styles.featureIconContainer}>
+          {/* Using 'star' icon, ensure it's available in FontAwesome5 or switch to 'mosque' */}
+          <Icon name="star" size={30} color={colors.primary.main} solid />
+        </View>
+        <View style={styles.featureContent}>
+          <Text style={[styles.featureTitle, { color: colors.text.primary }]}>
+            {language === 'ur' ? 'اللہ کے ننانوے نام' : '99 Names of Allah'}
+          </Text>
+          <Text style={[styles.featureDescription, { color: colors.text.secondary }]}>
+            {language === 'ur' 
+               ? 'اللہ کے خوبصورت ناموں کو سیکھیں اور یاد کریں'
+               : 'Learn and memorize the beautiful names of Allah'}
+          </Text>
+        </View>
+        <Icon name="chevron-right" size={20} color={colors.text.secondary} />
+      </TouchableOpacity>
+      {/* 👆 END NEW FEATURE 👆 */}
+
+      {/* Categories Section */}
       <View style={styles.section}>
         <Text style={[styles.sectionTitle, { color: colors.text.primary }]}>
           {language === 'ur' ? 'زمرہ کے لحاظ سے تلاش کریں' : 'Browse by Category'}
@@ -81,6 +106,7 @@ const HomeScreen = () => {
         </View>
       </View>
 
+      {/* Featured Duas Section */}
       <View style={styles.section}>
         <Text style={[styles.sectionTitle, { color: colors.text.primary }]}>
           {language === 'ur' ? 'نمایاں دعائیں' : 'Featured Duas'}
@@ -105,6 +131,42 @@ const styles = StyleSheet.create({
   categoryCard: { width: '48%', padding: spacing.md, borderRadius: 12, marginBottom: spacing.md, alignItems: 'center', minHeight: 120, justifyContent: 'center' },
   categoryName: { fontSize: typography.sizes.md, fontWeight: '600', color: '#fff', marginTop: spacing.sm, textAlign: 'center' },
   categoryCount: { fontSize: typography.sizes.sm, color: '#fff', opacity: 0.8, marginTop: spacing.xs },
+  
+  // 👇 NEW STYLES for 99 Names Card 👇
+  featureCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: spacing.md,
+    marginHorizontal: spacing.lg,
+    marginTop: spacing.md,
+    borderRadius: 12,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  featureIconContainer: {
+    width: 50,
+    height: 50,
+    borderRadius: 25,
+    backgroundColor: 'rgba(212, 175, 55, 0.15)', // Gold tint
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginRight: spacing.md,
+  },
+  featureContent: {
+    flex: 1,
+  },
+  featureTitle: {
+    fontSize: typography.sizes.md,
+    fontWeight: 'bold',
+    marginBottom: 4,
+  },
+  featureDescription: {
+    fontSize: typography.sizes.sm,
+    lineHeight: 18,
+  },
 });
 
 export default HomeScreen;

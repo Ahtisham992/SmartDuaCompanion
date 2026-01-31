@@ -1,6 +1,6 @@
 // =====================================================
 // src/screens/DuaDetailScreen.tsx
-// UPDATED: DARK MODE SUPPORT
+// UPDATED: ADDED SHARE BUTTON
 // =====================================================
 import React from 'react';
 import {
@@ -21,7 +21,10 @@ import type { Dua, DuaReference } from '../types/dua.types';
 import ArabicText from '../components/dua/ArabicText';
 import Loading from '../components/common/Loading';
 import { spacing, typography } from '../theme';
-import { useThemeColors } from '../hooks/useThemeColors'; // <--- IMPORT HOOK
+import { useThemeColors } from '../hooks/useThemeColors';
+
+// 👇 IMPORT SHARE COMPONENT
+import DuaShareCard from '../components/dua/DuaShareCard';
 
 type DuaDetailScreenRouteProp = RouteProp<RootStackParamList, 'DuaDetail'>;
 
@@ -31,7 +34,7 @@ const DuaDetailScreen = () => {
   const { dua, loading } = useDua(duaId);
   const { isFavorite, toggleFavorite } = useFavorites(duaId);
   
-  const colors = useThemeColors(); // <--- GET DYNAMIC COLORS
+  const colors = useThemeColors();
 
   const language = useSelector((state: RootState) => state.settings.language);
   const showTransliteration = useSelector((state: RootState) => state.settings.showTransliteration);
@@ -133,13 +136,19 @@ const DuaDetailScreen = () => {
         </View>
       )}
 
+      {/* 👇 SHARE BUTTON 👇 */}
+      <View style={{ paddingHorizontal: spacing.lg, marginBottom: spacing.sm }}>
+         <DuaShareCard dua={duaData} />
+      </View>
+      {/* 👆 END SHARE BUTTON 👆 */}
+
       {/* Benefits Section */}
       {getBenefits() && (
         <View style={[
           styles.section, 
           styles.benefitsSection,
           { 
-            backgroundColor: colors.background.subtle, // Slightly different shade for quote boxes
+            backgroundColor: colors.background.subtle,
             borderLeftColor: colors.primary.main
           }
         ]}>
