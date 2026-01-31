@@ -14,6 +14,8 @@
   </p>
 </div>
 
+download APK :  https://smartduacompanion.netlify.app/
+
 ---
 
 ## 📖 About The Project
@@ -120,3 +122,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## 📞 Contact
 
 Project Link: [https://github.com/Ahtisham992/SmartDuaCompanion](https://github.com/Ahtisham992/SmartDuaCompanion)
+Email : shamimuhammad77@gmail.com
