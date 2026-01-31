@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "categories": [
     {
       "id": "daily",
@@ -73,12 +73,12 @@
       "color": "#14B8A6",
       "order": 8
     },
-   {
+    {
       "id": "prayer",
       "name": "Prayer",
       "nameArabic": "الصلاة",
       "nameUrdu": "نماز",
-      "icon": "praying-hands", 
+      "icon": "praying-hands",
       "color": "#7C3AED",
       "order": 9
     },
@@ -87,7 +87,7 @@
       "name": "Protection",
       "nameArabic": "الحماية",
       "nameUrdu": "حفاظت",
-      "icon": "shield-alt",     
+      "icon": "shield-alt",
       "color": "#DC2626",
       "order": 10
     },
@@ -96,7 +96,7 @@
       "name": "Health & Wellness",
       "nameArabic": "الصحة والعافية",
       "nameUrdu": "صحت اور تندرستی",
-      "icon": "heartbeat",      
+      "icon": "heartbeat",
       "color": "#059669",
       "order": 11
     },
@@ -166,8 +166,18 @@
         "hadithNumber": "2723",
         "authenticity": "sahih"
       },
-      "tags": ["morning", "daily", "remembrance"],
-      "searchKeywords": ["morning", "wake up", "start day", "صباح", "صبح"]
+      "tags": [
+        "morning",
+        "daily",
+        "remembrance"
+      ],
+      "searchKeywords": [
+        "morning",
+        "wake up",
+        "start day",
+        "صباح",
+        "صبح"
+      ]
     },
     {
       "id": "sleep_001",
@@ -188,8 +198,18 @@
         "hadithNumber": "6320",
         "authenticity": "sahih"
       },
-      "tags": ["sleep", "night", "rest"],
-      "searchKeywords": ["sleep", "going to bed", "night", "نوم", "سونا"]
+      "tags": [
+        "sleep",
+        "night",
+        "rest"
+      ],
+      "searchKeywords": [
+        "sleep",
+        "going to bed",
+        "night",
+        "نوم",
+        "سونا"
+      ]
     },
     {
       "id": "sleep_002",
@@ -211,8 +231,18 @@
       },
       "benefits": "Prophet ﷺ said: Whoever recites Ayatul Kursi when going to bed, Allah will send a guardian to protect them and Satan will not approach until morning",
       "benefitsUrdu": "نبی ﷺ نے فرمایا: جو شخص سوتے وقت آیت الکرسی پڑھے گا، اللہ اس کے لیے ایک نگہبان بھیجے گا اور شیطان صبح تک اس کے قریب نہیں آئے گا",
-      "tags": ["sleep", "protection", "night", "ayatul kursi"],
-      "searchKeywords": ["ayatul kursi", "sleep protection", "آیت الکرسی", "نیند"]
+      "tags": [
+        "sleep",
+        "protection",
+        "night",
+        "ayatul kursi"
+      ],
+      "searchKeywords": [
+        "ayatul kursi",
+        "sleep protection",
+        "آیت الکرسی",
+        "نیند"
+      ]
     },
     {
       "id": "wakeup_001",
@@ -233,8 +263,18 @@
         "hadithNumber": "6312",
         "authenticity": "sahih"
       },
-      "tags": ["waking", "morning", "gratitude"],
-      "searchKeywords": ["wake up", "waking", "morning", "استيقاظ", "بیداری"]
+      "tags": [
+        "waking",
+        "morning",
+        "gratitude"
+      ],
+      "searchKeywords": [
+        "wake up",
+        "waking",
+        "morning",
+        "استيقاظ",
+        "بیداری"
+      ]
     },
     {
       "id": "travel_001",
@@ -254,8 +294,19 @@
         "chapter": "Az-Zukhruf",
         "verse": "43:13-14"
       },
-      "tags": ["travel", "journey", "safety"],
-      "searchKeywords": ["travel", "journey", "trip", "car", "flight", "سفر"]
+      "tags": [
+        "travel",
+        "journey",
+        "safety"
+      ],
+      "searchKeywords": [
+        "travel",
+        "journey",
+        "trip",
+        "car",
+        "flight",
+        "سفر"
+      ]
     },
     {
       "id": "travel_002",
@@ -276,8 +327,18 @@
         "hadithNumber": "1342",
         "authenticity": "sahih"
       },
-      "tags": ["travel", "journey", "complete", "protection"],
-      "searchKeywords": ["travel dua", "complete travel", "long journey", "سفر مکمل"]
+      "tags": [
+        "travel",
+        "journey",
+        "complete",
+        "protection"
+      ],
+      "searchKeywords": [
+        "travel dua",
+        "complete travel",
+        "long journey",
+        "سفر مکمل"
+      ]
     },
     {
       "id": "food_001",
@@ -300,8 +361,19 @@
       },
       "additionalNote": "If you forget to say Bismillah at the beginning, say: Bismillahi awwalahu wa akhirahu (In the name of Allah at its beginning and at its end)",
       "additionalNoteUrdu": "اگر شروع میں بسم اللہ کہنا بھول جائیں تو کہیں: بِسْمِ اللَّهِ أَوَّلَهُ وَآخِرَهُ (اللہ کے نام سے اس کے شروع میں اور اس کے آخر میں)",
-      "tags": ["food", "eating", "meal"],
-      "searchKeywords": ["eat", "food", "meal", "hungry", "طعام", "کھانا"]
+      "tags": [
+        "food",
+        "eating",
+        "meal"
+      ],
+      "searchKeywords": [
+        "eat",
+        "food",
+        "meal",
+        "hungry",
+        "طعام",
+        "کھانا"
+      ]
     },
     {
       "id": "food_002",
@@ -322,29 +394,17 @@
         "hadithNumber": "4023",
         "authenticity": "hasan"
       },
-      "tags": ["food", "gratitude", "meal"],
-      "searchKeywords": ["finish eating", "after meal", "بعد الطعام", "کھانے کے بعد"]
-    },
-    {
-      "id": "food_003",
-      "title": "Before Drinking",
-      "titleArabic": "دعاء قبل الشرب",
-      "titleUrdu": "پینے سے پہلے کی دعا",
-      "category": {
-        "id": "food",
-        "name": "Food & Drink"
-      },
-      "arabicText": "بِسْمِ اللَّهِ",
-      "transliteration": "Bismillah",
-      "translation": "In the name of Allah",
-      "translationUrdu": "اللہ کے نام سے",
-      "reference": {
-        "source": "hadith",
-        "book": "Bukhari & Muslim",
-        "authenticity": "sahih"
-      },
-      "tags": ["drink", "water", "beverage"],
-      "searchKeywords": ["drink", "water", "thirsty", "پینا", "پانی"]
+      "tags": [
+        "food",
+        "gratitude",
+        "meal"
+      ],
+      "searchKeywords": [
+        "finish eating",
+        "after meal",
+        "بعد الطعام",
+        "کھانے کے بعد"
+      ]
     },
     {
       "id": "food_004",
@@ -363,8 +423,15 @@
         "source": "hadith",
         "authenticity": "sahih"
       },
-      "tags": ["drink", "gratitude"],
-      "searchKeywords": ["after drinking", "finish drink", "پینے کے بعد"]
+      "tags": [
+        "drink",
+        "gratitude"
+      ],
+      "searchKeywords": [
+        "after drinking",
+        "finish drink",
+        "پینے کے بعد"
+      ]
     },
     {
       "id": "food_005",
@@ -385,8 +452,16 @@
         "hadithNumber": "3730",
         "authenticity": "sahih"
       },
-      "tags": ["milk", "drink", "blessing"],
-      "searchKeywords": ["milk", "dairy", "دودھ"]
+      "tags": [
+        "milk",
+        "drink",
+        "blessing"
+      ],
+      "searchKeywords": [
+        "milk",
+        "dairy",
+        "دودھ"
+      ]
     },
     {
       "id": "anxiety_001",
@@ -407,8 +482,21 @@
         "hadithNumber": "3712",
         "authenticity": "sahih"
       },
-      "tags": ["anxiety", "worry", "distress", "sadness"],
-      "searchKeywords": ["anxious", "worried", "sad", "distressed", "depression", "قلق", "پریشانی"]
+      "tags": [
+        "anxiety",
+        "worry",
+        "distress",
+        "sadness"
+      ],
+      "searchKeywords": [
+        "anxious",
+        "worried",
+        "sad",
+        "distressed",
+        "depression",
+        "قلق",
+        "پریشانی"
+      ]
     },
     {
       "id": "anxiety_002",
@@ -429,8 +517,19 @@
         "hadithNumber": "6345",
         "authenticity": "sahih"
       },
-      "tags": ["distress", "difficulty", "hardship"],
-      "searchKeywords": ["distress", "difficulty", "hardship", "problem", "کرب", "تکلیف"]
+      "tags": [
+        "distress",
+        "difficulty",
+        "hardship"
+      ],
+      "searchKeywords": [
+        "distress",
+        "difficulty",
+        "hardship",
+        "problem",
+        "کرب",
+        "تکلیف"
+      ]
     },
     {
       "id": "anxiety_003",
@@ -452,8 +551,17 @@
       },
       "benefits": "Recite 7 times in the morning and evening",
       "benefitsUrdu": "صبح و شام سات بار پڑھیں",
-      "tags": ["anxiety", "trust", "tawakkul"],
-      "searchKeywords": ["hasbunallah", "trust Allah", "anxiety relief", "حسبی اللہ"]
+      "tags": [
+        "anxiety",
+        "trust",
+        "tawakkul"
+      ],
+      "searchKeywords": [
+        "hasbunallah",
+        "trust Allah",
+        "anxiety relief",
+        "حسبی اللہ"
+      ]
     },
     {
       "id": "study_001",
@@ -473,8 +581,20 @@
         "chapter": "Taha",
         "verse": "20:114"
       },
-      "tags": ["study", "knowledge", "learning"],
-      "searchKeywords": ["study", "exam", "test", "learn", "knowledge", "دراسة", "علم"]
+      "tags": [
+        "study",
+        "knowledge",
+        "learning"
+      ],
+      "searchKeywords": [
+        "study",
+        "exam",
+        "test",
+        "learn",
+        "knowledge",
+        "دراسة",
+        "علم"
+      ]
     },
     {
       "id": "study_002",
@@ -495,8 +615,16 @@
         "hadithNumber": "251",
         "authenticity": "hasan"
       },
-      "tags": ["study", "learning", "beneficial knowledge"],
-      "searchKeywords": ["before study", "learning", "پڑھائی شروع"]
+      "tags": [
+        "study",
+        "learning",
+        "beneficial knowledge"
+      ],
+      "searchKeywords": [
+        "before study",
+        "learning",
+        "پڑھائی شروع"
+      ]
     },
     {
       "id": "study_003",
@@ -517,8 +645,18 @@
         "hadithNumber": "2427",
         "authenticity": "sahih"
       },
-      "tags": ["exam", "test", "difficulty"],
-      "searchKeywords": ["exam", "test", "quiz", "examination", "امتحان"]
+      "tags": [
+        "exam",
+        "test",
+        "difficulty"
+      ],
+      "searchKeywords": [
+        "exam",
+        "test",
+        "quiz",
+        "examination",
+        "امتحان"
+      ]
     },
     {
       "id": "home_001",
@@ -539,8 +677,19 @@
         "hadithNumber": "5096",
         "authenticity": "sahih"
       },
-      "tags": ["home", "entering", "family"],
-      "searchKeywords": ["home", "house", "entering", "return home", "منزل", "گھر"]
+      "tags": [
+        "home",
+        "entering",
+        "family"
+      ],
+      "searchKeywords": [
+        "home",
+        "house",
+        "entering",
+        "return home",
+        "منزل",
+        "گھر"
+      ]
     },
     {
       "id": "home_002",
@@ -563,8 +712,18 @@
       },
       "benefits": "The Prophet ﷺ said: When someone says this, it will be said to him: You are guided, defended and protected. Satan will move away from him",
       "benefitsUrdu": "نبی ﷺ نے فرمایا: جب کوئی یہ کہے تو اس سے کہا جاتا ہے: تمہاری رہنمائی کر دی گئی، تمہاری حفاظت کر دی گئی، اور تمہیں بچا لیا گیا۔ شیطان اس سے دور ہو جاتا ہے",
-      "tags": ["leaving", "going out", "protection"],
-      "searchKeywords": ["leaving home", "going out", "exit", "خروج", "گھر سے نکلنا"]
+      "tags": [
+        "leaving",
+        "going out",
+        "protection"
+      ],
+      "searchKeywords": [
+        "leaving home",
+        "going out",
+        "exit",
+        "خروج",
+        "گھر سے نکلنا"
+      ]
     },
     {
       "id": "gratitude_001",
@@ -584,8 +743,19 @@
         "chapter": "Al-Fatihah",
         "verse": "1:2"
       },
-      "tags": ["gratitude", "praise", "thankfulness"],
-      "searchKeywords": ["thank", "grateful", "praise", "alhamdulillah", "شكر", "حمد"]
+      "tags": [
+        "gratitude",
+        "praise",
+        "thankfulness"
+      ],
+      "searchKeywords": [
+        "thank",
+        "grateful",
+        "praise",
+        "alhamdulillah",
+        "شكر",
+        "حمد"
+      ]
     },
     {
       "id": "gratitude_002",
@@ -606,8 +776,18 @@
         "hadithNumber": "3803",
         "authenticity": "sahih"
       },
-      "tags": ["good news", "gratitude", "success"],
-      "searchKeywords": ["good news", "success", "achievement", "خبر سار", "کامیابی"]
+      "tags": [
+        "good news",
+        "gratitude",
+        "success"
+      ],
+      "searchKeywords": [
+        "good news",
+        "success",
+        "achievement",
+        "خبر سار",
+        "کامیابی"
+      ]
     },
     {
       "id": "washroom_001",
@@ -628,8 +808,19 @@
         "hadithNumber": "142",
         "authenticity": "sahih"
       },
-      "tags": ["washroom", "bathroom", "toilet"],
-      "searchKeywords": ["washroom", "bathroom", "toilet", "restroom", "حمام", "بیت الخلاء"]
+      "tags": [
+        "washroom",
+        "bathroom",
+        "toilet"
+      ],
+      "searchKeywords": [
+        "washroom",
+        "bathroom",
+        "toilet",
+        "restroom",
+        "حمام",
+        "بیت الخلاء"
+      ]
     },
     {
       "id": "washroom_002",
@@ -650,8 +841,16 @@
         "hadithNumber": "30",
         "authenticity": "sahih"
       },
-      "tags": ["washroom", "leaving", "cleanliness"],
-      "searchKeywords": ["leaving washroom", "exit bathroom", "خروج حمام"]
+      "tags": [
+        "washroom",
+        "leaving",
+        "cleanliness"
+      ],
+      "searchKeywords": [
+        "leaving washroom",
+        "exit bathroom",
+        "خروج حمام"
+      ]
     },
     {
       "id": "prayer_001",
@@ -672,8 +871,17 @@
         "hadithNumber": "611",
         "authenticity": "sahih"
       },
-      "tags": ["adhan", "prayer", "call to prayer"],
-      "searchKeywords": ["adhan", "azan", "call to prayer", "اذان"]
+      "tags": [
+        "adhan",
+        "prayer",
+        "call to prayer"
+      ],
+      "searchKeywords": [
+        "adhan",
+        "azan",
+        "call to prayer",
+        "اذان"
+      ]
     },
     {
       "id": "prayer_002",
@@ -696,8 +904,16 @@
       },
       "benefits": "The Prophet ﷺ said: Whoever says this after the adhan, my intercession will be guaranteed for him on the Day of Resurrection",
       "benefitsUrdu": "نبی ﷺ نے فرمایا: جو شخص اذان کے بعد یہ کہے، قیامت کے دن میری شفاعت اس کے لیے واجب ہو جائے گی",
-      "tags": ["adhan", "dua", "intercession"],
-      "searchKeywords": ["after adhan", "prayer call", "اذان کے بعد"]
+      "tags": [
+        "adhan",
+        "dua",
+        "intercession"
+      ],
+      "searchKeywords": [
+        "after adhan",
+        "prayer call",
+        "اذان کے بعد"
+      ]
     },
     {
       "id": "prayer_003",
@@ -718,8 +934,17 @@
         "hadithNumber": "776",
         "authenticity": "sahih"
       },
-      "tags": ["prayer", "salah", "opening"],
-      "searchKeywords": ["prayer opening", "istiftah", "استفتاح", "نماز شروع"]
+      "tags": [
+        "prayer",
+        "salah",
+        "opening"
+      ],
+      "searchKeywords": [
+        "prayer opening",
+        "istiftah",
+        "استفتاح",
+        "نماز شروع"
+      ]
     },
     {
       "id": "prayer_004",
@@ -740,8 +965,17 @@
         "hadithNumber": "1377",
         "authenticity": "sahih"
       },
-      "tags": ["prayer", "tashahhud", "protection"],
-      "searchKeywords": ["before salam", "tashahhud", "تشہد", "سلام سے پہلے"]
+      "tags": [
+        "prayer",
+        "tashahhud",
+        "protection"
+      ],
+      "searchKeywords": [
+        "before salam",
+        "tashahhud",
+        "تشہد",
+        "سلام سے پہلے"
+      ]
     },
     {
       "id": "protection_001",
@@ -764,8 +998,18 @@
       },
       "benefits": "Say 3 times in the morning and evening. The Prophet ﷺ said: Nothing will harm the one who says this three times",
       "benefitsUrdu": "صبح و شام تین بار کہیں۔ نبی ﷺ نے فرمایا: جو شخص یہ تین بار کہے اسے کوئی چیز نقصان نہیں پہنچا سکتی",
-      "tags": ["protection", "morning", "evening"],
-      "searchKeywords": ["protection", "safety", "morning evening", "حفاظت", "حمایت"]
+      "tags": [
+        "protection",
+        "morning",
+        "evening"
+      ],
+      "searchKeywords": [
+        "protection",
+        "safety",
+        "morning evening",
+        "حفاظت",
+        "حمایت"
+      ]
     },
     {
       "id": "protection_002",
@@ -788,8 +1032,18 @@
       },
       "benefits": "Say 3 times in the morning and evening for protection",
       "benefitsUrdu": "حفاظت کے لیے صبح و شام تین بار کہیں",
-      "tags": ["protection", "evil eye", "hasad"],
-      "searchKeywords": ["evil eye", "nazar", "hasad", "نظر بد", "حسد"]
+      "tags": [
+        "protection",
+        "evil eye",
+        "hasad"
+      ],
+      "searchKeywords": [
+        "evil eye",
+        "nazar",
+        "hasad",
+        "نظر بد",
+        "حسد"
+      ]
     },
     {
       "id": "protection_003",
@@ -811,8 +1065,17 @@
       },
       "benefits": "The Prophet ﷺ said: Whoever recites these two verses at night, they will suffice him (from all evil)",
       "benefitsUrdu": "نبی ﷺ نے فرمایا: جو شخص رات کو یہ دو آیات پڑھے، وہ اس کے لیے کافی ہوں گی (ہر برائی سے)",
-      "tags": ["protection", "night", "quran"],
-      "searchKeywords": ["surah baqarah", "night protection", "سورۃ البقرہ", "رات کی حفاظت"]
+      "tags": [
+        "protection",
+        "night",
+        "quran"
+      ],
+      "searchKeywords": [
+        "surah baqarah",
+        "night protection",
+        "سورۃ البقرہ",
+        "رات کی حفاظت"
+      ]
     },
     {
       "id": "health_001",
@@ -833,8 +1096,18 @@
         "hadithNumber": "3616",
         "authenticity": "sahih"
       },
-      "tags": ["health", "sick", "healing"],
-      "searchKeywords": ["sick", "illness", "visiting sick", "مریض", "بیماری"]
+      "tags": [
+        "health",
+        "sick",
+        "healing"
+      ],
+      "searchKeywords": [
+        "sick",
+        "illness",
+        "visiting sick",
+        "مریض",
+        "بیماری"
+      ]
     },
     {
       "id": "health_002",
@@ -855,8 +1128,18 @@
         "hadithNumber": "2186",
         "authenticity": "sahih"
       },
-      "tags": ["healing", "ruqyah", "health"],
-      "searchKeywords": ["ruqyah", "healing", "cure", "دم", "شفا"]
+      "tags": [
+        "healing",
+        "ruqyah",
+        "health"
+      ],
+      "searchKeywords": [
+        "ruqyah",
+        "healing",
+        "cure",
+        "دم",
+        "شفا"
+      ]
     },
     {
       "id": "health_003",
@@ -877,8 +1160,18 @@
         "hadithNumber": "2202",
         "authenticity": "sahih"
       },
-      "tags": ["pain", "health", "healing"],
-      "searchKeywords": ["pain", "ache", "hurt", "درد", "تکلیف"]
+      "tags": [
+        "pain",
+        "health",
+        "healing"
+      ],
+      "searchKeywords": [
+        "pain",
+        "ache",
+        "hurt",
+        "درد",
+        "تکلیف"
+      ]
     },
     {
       "id": "weather_001",
@@ -899,8 +1192,17 @@
         "hadithNumber": "1032",
         "authenticity": "sahih"
       },
-      "tags": ["rain", "weather", "blessing"],
-      "searchKeywords": ["rain", "weather", "بارش", "مطر"]
+      "tags": [
+        "rain",
+        "weather",
+        "blessing"
+      ],
+      "searchKeywords": [
+        "rain",
+        "weather",
+        "بارش",
+        "مطر"
+      ]
     },
     {
       "id": "weather_002",
@@ -921,8 +1223,16 @@
         "hadithNumber": "846",
         "authenticity": "sahih"
       },
-      "tags": ["rain", "gratitude", "weather"],
-      "searchKeywords": ["after rain", "rain stopped", "بارش کے بعد"]
+      "tags": [
+        "rain",
+        "gratitude",
+        "weather"
+      ],
+      "searchKeywords": [
+        "after rain",
+        "rain stopped",
+        "بارش کے بعد"
+      ]
     },
     {
       "id": "weather_003",
@@ -943,8 +1253,18 @@
         "hadithNumber": "723",
         "authenticity": "sahih"
       },
-      "tags": ["thunder", "weather", "praise"],
-      "searchKeywords": ["thunder", "lightning", "storm", "گرج", "بجلی"]
+      "tags": [
+        "thunder",
+        "weather",
+        "praise"
+      ],
+      "searchKeywords": [
+        "thunder",
+        "lightning",
+        "storm",
+        "گرج",
+        "بجلی"
+      ]
     },
     {
       "id": "weather_004",
@@ -965,8 +1285,17 @@
         "hadithNumber": "1014",
         "authenticity": "sahih"
       },
-      "tags": ["rain", "drought", "istisqa"],
-      "searchKeywords": ["drought", "need rain", "استسقاء", "خشک سالی"]
+      "tags": [
+        "rain",
+        "drought",
+        "istisqa"
+      ],
+      "searchKeywords": [
+        "drought",
+        "need rain",
+        "استسقاء",
+        "خشک سالی"
+      ]
     },
     {
       "id": "daily_002",
@@ -987,8 +1316,17 @@
         "hadithNumber": "24049",
         "authenticity": "sahih"
       },
-      "tags": ["mirror", "character", "daily"],
-      "searchKeywords": ["mirror", "looking", "reflection", "آئینہ"]
+      "tags": [
+        "mirror",
+        "character",
+        "daily"
+      ],
+      "searchKeywords": [
+        "mirror",
+        "looking",
+        "reflection",
+        "آئینہ"
+      ]
     },
     {
       "id": "daily_007",
@@ -1011,778 +1349,1912 @@
       },
       "benefits": "The Prophet ﷺ said: Whoever wears new clothes and says this, his past and future sins will be forgiven",
       "benefitsUrdu": "نبی ﷺ نے فرمایا: جو شخص نیا کپڑا پہنے اور یہ کہے، اس کے اگلے پچھلے گناہ معاف کر دیے جائیں گے",
-      "tags": ["clothes", "new", "gratitude"],
-      "searchKeywords": ["new clothes", "wearing", "dress", "نیا کپڑا"]
+      "tags": [
+        "clothes",
+        "new",
+        "gratitude"
+      ],
+      "searchKeywords": [
+        "new clothes",
+        "wearing",
+        "dress",
+        "نیا کپڑا"
+      ]
     },
     {
       "id": "forgive_001",
       "title": "Sayyidul Istighfar (Best Dua for Forgiveness)",
       "titleArabic": "سيد الاستغفار",
       "titleUrdu": "سید الاستغفار (بخشش کی سردار دعا)",
-      "category": { "id": "forgiveness", "name": "Forgiveness" },
+      "category": {
+        "id": "forgiveness",
+        "name": "Forgiveness"
+      },
       "arabicText": "اللَّهُمَّ أَنْتَ رَبِّي لاَ إِلَهَ إِلاَّ أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ لَكَ بِذَنْبِي فَاغْفِرْ لِي، فَإِنَّهُ لاَ يَغْفِرُ الذُّنُوبَ إِلاَّ أَنْتَ",
       "transliteration": "Allahumma Anta Rabbi la ilaha illa Anta, khalaqtani wa ana 'abduka, wa ana 'ala 'ahdika wa wa'dika mastata'tu, a'udhu bika min sharri ma sana'tu, abu'u laka bini'matika 'alayya, wa abu'u laka bidhanbi faghfir li, fa innahu la yaghfirud-dhunuba illa Ant",
       "translation": "O Allah, You are my Lord, none has the right to be worshipped except You. You created me and I am Your servant, and I abide to Your covenant and promise as best I can. I take refuge in You from the evil of which I have committed. I acknowledge Your favor upon me and I acknowledge my sin, so forgive me, for verily none can forgive sin except You",
       "translationUrdu": "اے اللہ! تو ہی میرا رب ہے، تیرے سوا کوئی معبود نہیں، تو نے مجھے پیدا کیا اور میں تیرا بندہ ہوں، اور میں اپنی طاقت کے مطابق تیرے عہد اور وعدے پر قائم ہوں۔ میں تیری پناہ مانگتا ہوں اس چیز کے شر سے جو میں نے کی۔ میں تیرے سامنے تیری نعمت کا اقرار کرتا ہوں اور اپنے گناہ کا اعتراف کرتا ہوں، پس مجھے بخش دے، کیونکہ تیرے سوا کوئی گناہوں کو نہیں بخش سکتا",
-      "reference": { "source": "hadith", "book": "Bukhari", "hadithNumber": "6306", "authenticity": "sahih" },
+      "reference": {
+        "source": "hadith",
+        "book": "Bukhari",
+        "hadithNumber": "6306",
+        "authenticity": "sahih"
+      },
       "benefits": "Prophet ﷺ said: If somebody recites it during the day with firm faith and dies on the same day, he will be from the people of Paradise",
       "benefitsUrdu": "نبی ﷺ نے فرمایا: جو شخص یقین کے ساتھ دن میں اسے پڑھے اور اسی دن فوت ہو جائے تو وہ جنتی ہے",
-      "tags": ["forgiveness", "paradise", "best dua"],
-      "searchKeywords": ["best forgiveness", "sayyidul istighfar", "maghfirat", "بخشیش"]
+      "tags": [
+        "forgiveness",
+        "paradise",
+        "best dua"
+      ],
+      "searchKeywords": [
+        "best forgiveness",
+        "sayyidul istighfar",
+        "maghfirat",
+        "بخشیش"
+      ]
     },
     {
       "id": "prophet_001",
       "title": "Most Frequent Dua of Prophet ﷺ",
       "titleArabic": "أكثر دعاء النبي ﷺ",
       "titleUrdu": "نبی ﷺ کی سب سے زیادہ مانگی جانے والی دعا",
-      "category": { "id": "prayer", "name": "Prayer" },
+      "category": {
+        "id": "prayer",
+        "name": "Prayer"
+      },
       "arabicText": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
       "transliteration": "Rabbana atina fid-dunya hasanatan wa fil-akhirati hasanatan wa qina 'adhaban-nar",
       "translation": "Our Lord! Give us in this world that which is good and in the Hereafter that which is good, and save us from the torment of the Fire",
       "translationUrdu": "اے ہمارے رب! ہمیں دنیا میں بھی بھلائی عطا فرما اور آخرت میں بھی بھلائی عطا فرما اور ہمیں آگ کے عذاب سے بچا",
-      "reference": { "source": "quran", "chapter": "Al-Baqarah", "verse": "2:201" },
-      "tags": ["prophet", "success", "dunya", "akhirah"],
-      "searchKeywords": ["rabbana atina", "success", "fire", "دنیا اور آخرت"]
+      "reference": {
+        "source": "quran",
+        "chapter": "Al-Baqarah",
+        "verse": "2:201"
+      },
+      "tags": [
+        "prophet",
+        "success",
+        "dunya",
+        "akhirah"
+      ],
+      "searchKeywords": [
+        "rabbana atina",
+        "success",
+        "fire",
+        "دنیا اور آخرت"
+      ]
     },
     {
       "id": "forgive_002",
       "title": "Prophet Adam's Repentance",
       "titleArabic": "دعاء آدم عليه السلام",
       "titleUrdu": "حضرت آدم علیہ السلام کی توبہ",
-      "category": { "id": "forgiveness", "name": "Forgiveness" },
+      "category": {
+        "id": "forgiveness",
+        "name": "Forgiveness"
+      },
       "arabicText": "رَبَّنَا ظَلَمْنَا أَنفُسَنَا وَإِن لَّمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ الْخَاسِرِينَ",
       "transliteration": "Rabbana zalamna anfusana wa in lam taghfir lana wa tarhamna lanakunanna minal-khasirin",
       "translation": "Our Lord, we have wronged ourselves, and if You do not forgive us and have mercy upon us, we will surely be among the losers",
       "translationUrdu": "اے ہمارے رب! ہم نے اپنی جانوں پر ظلم کیا، اور اگر تو نے ہمیں معاف نہ کیا اور ہم پر رحم نہ کیا تو ہم یقیناً نقصان اٹھانے والوں میں سے ہو جائیں گے",
-      "reference": { "source": "quran", "chapter": "Al-A'raf", "verse": "7:23" },
-      "tags": ["forgiveness", "quran", "adam"],
-      "searchKeywords": ["adam dua", "wronged myself", "توبہ", "ظلم"]
+      "reference": {
+        "source": "quran",
+        "chapter": "Al-A'raf",
+        "verse": "7:23"
+      },
+      "tags": [
+        "forgiveness",
+        "quran",
+        "adam"
+      ],
+      "searchKeywords": [
+        "adam dua",
+        "wronged myself",
+        "توبہ",
+        "ظلم"
+      ]
     },
     {
       "id": "guidance_001",
       "title": "Dua for Steadfastness (Guidance)",
       "titleArabic": "يا مقلب القلوب",
       "titleUrdu": "دلوں کو ثابت قدم رکھنے کی دعا",
-      "category": { "id": "prayer", "name": "Prayer" },
+      "category": {
+        "id": "prayer",
+        "name": "Prayer"
+      },
       "arabicText": "يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ",
       "transliteration": "Ya Muqallibal-qulub, thabbit qalbi 'ala dinik",
       "translation": "O Turner of the hearts, keep my heart firm on Your religion",
       "translationUrdu": "اے دلوں کو پھیرنے والے! میرے دل کو اپنے دین پر ثابت قدم رکھ",
-      "reference": { "source": "hadith", "book": "Tirmidhi", "hadithNumber": "2140", "authenticity": "sahih" },
-      "tags": ["guidance", "heart", "faith"],
-      "searchKeywords": ["heart", "guidance", "firm faith", "ہدایت", "دل"]
+      "reference": {
+        "source": "hadith",
+        "book": "Tirmidhi",
+        "hadithNumber": "2140",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "guidance",
+        "heart",
+        "faith"
+      ],
+      "searchKeywords": [
+        "heart",
+        "guidance",
+        "firm faith",
+        "ہدایت",
+        "دل"
+      ]
     },
     {
       "id": "family_001",
       "title": "Dua for Parents",
       "titleArabic": "دعاء للوالدين",
       "titleUrdu": "والدین کے لیے دعا",
-      "category": { "id": "home", "name": "Home & Family" },
+      "category": {
+        "id": "home",
+        "name": "Home & Family"
+      },
       "arabicText": "رَبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا",
       "transliteration": "Rabbir-hamhuma kama rabbayani saghira",
       "translation": "My Lord, have mercy upon them as they brought me up [when I was] small",
       "translationUrdu": "اے میرے رب! ان دونوں پر رحم فرما جیسا کہ انہوں نے بچپن میں میری پرورش کی",
-      "reference": { "source": "quran", "chapter": "Al-Isra", "verse": "17:24" },
-      "tags": ["parents", "family", "mercy"],
-      "searchKeywords": ["mother", "father", "parents", "والدین", "ماں باپ"]
+      "reference": {
+        "source": "quran",
+        "chapter": "Al-Isra",
+        "verse": "17:24"
+      },
+      "tags": [
+        "parents",
+        "family",
+        "mercy"
+      ],
+      "searchKeywords": [
+        "mother",
+        "father",
+        "parents",
+        "والدین",
+        "ماں باپ"
+      ]
     },
     {
       "id": "family_002",
       "title": "For Spouse and Children",
       "titleArabic": "دعاء للزوجة والأولاد",
       "titleUrdu": "بیوی اور بچوں کے لیے دعا",
-      "category": { "id": "home", "name": "Home & Family" },
+      "category": {
+        "id": "home",
+        "name": "Home & Family"
+      },
       "arabicText": "رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ أَعْيُنٍ وَاجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا",
       "transliteration": "Rabbana hab lana min azwajina wa dhurriyyatina qurrata a'yunin waj'alna lil-muttaqina imama",
       "translation": "Our Lord, grant us from among our wives and offspring comfort to our eyes and make us an example for the righteous",
       "translationUrdu": "اے ہمارے رب! ہمیں ہماری بیویوں اور ہماری اولاد سے آنکھوں کی ٹھنڈک عطا فرما اور ہمیں پرہیزگاروں کا امام بنا",
-      "reference": { "source": "quran", "chapter": "Al-Furqan", "verse": "25:74" },
-      "tags": ["family", "marriage", "children"],
-      "searchKeywords": ["marriage", "wife", "kids", "shadi", "اولاد"]
+      "reference": {
+        "source": "quran",
+        "chapter": "Al-Furqan",
+        "verse": "25:74"
+      },
+      "tags": [
+        "family",
+        "marriage",
+        "children"
+      ],
+      "searchKeywords": [
+        "marriage",
+        "wife",
+        "kids",
+        "shadi",
+        "اولاد"
+      ]
     },
     {
       "id": "zikr_001",
       "title": "Forgiveness of Sins (100 times)",
       "titleArabic": "سبحان الله وبحمده",
       "titleUrdu": "گناہوں کی معافی (100 بار)",
-      "category": { "id": "gratitude", "name": "Gratitude & Praise" },
+      "category": {
+        "id": "gratitude",
+        "name": "Gratitude & Praise"
+      },
       "arabicText": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ",
       "transliteration": "SubhanAllahi wa bihamdihi",
       "translation": "Glory is to Allah and all praise is to Him",
       "translationUrdu": "اللہ پاک ہے اور تمام تعریفیں اسی کے لیے ہیں",
-      "reference": { "source": "hadith", "book": "Bukhari", "hadithNumber": "6405", "authenticity": "sahih" },
+      "reference": {
+        "source": "hadith",
+        "book": "Bukhari",
+        "hadithNumber": "6405",
+        "authenticity": "sahih"
+      },
       "benefits": "Whoever says this 100 times a day, his sins will be forgiven even if they were like the foam of the sea",
       "benefitsUrdu": "جو دن میں 100 بار یہ کہے، اس کے گناہ معاف کر دیے جائیں گے چاہے وہ سمندر کی جھاگ کے برابر ہوں",
-      "tags": ["zikr", "forgiveness", "easy reward"],
-      "searchKeywords": ["subhanallah", "100 times", "foam sea", "تسبیح"]
+      "tags": [
+        "zikr",
+        "forgiveness",
+        "easy reward"
+      ],
+      "searchKeywords": [
+        "subhanallah",
+        "100 times",
+        "foam sea",
+        "تسبیح"
+      ]
     },
     {
       "id": "zikr_002",
       "title": "Treasures of Paradise",
       "titleArabic": "كنز من كنوز الجنة",
       "titleUrdu": "جنت کا خزانہ",
-      "category": { "id": "gratitude", "name": "Gratitude & Praise" },
+      "category": {
+        "id": "gratitude",
+        "name": "Gratitude & Praise"
+      },
       "arabicText": "لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ",
       "transliteration": "La hawla wa la quwwata illa billah",
       "translation": "There is no might and no power except by Allah",
       "translationUrdu": "نیکی کرنے کی طاقت اور برائی سے بچنے کی ہمت صرف اللہ کی توفیق سے ہے",
-      "reference": { "source": "hadith", "book": "Bukhari", "hadithNumber": "6384", "authenticity": "sahih" },
-      "tags": ["zikr", "paradise", "power"],
-      "searchKeywords": ["la hawla", "treasure", "جنت", "لا حول"]
+      "reference": {
+        "source": "hadith",
+        "book": "Bukhari",
+        "hadithNumber": "6384",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "zikr",
+        "paradise",
+        "power"
+      ],
+      "searchKeywords": [
+        "la hawla",
+        "treasure",
+        "جنت",
+        "لا حول"
+      ]
     },
     {
       "id": "mosque_001",
       "title": "Entering the Mosque",
       "titleArabic": "دعاء دخول المسجد",
       "titleUrdu": "مسجد میں داخل ہونے کی دعا",
-      "category": { "id": "prayer", "name": "Prayer" },
+      "category": {
+        "id": "prayer",
+        "name": "Prayer"
+      },
       "arabicText": "اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
       "transliteration": "Allahummaftah li abwaba rahmatik",
       "translation": "O Allah, open for me the doors of Your mercy",
       "translationUrdu": "اے اللہ! میرے لیے اپنی رحمت کے دروازے کھول دے",
-      "reference": { "source": "hadith", "book": "Muslim", "hadithNumber": "713", "authenticity": "sahih" },
-      "tags": ["mosque", "masjid", "entering"],
-      "searchKeywords": ["mosque", "masjid", "enter", "مسجد"]
+      "reference": {
+        "source": "hadith",
+        "book": "Muslim",
+        "hadithNumber": "713",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "mosque",
+        "masjid",
+        "entering"
+      ],
+      "searchKeywords": [
+        "mosque",
+        "masjid",
+        "enter",
+        "مسجد"
+      ]
     },
     {
       "id": "mosque_002",
       "title": "Leaving the Mosque",
       "titleArabic": "دعاء الخروج من المسجد",
       "titleUrdu": "مسجد سے نکلنے کی دعا",
-      "category": { "id": "prayer", "name": "Prayer" },
+      "category": {
+        "id": "prayer",
+        "name": "Prayer"
+      },
       "arabicText": "اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ",
       "transliteration": "Allahumma inni as'aluka min fadlik",
       "translation": "O Allah, I ask You of Your bounty",
       "translationUrdu": "اے اللہ! میں تجھ سے تیرے فضل کا سوال کرتا ہوں",
-      "reference": { "source": "hadith", "book": "Muslim", "hadithNumber": "713", "authenticity": "sahih" },
-      "tags": ["mosque", "masjid", "leaving"],
-      "searchKeywords": ["mosque", "masjid", "exit", "فضل"]
+      "reference": {
+        "source": "hadith",
+        "book": "Muslim",
+        "hadithNumber": "713",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "mosque",
+        "masjid",
+        "leaving"
+      ],
+      "searchKeywords": [
+        "mosque",
+        "masjid",
+        "exit",
+        "فضل"
+      ]
     },
     {
       "id": "fast_001",
       "title": "Breaking the Fast (Iftar)",
       "titleArabic": "دعاء الإفطار",
       "titleUrdu": "افطار کی دعا",
-      "category": { "id": "ramadan", "name": "Ramadan & Fasting" },
+      "category": {
+        "id": "ramadan",
+        "name": "Ramadan & Fasting"
+      },
       "arabicText": "ذَهَبَ الظَّمَأُ وَابْتَلَّتِ الْعُرُوقُ وَثَبَتَ الأَجْرُ إِنْ شَاءَ اللَّهُ",
       "transliteration": "Dhahabaz-zama'u wabtallatil-'uruqu wa thabatal-ajru in sha'Allah",
       "translation": "The thirst is gone, the veins are moistened, and the reward is confirmed, if Allah wills",
       "translationUrdu": "پیاس بجھ گئی، رگیں تر ہو گئیں، اور اجر ثابت ہو گیا اگر اللہ نے چاہا",
-      "reference": { "source": "hadith", "book": "Abu Dawud", "hadithNumber": "2357", "authenticity": "sahih" },
-      "tags": ["ramadan", "fasting", "iftar"],
-      "searchKeywords": ["iftar", "fast", "roza", "افطار"]
+      "reference": {
+        "source": "hadith",
+        "book": "Abu Dawud",
+        "hadithNumber": "2357",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "ramadan",
+        "fasting",
+        "iftar"
+      ],
+      "searchKeywords": [
+        "iftar",
+        "fast",
+        "roza",
+        "افطار"
+      ]
     },
     {
       "id": "fast_002",
       "title": "Laylatul Qadr Dua",
       "titleArabic": "دعاء ليلة القدر",
       "titleUrdu": "شب قدر کی دعا",
-      "category": { "id": "ramadan", "name": "Ramadan & Fasting" },
+      "category": {
+        "id": "ramadan",
+        "name": "Ramadan & Fasting"
+      },
       "arabicText": "اللَّهُمَّ إِنَّكَ عَفُوٌّ تُحِبُّ الْعَفْوَ فَاعْفُ عَنِّي",
       "transliteration": "Allahumma innaka 'afuwwun tuhibbul-'afwa fa'fu 'anni",
       "translation": "O Allah, You are Forgiving and love forgiveness, so forgive me",
       "translationUrdu": "اے اللہ! بے شک تو معاف کرنے والا ہے، معافی کو پسند کرتا ہے، لہذا مجھے معاف فرما",
-      "reference": { "source": "hadith", "book": "Tirmidhi", "hadithNumber": "3513", "authenticity": "sahih" },
-      "tags": ["ramadan", "power night", "forgiveness"],
-      "searchKeywords": ["laylatul qadr", "shab e qadr", "night of power", "شب قدر"]
+      "reference": {
+        "source": "hadith",
+        "book": "Tirmidhi",
+        "hadithNumber": "3513",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "ramadan",
+        "power night",
+        "forgiveness"
+      ],
+      "searchKeywords": [
+        "laylatul qadr",
+        "shab e qadr",
+        "night of power",
+        "شب قدر"
+      ]
     },
     {
       "id": "hajj_001",
       "title": "Talbiyah",
       "titleArabic": "التلبية",
       "titleUrdu": "تلبیہ",
-      "category": { "id": "hajj", "name": "Hajj & Umrah" },
+      "category": {
+        "id": "hajj",
+        "name": "Hajj & Umrah"
+      },
       "arabicText": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لاَ شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ لاَ شَرِيكَ لَكَ",
       "transliteration": "Labbayk Allahumma labbayk, labbayka la sharika laka labbayk, innal-hamda wan-ni'mata laka wal-mulk, la sharika lak",
       "translation": "Here I am, O Allah, here I am. Here I am, You have no partner, here I am. Verily all praise and blessings are Yours, and all sovereignty, You have no partner",
       "translationUrdu": "میں حاضر ہوں اے اللہ میں حاضر ہوں، میں حاضر ہوں تیرا کوئی شریک نہیں میں حاضر ہوں۔ بے شک تمام تعریفیں اور نعمتیں تیری ہی ہیں اور بادشاہت بھی، تیرا کوئی شریک نہیں",
-      "reference": { "source": "hadith", "book": "Bukhari", "hadithNumber": "1549", "authenticity": "sahih" },
-      "tags": ["hajj", "umrah", "talbiyah"],
-      "searchKeywords": ["labbayk", "pilgrimage", "hajj", "لبیک"]
-    },
-    {
-      "id": "hajj_002",
-      "title": "Between Yemeni Corner and Black Stone",
-      "titleArabic": "بين الركن اليماني والحجر الأسود",
-      "titleUrdu": "رکن یمانی اور حجر اسود کے درمیان",
-      "category": { "id": "hajj", "name": "Hajj & Umrah" },
-      "arabicText": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
-      "transliteration": "Rabbana atina fid-dunya hasanatan wa fil-akhirati hasanatan wa qina 'adhaban-nar",
-      "translation": "Our Lord, give us in this world that which is good and in the Hereafter that which is good, and save us from the torment of the Fire",
-      "translationUrdu": "اے ہمارے رب! ہمیں دنیا میں بھلائی دے اور آخرت میں بھلائی دے اور ہمیں آگ کے عذاب سے بچا",
-      "reference": { "source": "hadith", "book": "Abu Dawud", "hadithNumber": "1892", "authenticity": "sahih" },
-      "tags": ["hajj", "umrah", "tawaf"],
-      "searchKeywords": ["tawaf", "circumambulation", "طواف"]
+      "reference": {
+        "source": "hadith",
+        "book": "Bukhari",
+        "hadithNumber": "1549",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "hajj",
+        "umrah",
+        "talbiyah"
+      ],
+      "searchKeywords": [
+        "labbayk",
+        "pilgrimage",
+        "hajj",
+        "لبیک"
+      ]
     },
     {
       "id": "funeral_001",
       "title": "Dua for the Deceased (Janazah)",
       "titleArabic": "دعاء للميت",
       "titleUrdu": "میت کے لیے دعا",
-      "category": { "id": "funeral", "name": "Funeral & Death" },
+      "category": {
+        "id": "funeral",
+        "name": "Funeral & Death"
+      },
       "arabicText": "اللَّهُمَّ اغْفِرْ لَهُ وَارْحَمْهُ، وَعَافِهِ، وَاعْفُ عَنْهُ، وَأَكْرِمْ نُزُلَهُ، وَوَسِّعْ مُدْخَلَهُ",
       "transliteration": "Allahummaghfir lahu warhamhu, wa 'afihi, wa'fu 'anhu, wa akrim nuzulahu, wa wassi' mudkhalahu",
       "translation": "O Allah, forgive him and have mercy on him, give him well-being and pardon him. Honor his reception and expand his entrance (grave)",
       "translationUrdu": "اے اللہ! اسے بخش دے، اس پر رحم فرما، اسے عافیت دے، اسے معاف کر دے، اس کی مہمانی عزت والی کر، اور اس کی قبر کشادہ کر",
-      "reference": { "source": "hadith", "book": "Muslim", "hadithNumber": "963", "authenticity": "sahih" },
-      "tags": ["funeral", "death", "janazah"],
-      "searchKeywords": ["janazah", "dead", "grave", "جنازہ", "میت"]
+      "reference": {
+        "source": "hadith",
+        "book": "Muslim",
+        "hadithNumber": "963",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "funeral",
+        "death",
+        "janazah"
+      ],
+      "searchKeywords": [
+        "janazah",
+        "dead",
+        "grave",
+        "جنازہ",
+        "میت"
+      ]
     },
     {
       "id": "funeral_002",
       "title": "Visiting the Graveyard",
       "titleArabic": "دعاء زيارة القبور",
       "titleUrdu": "قبرستان داخل ہونے کی دعا",
-      "category": { "id": "funeral", "name": "Funeral & Death" },
+      "category": {
+        "id": "funeral",
+        "name": "Funeral & Death"
+      },
       "arabicText": "السَّلامُ عَلَيْكُمْ أَهْلَ الدِّيَارِ مِنَ الْمُؤْمِنِينَ وَالْمُسْلِمِينَ، وَإِنَّا إِنْ شَاءَ اللَّهُ بِكُمْ لَلاحِقُونَ، أَسْأَلُ اللَّهَ لَنَا وَلَكُمُ الْعَافِيَةَ",
       "transliteration": "Assalamu 'alaykum ahlad-diyari minal-mu'minina wal-muslimin, wa inna in sha'Allahu bikum lalahiqun, as'alullaha lana wa lakumul-'afiyah",
       "translation": "Peace be upon you, inhabitants of the dwellings, believers and Muslims. Verily we, if Allah wills, will join you. I ask Allah for well-being for us and for you",
       "translationUrdu": "سلام ہو تم پر اے اس بستی کے رہنے والے مومنو اور مسلمانو! اور یقیناً ہم بھی اگر اللہ نے چاہا تو تم سے ملنے والے ہیں۔ میں اللہ سے اپنے لیے اور تمہارے لیے عافیت مانگتا ہوں",
-      "reference": { "source": "hadith", "book": "Muslim", "hadithNumber": "975", "authenticity": "sahih" },
-      "tags": ["graveyard", "visiting", "grave"],
-      "searchKeywords": ["graveyard", "qabristan", "visit grave", "قبرستان"]
+      "reference": {
+        "source": "hadith",
+        "book": "Muslim",
+        "hadithNumber": "975",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "graveyard",
+        "visiting",
+        "grave"
+      ],
+      "searchKeywords": [
+        "graveyard",
+        "qabristan",
+        "visit grave",
+        "قبرستان"
+      ]
     },
     {
       "id": "daily_003",
       "title": "Dua for General Good",
       "titleArabic": "دعاء الخير العام",
       "titleUrdu": "عمومی بھلائی کی دعا",
-      "category": { "id": "daily", "name": "Daily Life" },
+      "category": {
+        "id": "daily",
+        "name": "Daily Life"
+      },
       "arabicText": "اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنَ الْخَيْرِ كُلِّهِ عَاجِلِهِ وَآجِلِهِ مَا عَلِمْتُ مِنْهُ وَمَا لَمْ أَعْلَمْ، وَأَعُوذُ بِكَ مِنَ الشَّرِّ كُلِّهِ عَاجِلِهِ وَآجِلِهِ مَا عَلِمْتُ مِنْهُ وَمَا لَمْ أَعْلَمْ",
       "transliteration": "Allahumma inni as'aluka minal-khayri kullihi 'ajilihi wa ajilihi ma 'alimtu minhu wa ma lam a'lam, wa a'udhu bika minash-sharri kullihi 'ajilihi wa ajilihi ma 'alimtu minhu wa ma lam a'lam",
       "translation": "O Allah, I ask You for all good, immediate and distant, what I know of it and what I do not know. And I seek refuge in You from all evil, immediate and distant, what I know of it and what I do not know",
       "translationUrdu": "اے اللہ! میں تجھ سے تمام بھلائی مانگتا ہوں جلد ملنے والی اور دیر سے ملنے والی، جس کا مجھے علم ہے اور جس کا علم نہیں۔ اور میں تیری پناہ چاہتا ہوں تمام برائی سے، جلد آنے والی اور دیر سے آنے والی، جس کا مجھے علم ہے اور جس کا علم نہیں",
-      "reference": { "source": "hadith", "book": "Ibn Majah", "hadithNumber": "3846", "authenticity": "sahih" },
-      "tags": ["comprehensive", "good", "protection"],
-      "searchKeywords": ["all good", "comprehensive dua", "خیر", "بھلائی"]
+      "reference": {
+        "source": "hadith",
+        "book": "Ibn Majah",
+        "hadithNumber": "3846",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "comprehensive",
+        "good",
+        "protection"
+      ],
+      "searchKeywords": [
+        "all good",
+        "comprehensive dua",
+        "خیر",
+        "بھلائی"
+      ]
     },
     {
       "id": "daily_004",
       "title": "Before Leaving Home",
       "titleArabic": "دعاء الخروج من المنزل",
       "titleUrdu": "گھر سے نکلتے وقت کی دعا",
-      "category": { "id": "daily", "name": "Daily Life" },
+      "category": {
+        "id": "daily",
+        "name": "Daily Life"
+      },
       "arabicText": "بِسْمِ اللَّهِ، تَوَكَّلْتُ عَلَى اللَّهِ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
       "transliteration": "Bismillah, tawakkaltu 'alallah, wa la hawla wa la quwwata illa billah",
       "translation": "In the name of Allah, I place my trust in Allah, and there is no might and no power except with Allah",
       "translationUrdu": "اللہ کے نام سے، میں نے اللہ پر بھروسہ کیا، اور نیکی کی طاقت اور برائی سے بچنے کی ہمت صرف اللہ کی مدد سے ہے",
-      "reference": { "source": "hadith", "book": "Abu Dawud", "hadithNumber": "5095", "authenticity": "sahih" },
+      "reference": {
+        "source": "hadith",
+        "book": "Abu Dawud",
+        "hadithNumber": "5095",
+        "authenticity": "sahih"
+      },
       "benefits": "It will be said: You are guided, defended and protected. The devils will go far from him",
       "benefitsUrdu": "کہا جائے گا: تمہیں ہدایت دی گئی، تمہاری حفاظت کی گئی اور تم محفوظ ہو۔ شیاطین اس سے دور ہو جائیں گے",
-      "tags": ["leaving home", "protection", "travel"],
-      "searchKeywords": ["leaving home", "tawakkul", "توکل", "گھر سے نکلنا"]
+      "tags": [
+        "leaving home",
+        "protection",
+        "travel"
+      ],
+      "searchKeywords": [
+        "leaving home",
+        "tawakkul",
+        "توکل",
+        "گھر سے نکلنا"
+      ]
     },
     {
       "id": "daily_005",
       "title": "Entering Home",
       "titleArabic": "دعاء دخول المنزل",
       "titleUrdu": "گھر میں داخل ہوتے وقت کی دعا",
-      "category": { "id": "daily", "name": "Daily Life" },
+      "category": {
+        "id": "daily",
+        "name": "Daily Life"
+      },
       "arabicText": "اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَ الْمَوْلَجِ وَخَيْرَ الْمَخْرَجِ، بِسْمِ اللَّهِ وَلَجْنَا، وَبِسْمِ اللَّهِ خَرَجْنَا، وَعَلَى اللَّهِ رَبِّنَا تَوَكَّلْنَا",
       "transliteration": "Allahumma inni as'aluka khayral-mawlaji wa khayral-makhraji, bismillahi walajna, wa bismillahi kharajna, wa 'alallahi rabbina tawakkalna",
       "translation": "O Allah, I ask You for the best entering and the best exiting. In the name of Allah we enter, in the name of Allah we leave, and upon our Lord Allah we place our trust",
       "translationUrdu": "اے اللہ! میں تجھ سے بہترین داخلہ اور بہترین خروج کا سوال کرتا ہوں۔ اللہ کے نام سے ہم داخل ہوئے، اللہ کے نام سے ہم نکلے، اور اپنے رب اللہ پر ہم نے بھروسہ کیا",
-      "reference": { "source": "hadith", "book": "Abu Dawud", "hadithNumber": "5096", "authenticity": "sahih" },
-      "tags": ["entering home", "arrival", "home"],
-      "searchKeywords": ["entering home", "arrival", "ghar ana", "گھر آنا"]
-    },
-    {
-      "id": "sleep_003",
-      "title": "Before Sleep - Ayatul Kursi",
-      "titleArabic": "آية الكرسي قبل النوم",
-      "titleUrdu": "سونے سے پہلے آیۃ الکرسی",
-      "category": { "id": "sleep", "name": "Sleep & Waking" },
-      "arabicText": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ",
-      "transliteration": "Allahu la ilaha illa huwa al-hayyul-qayyum, la ta'khudhuhu sinatun wa la nawm, lahu ma fis-samawati wa ma fil-ard, man dhal-ladhi yashfa'u 'indahu illa bi-idhnih, ya'lamu ma bayna aydihim wa ma khalfahum, wa la yuhituna bi-shay'in min 'ilmihi illa bima sha', wasi'a kursiyyuhus-samawati wal-ard, wa la ya'uduhu hifzuhuma, wa huwal-'aliyyul-'azim",
-      "translation": "Allah! There is no deity except Him, the Ever-Living, the Sustainer of existence. Neither drowsiness overtakes Him nor sleep. To Him belongs whatever is in the heavens and whatever is on the earth. Who is it that can intercede with Him except by His permission? He knows what is before them and what will be after them, and they encompass not a thing of His knowledge except for what He wills. His Kursi extends over the heavens and the earth, and their preservation tires Him not. And He is the Most High, the Most Great",
-      "translationUrdu": "اللہ، اس کے سوا کوئی معبود نہیں، وہ زندہ ہے، سب کا تھامنے والا ہے۔ نہ اسے اونگھ آتی ہے نہ نیند۔ جو کچھ آسمانوں میں ہے اور جو کچھ زمین میں ہے سب اسی کا ہے۔ کون ہے جو اس کے حضور اس کی اجازت کے بغیر سفارش کر سکے؟ وہ جانتا ہے جو ان کے سامنے ہے اور جو ان کے پیچھے ہے، اور وہ اس کے علم میں سے کسی چیز کا احاطہ نہیں کر سکتے مگر جتنا وہ چاہے۔ اس کی کرسی آسمانوں اور زمین کو گھیرے ہوئے ہے اور ان کی حفاظت اسے تھکاتی نہیں، اور وہ بلند و برتر ہے",
-      "reference": { "source": "quran", "chapter": "Al-Baqarah", "verse": "2:255" },
-      "benefits": "Whoever recites this when going to bed, Allah will send a guardian to protect him, and no devil will come near him until morning",
-      "benefitsUrdu": "جو سوتے وقت یہ پڑھے گا، اللہ اس کی حفاظت کے لیے ایک نگہبان بھیجے گا، اور صبح تک کوئی شیطان اس کے قریب نہیں آئے گا",
-      "tags": ["sleep", "protection", "ayatul kursi"],
-      "searchKeywords": ["ayatul kursi", "sleep protection", "آیت الکرسی"]
-    },
-    {
-      "id": "sleep_004",
-      "title": "Upon Waking Up",
-      "titleArabic": "دعاء الاستيقاظ",
-      "titleUrdu": "جاگتے وقت کی دعا",
-      "category": { "id": "sleep", "name": "Sleep & Waking" },
-      "arabicText": "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ",
-      "transliteration": "Alhamdu lillahil-ladhi ahyana ba'da ma amatana wa ilayhin-nushur",
-      "translation": "All praise is to Allah who gave us life after causing us to die, and to Him is the resurrection",
-      "translationUrdu": "تمام تعریفیں اللہ کے لیے ہیں جس نے ہمیں مارنے کے بعد زندہ کیا اور اسی کی طرف دوبارہ اٹھایا جانا ہے",
-      "reference": { "source": "hadith", "book": "Bukhari", "hadithNumber": "6312", "authenticity": "sahih" },
-      "tags": ["waking", "morning", "resurrection"],
-      "searchKeywords": ["wake up", "morning", "uthna", "jaagna"]
+      "reference": {
+        "source": "hadith",
+        "book": "Abu Dawud",
+        "hadithNumber": "5096",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "entering home",
+        "arrival",
+        "home"
+      ],
+      "searchKeywords": [
+        "entering home",
+        "arrival",
+        "ghar ana",
+        "گھر آنا"
+      ]
     },
     {
       "id": "travel_003",
       "title": "Traveling by Vehicle",
       "titleArabic": "دعاء ركوب المركبة",
       "titleUrdu": "سواری پر سوار ہونے کی دعا",
-      "category": { "id": "travel", "name": "Travel" },
+      "category": {
+        "id": "travel",
+        "name": "Travel"
+      },
       "arabicText": "سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ، وَإِنَّا إِلَى رَبِّنَا لَمُنْقَلِبُونَ",
       "transliteration": "Subhanal-ladhi sakhkhara lana hadha wa ma kunna lahu muqrinin, wa inna ila rabbina lamunqalibun",
       "translation": "Glory be to Him Who has subjected this to us, and we could never have it by our efforts. Surely, unto our Lord we are returning",
       "translationUrdu": "پاک ہے وہ ذات جس نے اسے ہمارے لیے مسخر کیا اور ہم اس کی طاقت نہیں رکھتے تھے، اور ہم اپنے رب کی طرف لوٹنے والے ہیں",
-      "reference": { "source": "hadith", "book": "Abu Dawud", "hadithNumber": "2602", "authenticity": "sahih" },
-      "tags": ["travel", "vehicle", "car", "plane"],
-      "searchKeywords": ["vehicle", "car", "plane", "gaari", "سواری"]
+      "reference": {
+        "source": "hadith",
+        "book": "Abu Dawud",
+        "hadithNumber": "2602",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "travel",
+        "vehicle",
+        "car",
+        "plane"
+      ],
+      "searchKeywords": [
+        "vehicle",
+        "car",
+        "plane",
+        "gaari",
+        "سواری"
+      ]
     },
     {
       "id": "travel_004",
       "title": "Returning from Travel",
       "titleArabic": "دعاء العودة من السفر",
       "titleUrdu": "سفر سے واپسی کی دعا",
-      "category": { "id": "travel", "name": "Travel" },
+      "category": {
+        "id": "travel",
+        "name": "Travel"
+      },
       "arabicText": "آيِبُونَ، تَائِبُونَ، عَابِدُونَ، لِرَبِّنَا حَامِدُونَ",
       "transliteration": "Ayibun, ta'ibun, 'abidun, lirabbina hamidun",
       "translation": "We are returning, repenting, worshipping, and praising our Lord",
       "translationUrdu": "ہم لوٹنے والے، توبہ کرنے والے، عبادت کرنے والے، اپنے رب کی تعریف کرنے والے ہیں",
-      "reference": { "source": "hadith", "book": "Bukhari", "hadithNumber": "1797", "authenticity": "sahih" },
-      "tags": ["travel", "return", "arrival"],
-      "searchKeywords": ["return", "arrival", "wapsi", "واپسی"]
+      "reference": {
+        "source": "hadith",
+        "book": "Bukhari",
+        "hadithNumber": "1797",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "travel",
+        "return",
+        "arrival"
+      ],
+      "searchKeywords": [
+        "return",
+        "arrival",
+        "wapsi",
+        "واپسی"
+      ]
     },
     {
       "id": "food_006",
       "title": "After Finishing Food",
       "titleArabic": "دعاء بعد الطعام",
       "titleUrdu": "کھانے کے بعد کی دعا",
-      "category": { "id": "food", "name": "Food & Drink" },
+      "category": {
+        "id": "food",
+        "name": "Food & Drink"
+      },
       "arabicText": "الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنِي هَذَا، وَرَزَقَنِيهِ، مِنْ غَيْرِ حَوْلٍ مِنِّي وَلاَ قُوَّةٍ",
       "transliteration": "Alhamdu lillahil-ladhi at'amani hadha, wa razaqanihi, min ghayri hawlin minni wa la quwwah",
       "translation": "All praise is to Allah Who fed me this and provided it for me without any might or power from myself",
       "translationUrdu": "تمام تعریفیں اللہ کے لیے ہیں جس نے مجھے یہ کھانا کھلایا اور مجھے رزق دیا، میری طاقت اور قوت کے بغیر",
-      "reference": { "source": "hadith", "book": "Abu Dawud", "hadithNumber": "4023", "authenticity": "sahih" },
+      "reference": {
+        "source": "hadith",
+        "book": "Abu Dawud",
+        "hadithNumber": "4023",
+        "authenticity": "sahih"
+      },
       "benefits": "His previous sins will be forgiven",
       "benefitsUrdu": "اس کے پچھلے گناہ معاف کر دیے جائیں گے",
-      "tags": ["food", "gratitude", "after eating"],
-      "searchKeywords": ["after food", "khane ke baad", "کھانے کے بعد"]
+      "tags": [
+        "food",
+        "gratitude",
+        "after eating"
+      ],
+      "searchKeywords": [
+        "after food",
+        "khane ke baad",
+        "کھانے کے بعد"
+      ]
     },
     {
       "id": "food_004",
       "title": "When Breaking Fast (Alternative)",
       "titleArabic": "دعاء الإفطار الثاني",
       "titleUrdu": "روزہ کھولنے کی دوسری دعا",
-      "category": { "id": "food", "name": "Food & Drink" },
+      "category": {
+        "id": "food",
+        "name": "Food & Drink"
+      },
       "arabicText": "اللَّهُمَّ لَكَ صُمْتُ وَعَلَى رِزْقِكَ أَفْطَرْتُ",
       "transliteration": "Allahumma laka sumtu wa 'ala rizqika aftartu",
       "translation": "O Allah, for You I have fasted and with Your provision I have broken my fast",
       "translationUrdu": "اے اللہ! میں نے تیرے لیے روزہ رکھا اور تیرے رزق سے افطار کیا",
-      "reference": { "source": "hadith", "book": "Abu Dawud", "hadithNumber": "2358", "authenticity": "hasan" },
-      "tags": ["fasting", "iftar", "ramadan"],
-      "searchKeywords": ["iftar", "breaking fast", "roza kholna", "افطار"]
+      "reference": {
+        "source": "hadith",
+        "book": "Abu Dawud",
+        "hadithNumber": "2358",
+        "authenticity": "hasan"
+      },
+      "tags": [
+        "fasting",
+        "iftar",
+        "ramadan"
+      ],
+      "searchKeywords": [
+        "iftar",
+        "breaking fast",
+        "roza kholna",
+        "افطار"
+      ]
     },
     {
       "id": "anxiety_003",
       "title": "For Removing Worry and Sadness",
       "titleArabic": "دعاء إزالة الهم والحزن",
       "titleUrdu": "غم اور پریشانی دور کرنے کی دعا",
-      "category": { "id": "anxiety", "name": "Anxiety & Distress" },
+      "category": {
+        "id": "anxiety",
+        "name": "Anxiety & Distress"
+      },
       "arabicText": "اللَّهُمَّ إِنِّي عَبْدُكَ، ابْنُ عَبْدِكَ، ابْنُ أَمَتِكَ، نَاصِيَتِي بِيَدِكَ، مَاضٍ فِيَّ حُكْمُكَ، عَدْلٌ فِيَّ قَضَاؤُكَ، أَسْأَلُكَ بِكُلِّ اسْمٍ هُوَ لَكَ سَمَّيْتَ بِهِ نَفْسَكَ، أَوْ أَنْزَلْتَهُ فِي كِتَابِكَ، أَوْ عَلَّمْتَهُ أَحَدًا مِنْ خَلْقِكَ، أَوِ اسْتَأْثَرْتَ بِهِ فِي عِلْمِ الْغَيْبِ عِنْدَكَ، أَنْ تَجْعَلَ الْقُرْآنَ رَبِيعَ قَلْبِي، وَنُورَ صَدْرِي، وَجَلاَءَ حُزْنِي، وَذَهَابَ هَمِّي",
       "transliteration": "Allahumma inni 'abduka, ibnu 'abdika, ibnu amatika, nasiyati biyadika, madin fiyya hukmuka, 'adlun fiyya qada'uka, as'aluka bikulli ismin huwa laka sammayta bihi nafsaka, aw anzaltahu fi kitabika, aw 'allamtahu ahadan min khalqika, awis-ta'tharta bihi fi 'ilmil-ghaybi 'indaka, an taj'alal-Qur'ana rabi'a qalbi, wa nura sadri, wa jala'a huzni, wa dhahaba hammi",
       "translation": "O Allah, I am Your servant, son of Your servant, son of Your maidservant. My forelock is in Your hand, Your command over me is forever executed and Your decree over me is just. I ask You by every name belonging to You which You have named Yourself with, or revealed in Your Book, or taught to any of Your creation, or preserved in the knowledge of the unseen with You, that You make the Quran the life of my heart and the light of my chest, and a departure for my sorrow and a release for my anxiety",
       "translationUrdu": "اے اللہ! میں تیرا بندہ ہوں، تیرے بندے کا بیٹا ہوں، تیری بندی کا بیٹا ہوں، میری پیشانی تیرے ہاتھ میں ہے، میرے بارے میں تیرا حکم جاری ہے، میرے بارے میں تیرا فیصلہ عدل ہے۔ میں تجھ سے ہر اس نام کے واسطے سے سوال کرتا ہوں جو تیرا ہے، جس سے تو نے اپنے آپ کو پکارا، یا اپنی کتاب میں نازل کیا، یا اپنی مخلوق میں سے کسی کو سکھایا، یا اپنے پاس غیب کے علم میں محفوظ رکھا ہے، کہ تو قرآن کو میرے دل کی بہار، میرے سینے کا نور، میرے غم کا خاتمہ، اور میری پریشانی کے دور ہونے کا ذریعہ بنا دے",
-      "reference": { "source": "hadith", "book": "Ahmad", "hadithNumber": "3712", "authenticity": "sahih" },
+      "reference": {
+        "source": "hadith",
+        "book": "Ahmad",
+        "hadithNumber": "3712",
+        "authenticity": "sahih"
+      },
       "benefits": "Allah will take away his worry and replace it with joy",
       "benefitsUrdu": "اللہ اس کی پریشانی دور کر دے گا اور اس کی جگہ خوشی عطا فرمائے گا",
-      "tags": ["anxiety", "depression", "worry", "sadness"],
-      "searchKeywords": ["depression", "worry", "sadness", "gham", "pareshani", "غم"]
+      "tags": [
+        "anxiety",
+        "depression",
+        "worry",
+        "sadness"
+      ],
+      "searchKeywords": [
+        "depression",
+        "worry",
+        "sadness",
+        "gham",
+        "pareshani",
+        "غم"
+      ]
     },
     {
       "id": "anxiety_004",
       "title": "During Times of Fear",
       "titleArabic": "دعاء عند الخوف",
       "titleUrdu": "خوف کے وقت کی دعا",
-      "category": { "id": "anxiety", "name": "Anxiety & Distress" },
+      "category": {
+        "id": "anxiety",
+        "name": "Anxiety & Distress"
+      },
       "arabicText": "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
       "transliteration": "Hasbunallahu wa ni'mal-wakil",
       "translation": "Allah is sufficient for us, and He is the best Disposer of affairs",
       "translationUrdu": "اللہ ہمارے لیے کافی ہے اور وہ بہترین کارساز ہے",
-      "reference": { "source": "quran", "chapter": "Al-Imran", "verse": "3:173" },
-      "tags": ["fear", "trust", "protection"],
-      "searchKeywords": ["fear", "khauf", "trust allah", "خوف"]
+      "reference": {
+        "source": "quran",
+        "chapter": "Al-Imran",
+        "verse": "3:173"
+      },
+      "tags": [
+        "fear",
+        "trust",
+        "protection"
+      ],
+      "searchKeywords": [
+        "fear",
+        "khauf",
+        "trust allah",
+        "خوف"
+      ]
     },
     {
       "id": "study_003",
       "title": "Before Reading or Studying",
       "titleArabic": "دعاء قبل القراءة",
       "titleUrdu": "پڑھنے سے پہلے کی دعا",
-      "category": { "id": "study", "name": "Study & Knowledge" },
+      "category": {
+        "id": "study",
+        "name": "Study & Knowledge"
+      },
       "arabicText": "اللَّهُمَّ انْفَعْنِي بِمَا عَلَّمْتَنِي وَعَلِّمْنِي مَا يَنْفَعُنِي وَارْزُقْنِي عِلْمًا يَنْفَعُنِي",
       "transliteration": "Allahummanfa'ni bima 'allamtani wa 'allimni ma yanfa'uni warzuqni 'ilman yanfa'uni",
       "translation": "O Allah, benefit me with what You have taught me, and teach me what will benefit me, and grant me knowledge that will benefit me",
       "translationUrdu": "اے اللہ! جو تو نے مجھے سکھایا ہے اس سے مجھے فائدہ دے، اور مجھے وہ سکھا جو مجھے فائدہ دے، اور مجھے ایسا علم عطا فرما جو مجھے فائدہ دے",
-      "reference": { "source": "hadith", "book": "Ibn Majah", "hadithNumber": "251", "authenticity": "sahih" },
-      "tags": ["study", "learning", "knowledge"],
-      "searchKeywords": ["study", "learning", "ilm", "علم", "parhna"]
+      "reference": {
+        "source": "hadith",
+        "book": "Ibn Majah",
+        "hadithNumber": "251",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "study",
+        "learning",
+        "knowledge"
+      ],
+      "searchKeywords": [
+        "study",
+        "learning",
+        "ilm",
+        "علم",
+        "parhna"
+      ]
     },
     {
       "id": "study_004",
       "title": "After Studying - For Retention",
       "titleArabic": "دعاء للحفظ",
       "titleUrdu": "یاد رکھنے کے لیے دعا",
-      "category": { "id": "study", "name": "Study & Knowledge" },
+      "category": {
+        "id": "study",
+        "name": "Study & Knowledge"
+      },
       "arabicText": "اللَّهُمَّ إِنِّي أَسْتَوْدِعُكَ مَا قَرَأْتُ وَمَا حَفِظْتُ فَرُدَّهُ عَلَيَّ عِنْدَ حَاجَتِي إِلَيْهِ",
       "transliteration": "Allahumma inni astawdi'uka ma qara'tu wa ma hafiztu faruddahu 'alayya 'inda hajati ilayh",
       "translation": "O Allah, I entrust You with what I have read and what I have memorized, so return it to me when I am in need of it",
       "translationUrdu": "اے اللہ! میں نے جو پڑھا اور جو یاد کیا اسے تیرے سپرد کرتا ہوں، پس جب مجھے اس کی ضرورت ہو تو اسے میری طرف لوٹا دے",
-      "reference": { "source": "traditional", "book": "Various scholars", "authenticity": "common practice" },
-      "tags": ["study", "memory", "retention", "exam"],
-      "searchKeywords": ["memory", "retention", "exam", "yaad", "hafiza", "یاد"]
+      "reference": {
+        "source": "traditional",
+        "book": "Various scholars",
+        "authenticity": "common practice"
+      },
+      "tags": [
+        "study",
+        "memory",
+        "retention",
+        "exam"
+      ],
+      "searchKeywords": [
+        "memory",
+        "retention",
+        "exam",
+        "yaad",
+        "hafiza",
+        "یاد"
+      ]
     },
     {
       "id": "home_003",
       "title": "For Blessing in Wealth",
       "titleArabic": "دعاء البركة في المال",
       "titleUrdu": "مال میں برکت کی دعا",
-      "category": { "id": "home", "name": "Home & Family" },
+      "category": {
+        "id": "home",
+        "name": "Home & Family"
+      },
       "arabicText": "اللَّهُمَّ بَارِكْ لَنَا فِيمَا رَزَقْتَنَا، وَقِنَا عَذَابَ النَّارِ",
       "transliteration": "Allahumma barik lana fima razaqtana, wa qina 'adhaban-nar",
       "translation": "O Allah, bless us in what You have provided us, and save us from the punishment of the Fire",
       "translationUrdu": "اے اللہ! جو تو نے ہمیں رزق دیا ہے اس میں برکت دے، اور ہمیں آگ کے عذاب سے بچا",
-      "reference": { "source": "hadith", "book": "Muslim", "hadithNumber": "2715", "authenticity": "sahih" },
-      "tags": ["wealth", "blessing", "barakah"],
-      "searchKeywords": ["wealth", "money", "barakah", "barkat", "maal", "برکت"]
+      "reference": {
+        "source": "hadith",
+        "book": "Muslim",
+        "hadithNumber": "2715",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "wealth",
+        "blessing",
+        "barakah"
+      ],
+      "searchKeywords": [
+        "wealth",
+        "money",
+        "barakah",
+        "barkat",
+        "maal",
+        "برکت"
+      ]
     },
     {
       "id": "home_004",
       "title": "For Righteous Spouse",
       "titleArabic": "دعاء للزوج الصالح",
       "titleUrdu": "نیک شریک حیات کے لیے دعا",
-      "category": { "id": "home", "name": "Home & Family" },
+      "category": {
+        "id": "home",
+        "name": "Home & Family"
+      },
       "arabicText": "رَبِّ هَبْ لِي مِن لَّدُنكَ ذُرِّيَّةً طَيِّبَةً ۖ إِنَّكَ سَمِيعُ الدُّعَاءِ",
       "transliteration": "Rabbi hab li min ladunka dhurriyyatan tayyibatan innaka sami'ud-du'a",
       "translation": "My Lord, grant me from Yourself a good offspring. Indeed, You are the Hearer of supplication",
       "translationUrdu": "اے میرے رب! مجھے اپنی طرف سے نیک اولاد عطا فرما، بے شک تو دعا سننے والا ہے",
-      "reference": { "source": "quran", "chapter": "Al-Imran", "verse": "3:38" },
-      "tags": ["marriage", "spouse", "children"],
-      "searchKeywords": ["marriage", "spouse", "shadi", "شادی"]
-    },
-    {
-      "id": "prayer_003",
-      "title": "After Adhan (Call to Prayer)",
-      "titleArabic": "دعاء بعد الأذان",
-      "titleUrdu": "اذان کے بعد کی دعا",
-      "category": { "id": "prayer", "name": "Prayer" },
-      "arabicText": "اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ، وَالصَّلاَةِ الْقَائِمَةِ، آتِ مُحَمَّدًا الْوَسِيلَةَ وَالْفَضِيلَةَ، وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ",
-      "transliteration": "Allahumma rabba hadhihid-da'watit-tammah, wassalatil-qa'imah, ati Muhammadanil-wasilata wal-fadilah, wab'athu maqaman mahmudanil-ladhi wa'adtah",
-      "translation": "O Allah, Lord of this perfect call and established prayer, grant Muhammad the means and the virtue, and raise him to the praised station which You have promised him",
-      "translationUrdu": "اے اللہ! اس مکمل دعوت اور قائم ہونے والی نماز کے رب، محمد ﷺ کو وسیلہ اور فضیلت عطا فرما، اور انہیں وہ مقام محمود پر فائز فرما جس کا تو نے ان سے وعدہ کیا ہے",
-      "reference": { "source": "hadith", "book": "Bukhari", "hadithNumber": "614", "authenticity": "sahih" },
-      "benefits": "My intercession will be granted for him on the Day of Resurrection",
-      "benefitsUrdu": "قیامت کے دن میری شفاعت اس کے لیے واجب ہو جائے گی",
-      "tags": ["adhan", "prayer", "azaan"],
-      "searchKeywords": ["adhan", "azaan", "call to prayer", "اذان"]
+      "reference": {
+        "source": "quran",
+        "chapter": "Al-Imran",
+        "verse": "3:38"
+      },
+      "tags": [
+        "marriage",
+        "spouse",
+        "children"
+      ],
+      "searchKeywords": [
+        "marriage",
+        "spouse",
+        "shadi",
+        "شادی"
+      ]
     },
     {
       "id": "prayer_004",
       "title": "Between Sujood (Prostration)",
       "titleArabic": "دعاء بين السجدتين",
       "titleUrdu": "دو سجدوں کے درمیان دعا",
-      "category": { "id": "prayer", "name": "Prayer" },
+      "category": {
+        "id": "prayer",
+        "name": "Prayer"
+      },
       "arabicText": "رَبِّ اغْفِرْ لِي، رَبِّ اغْفِرْ لِي",
       "transliteration": "Rabbighfir li, rabbighfir li",
       "translation": "My Lord, forgive me. My Lord, forgive me",
       "translationUrdu": "اے میرے رب! مجھے بخش دے، اے میرے رب! مجھے بخش دے",
-      "reference": { "source": "hadith", "book": "Abu Dawud", "hadithNumber": "874", "authenticity": "sahih" },
-      "tags": ["prayer", "sujood", "forgiveness"],
-      "searchKeywords": ["sujood", "prostration", "sajda", "سجدہ"]
-    },
-    {
-      "id": "protection_003",
-      "title": "Against Evil Eye",
-      "titleArabic": "دعاء من العين",
-      "titleUrdu": "نظر بد سے بچاؤ کی دعا",
-      "category": { "id": "protection", "name": "Protection" },
-      "arabicText": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
-      "transliteration": "A'udhu bikalimatillahit-tammati min sharri ma khalaq",
-      "translation": "I seek refuge in the perfect words of Allah from the evil of what He has created",
-      "translationUrdu": "میں اللہ کے کامل کلمات کی پناہ چاہتا ہوں اس کی مخلوق کی شر سے",
-      "reference": { "source": "hadith", "book": "Muslim", "hadithNumber": "2708", "authenticity": "sahih" },
-      "benefits": "Nothing will harm him",
-      "benefitsUrdu": "کوئی چیز اسے نقصان نہیں پہنچائے گی",
-      "tags": ["protection", "evil eye", "nazar"],
-      "searchKeywords": ["evil eye", "nazar", "bad eye", "نظر بد"]
+      "reference": {
+        "source": "hadith",
+        "book": "Abu Dawud",
+        "hadithNumber": "874",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "prayer",
+        "sujood",
+        "forgiveness"
+      ],
+      "searchKeywords": [
+        "sujood",
+        "prostration",
+        "sajda",
+        "سجدہ"
+      ]
     },
     {
       "id": "protection_004",
       "title": "Against Magic and Harm",
       "titleArabic": "المعوذات",
       "titleUrdu": "جادو اور نقصان سے بچاؤ",
-      "category": { "id": "protection", "name": "Protection" },
+      "category": {
+        "id": "protection",
+        "name": "Protection"
+      },
       "arabicText": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ، مِن شَرِّ مَا خَلَقَ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ، وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
       "transliteration": "Qul a'udhu birabbil-falaq, min sharri ma khalaq, wa min sharri ghasiqin idha waqab, wa min sharrin-naffathati fil-'uqad, wa min sharri hasidin idha hasad",
       "translation": "Say: I seek refuge in the Lord of daybreak, from the evil of what He has created, and from the evil of darkness when it settles, and from the evil of the blowers in knots, and from the evil of an envier when he envies",
       "translationUrdu": "کہہ دیجیے: میں صبح کے رب کی پناہ چاہتا ہوں، اس کی مخلوق کی شر سے، اور اندھیرے کی برائی سے جب وہ چھا جائے، اور گرہوں میں پھونک مارنے والیوں کی شر سے، اور حسد کرنے والے کی شر سے جب وہ حسد کرے",
-      "reference": { "source": "quran", "chapter": "Al-Falaq", "verse": "113:1-5" },
-      "tags": ["protection", "magic", "jealousy"],
-      "searchKeywords": ["magic", "jaadu", "jealousy", "hasad", "جادو", "حسد"]
-    },
-    {
-      "id": "health_003",
-      "title": "When Visiting the Sick",
-      "titleArabic": "دعاء عيادة المريض",
-      "titleUrdu": "مریض کی عیادت کے وقت کی دعا",
-      "category": { "id": "health", "name": "Health & Wellness" },
-      "arabicText": "لَا بَأْسَ طَهُورٌ إِنْ شَاءَ اللَّهُ",
-      "transliteration": "La ba'sa tahurun in sha'Allah",
-      "translation": "There is no harm, (it is) a purification, if Allah wills",
-      "translationUrdu": "کوئی حرج نہیں، یہ پاکیزگی کا ذریعہ ہے، اگر اللہ نے چاہا",
-      "reference": { "source": "hadith", "book": "Bukhari", "hadithNumber": "3616", "authenticity": "sahih" },
-      "tags": ["health", "sick", "illness"],
-      "searchKeywords": ["sick", "illness", "hospital", "bimar", "بیمار"]
+      "reference": {
+        "source": "quran",
+        "chapter": "Al-Falaq",
+        "verse": "113:1-5"
+      },
+      "tags": [
+        "protection",
+        "magic",
+        "jealousy"
+      ],
+      "searchKeywords": [
+        "magic",
+        "jaadu",
+        "jealousy",
+        "hasad",
+        "جادو",
+        "حسد"
+      ]
     },
     {
       "id": "health_004",
       "title": "For Complete Healing",
       "titleArabic": "دعاء الشفاء التام",
       "titleUrdu": "مکمل شفا کی دعا",
-      "category": { "id": "health", "name": "Health & Wellness" },
+      "category": {
+        "id": "health",
+        "name": "Health & Wellness"
+      },
       "arabicText": "اللَّهُمَّ رَبَّ النَّاسِ، أَذْهِبِ الْبَأْسَ، اشْفِ أَنْتَ الشَّافِي، لاَ شِفَاءَ إِلاَّ شِفَاؤُكَ، شِفَاءً لاَ يُغَادِرُ سَقَمًا",
       "transliteration": "Allahumma rabban-nas, adhhibil-ba's, ishfi antash-shafi, la shifa'a illa shifa'uka, shifa'an la yughadiru saqama",
       "translation": "O Allah, Lord of mankind, remove the harm and heal him, for You are the Healer. There is no healing except Your healing, a healing that leaves no illness",
       "translationUrdu": "اے اللہ! لوگوں کے رب، تکلیف کو دور فرما، شفا دے، تو ہی شفا دینے والا ہے، تیری شفا کے علاوہ کوئی شفا نہیں، ایسی شفا جو کوئی بیماری نہ چھوڑے",
-      "reference": { "source": "hadith", "book": "Bukhari", "hadithNumber": "5675", "authenticity": "sahih" },
-      "tags": ["health", "healing", "shifa"],
-      "searchKeywords": ["healing", "shifa", "cure", "علاج", "شفا"]
+      "reference": {
+        "source": "hadith",
+        "book": "Bukhari",
+        "hadithNumber": "5675",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "health",
+        "healing",
+        "shifa"
+      ],
+      "searchKeywords": [
+        "healing",
+        "shifa",
+        "cure",
+        "علاج",
+        "شفا"
+      ]
     },
     {
       "id": "weather_003",
       "title": "When Seeing Lightning",
       "titleArabic": "دعاء عند رؤية البرق",
       "titleUrdu": "بجلی دیکھتے وقت کی دعا",
-      "category": { "id": "weather", "name": "Weather" },
+      "category": {
+        "id": "weather",
+        "name": "Weather"
+      },
       "arabicText": "سُبْحَانَ الَّذِي يُسَبِّحُ الرَّعْدُ بِحَمْدِهِ وَالْمَلَائِكَةُ مِنْ خِيفَتِهِ",
       "transliteration": "Subhanal-ladhi yusabbihur-ra'du bihamdihi wal-mala'ikatu min khifatih",
       "translation": "Glory is to Him Whom thunder glorifies with His praise, and the angels too, out of fear of Him",
       "translationUrdu": "پاک ہے وہ ذات جس کی تعریف کے ساتھ گرج تسبیح کرتی ہے، اور فرشتے بھی اس کے خوف سے",
-      "reference": { "source": "hadith", "book": "Bukhari (Adab al-Mufrad)", "hadithNumber": "723", "authenticity": "sahih" },
-      "tags": ["weather", "thunder", "lightning"],
-      "searchKeywords": ["lightning", "thunder", "bijli", "باجلی"]
+      "reference": {
+        "source": "hadith",
+        "book": "Bukhari (Adab al-Mufrad)",
+        "hadithNumber": "723",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "weather",
+        "thunder",
+        "lightning"
+      ],
+      "searchKeywords": [
+        "lightning",
+        "thunder",
+        "bijli",
+        "باجلی"
+      ]
     },
     {
       "id": "weather_004",
       "title": "Seeking Rain",
       "titleArabic": "دعاء الاستسقاء",
       "titleUrdu": "بارش کی دعا",
-      "category": { "id": "weather", "name": "Weather" },
+      "category": {
+        "id": "weather",
+        "name": "Weather"
+      },
       "arabicText": "اللَّهُمَّ اسْقِنَا غَيْثًا مُغِيثًا، مَرِيئًا مَرِيعًا، نَافِعًا غَيْرَ ضَارٍّ، عَاجِلًا غَيْرَ آجِلٍ",
       "transliteration": "Allahummasqina ghaythan mughithan, mari'an mari'a, nafi'an ghayra darrin, 'ajilan ghayra ajil",
       "translation": "O Allah, send us rain that will quench us, wholesome, beneficial, not harmful, soon and not delayed",
       "translationUrdu": "اے اللہ! ہمیں بارش عطا فرما جو سیراب کرنے والی ہو، خوشگوار اور سرسبز کرنے والی ہو، فائدہ مند ہو نقصان دہ نہ ہو، جلد آنے والی ہو دیر سے نہ آنے والی ہو",
-      "reference": { "source": "hadith", "book": "Abu Dawud", "hadithNumber": "1169", "authenticity": "sahih" },
-      "tags": ["weather", "rain", "drought"],
-      "searchKeywords": ["rain", "drought", "barish", "بارش"]
+      "reference": {
+        "source": "hadith",
+        "book": "Abu Dawud",
+        "hadithNumber": "1169",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "weather",
+        "rain",
+        "drought"
+      ],
+      "searchKeywords": [
+        "rain",
+        "drought",
+        "barish",
+        "بارش"
+      ]
     },
     {
       "id": "forgiveness_003",
       "title": "Master of Seeking Forgiveness",
       "titleArabic": "سيد الاستغفار",
       "titleUrdu": "استغفار کا سردار",
-      "category": { "id": "forgiveness", "name": "Forgiveness" },
+      "category": {
+        "id": "forgiveness",
+        "name": "Forgiveness"
+      },
       "arabicText": "اللَّهُمَّ أَنْتَ رَبِّي لاَ إِلَهَ إِلاَّ أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ بِذَنْبِي فَاغْفِرْ لِي، فَإِنَّهُ لاَ يَغْفِرُ الذُّنُوبَ إِلاَّ أَنْتَ",
       "transliteration": "Allahumma anta rabbi la ilaha illa anta, khalaqtani wa ana 'abduka, wa ana 'ala 'ahdika wa wa'dika mas-tata'tu, a'udhu bika min sharri ma sana'tu, abu'u laka bini'matika 'alayya, wa abu'u bidhanbi faghfir li, fa-innahu la yaghfirudh-dhunuba illa ant",
       "translation": "O Allah, You are my Lord, there is no deity except You. You created me and I am Your servant, and I am keeping my covenant and promise to You as much as I can. I seek refuge in You from the evil of what I have done. I acknowledge Your favor upon me and I acknowledge my sin, so forgive me, for verily none forgives sins except You",
       "translationUrdu": "اے اللہ! تو میرا رب ہے، تیرے سوا کوئی معبود نہیں۔ تو نے مجھے پیدا کیا اور میں تیرا بندہ ہوں، اور میں اپنی طاقت بھر تیرے عہد اور وعدے پر قائم ہوں۔ میں تیری پناہ چاہتا ہوں اس برائی سے جو میں نے کی ہے۔ میں تیری نعمت کا اقرار کرتا ہوں اور اپنے گناہ کا اعتراف کرتا ہوں، پس مجھے بخش دے، کیونکہ گناہ تیرے سوا کوئی نہیں بخشتا",
-      "reference": { "source": "hadith", "book": "Bukhari", "hadithNumber": "6306", "authenticity": "sahih" },
+      "reference": {
+        "source": "hadith",
+        "book": "Bukhari",
+        "hadithNumber": "6306",
+        "authenticity": "sahih"
+      },
       "benefits": "Whoever says this during the day with firm belief in it and dies that day before evening, he will be among the people of Paradise",
       "benefitsUrdu": "جو دن میں یقین کے ساتھ یہ کہے اور شام سے پہلے فوت ہو جائے، وہ جنتیوں میں سے ہو گا",
-      "tags": ["forgiveness", "repentance", "tawbah"],
-      "searchKeywords": ["sayyidul istighfar", "master forgiveness", "توبہ", "استغفار"]
+      "tags": [
+        "forgiveness",
+        "repentance",
+        "tawbah"
+      ],
+      "searchKeywords": [
+        "sayyidul istighfar",
+        "master forgiveness",
+        "توبہ",
+        "استغفار"
+      ]
     },
     {
       "id": "forgiveness_004",
       "title": "Simple Daily Istighfar",
       "titleArabic": "الاستغفار البسيط",
       "titleUrdu": "آسان استغفار",
-      "category": { "id": "forgiveness", "name": "Forgiveness" },
+      "category": {
+        "id": "forgiveness",
+        "name": "Forgiveness"
+      },
       "arabicText": "أَسْتَغْفِرُ اللَّهَ وَأَتُوبُ إِلَيْهِ",
       "transliteration": "Astaghfirullaha wa atubu ilayh",
       "translation": "I seek forgiveness from Allah and repent to Him",
       "translationUrdu": "میں اللہ سے بخشش مانگتا ہوں اور اسی کی طرف توبہ کرتا ہوں",
-      "reference": { "source": "hadith", "book": "Bukhari", "hadithNumber": "6307", "authenticity": "sahih" },
+      "reference": {
+        "source": "hadith",
+        "book": "Bukhari",
+        "hadithNumber": "6307",
+        "authenticity": "sahih"
+      },
       "benefits": "The Prophet ﷺ used to seek forgiveness more than 70 times a day",
       "benefitsUrdu": "نبی ﷺ دن میں 70 سے زیادہ بار استغفار فرماتے تھے",
-      "tags": ["forgiveness", "repentance", "daily"],
-      "searchKeywords": ["istighfar", "forgiveness", "استغفار"]
+      "tags": [
+        "forgiveness",
+        "repentance",
+        "daily"
+      ],
+      "searchKeywords": [
+        "istighfar",
+        "forgiveness",
+        "استغفار"
+      ]
     },
     {
       "id": "ramadan_003",
       "title": "Before Starting Fast (Suhoor)",
       "titleArabic": "دعاء السحور",
       "titleUrdu": "سحری کے وقت کی دعا",
-      "category": { "id": "ramadan", "name": "Ramadan & Fasting" },
+      "category": {
+        "id": "ramadan",
+        "name": "Ramadan & Fasting"
+      },
       "arabicText": "وَبِصَوْمِ غَدٍ نَوَيْتُ مِنْ شَهْرِ رَمَضَانَ",
       "transliteration": "Wa bisawmi ghadin nawytu min shahri ramadan",
       "translation": "I intend to fast tomorrow for the month of Ramadan",
       "translationUrdu": "اور میں نے رمضان کے مہینے میں کل کے روزے کی نیت کی",
-      "reference": { "source": "traditional", "book": "Common practice", "authenticity": "widespread" },
-      "tags": ["ramadan", "fasting", "suhoor"],
-      "searchKeywords": ["suhoor", "sehri", "fast intention", "سحری"]
+      "reference": {
+        "source": "traditional",
+        "book": "Common practice",
+        "authenticity": "widespread"
+      },
+      "tags": [
+        "ramadan",
+        "fasting",
+        "suhoor"
+      ],
+      "searchKeywords": [
+        "suhoor",
+        "sehri",
+        "fast intention",
+        "سحری"
+      ]
     },
     {
       "id": "ramadan_004",
       "title": "Last Ten Nights of Ramadan",
       "titleArabic": "دعاء العشر الأواخر",
       "titleUrdu": "رمضان کے آخری دس دن کی دعا",
-      "category": { "id": "ramadan", "name": "Ramadan & Fasting" },
+      "category": {
+        "id": "ramadan",
+        "name": "Ramadan & Fasting"
+      },
       "arabicText": "اللَّهُمَّ إِنَّكَ عَفُوٌّ كَرِيمٌ تُحِبُّ الْعَفْوَ فَاعْفُ عَنِّي",
       "transliteration": "Allahumma innaka 'afuwwun karimun tuhibbul-'afwa fa'fu 'anni",
       "translation": "O Allah, You are Most Forgiving, Most Generous, You love to forgive, so forgive me",
       "translationUrdu": "اے اللہ! بے شک تو معاف کرنے والا کریم ہے، معافی کو پسند کرتا ہے، پس مجھے معاف فرما",
-      "reference": { "source": "hadith", "book": "Tirmidhi", "hadithNumber": "3513", "authenticity": "sahih" },
-      "tags": ["ramadan", "last ten nights"],
-      "searchKeywords": ["last ten", "ashara", "آخری دس"]
+      "reference": {
+        "source": "hadith",
+        "book": "Tirmidhi",
+        "hadithNumber": "3513",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "ramadan",
+        "last ten nights"
+      ],
+      "searchKeywords": [
+        "last ten",
+        "ashara",
+        "آخری دس"
+      ]
     },
     {
       "id": "hajj_003",
       "title": "At Mount Arafat",
       "titleArabic": "دعاء عرفة",
       "titleUrdu": "عرفات میں دعا",
-      "category": { "id": "hajj", "name": "Hajj & Umrah" },
+      "category": {
+        "id": "hajj",
+        "name": "Hajj & Umrah"
+      },
       "arabicText": "لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
       "transliteration": "La ilaha illallahu wahdahu la sharika lah, lahul-mulku wa lahul-hamdu, wa huwa 'ala kulli shay'in qadir",
       "translation": "There is no deity except Allah, alone without partner. To Him belongs dominion, and to Him belongs all praise, and He is over all things competent",
       "translationUrdu": "اللہ کے سوا کوئی معبود نہیں، وہ اکیلا ہے، اس کا کوئی شریک نہیں، اسی کی بادشاہت ہے، اسی کے لیے تمام تعریفیں ہیں، اور وہ ہر چیز پر قادر ہے",
-      "reference": { "source": "hadith", "book": "Tirmidhi", "hadithNumber": "3585", "authenticity": "hasan" },
+      "reference": {
+        "source": "hadith",
+        "book": "Tirmidhi",
+        "hadithNumber": "3585",
+        "authenticity": "hasan"
+      },
       "benefits": "The best supplication is the supplication on the day of Arafat",
       "benefitsUrdu": "سب سے بہترین دعا عرفہ کے دن کی دعا ہے",
-      "tags": ["hajj", "arafat"],
-      "searchKeywords": ["arafat", "hajj", "عرفات"]
+      "tags": [
+        "hajj",
+        "arafat"
+      ],
+      "searchKeywords": [
+        "arafat",
+        "hajj",
+        "عرفات"
+      ]
     },
     {
       "id": "hajj_004",
       "title": "At Safa and Marwah",
       "titleArabic": "دعاء الصفا والمروة",
       "titleUrdu": "صفا اور مروہ پر دعا",
-      "category": { "id": "hajj", "name": "Hajj & Umrah" },
+      "category": {
+        "id": "hajj",
+        "name": "Hajj & Umrah"
+      },
       "arabicText": "إِنَّ الصَّفَا وَالْمَرْوَةَ مِن شَعَائِرِ اللَّهِ",
       "transliteration": "Innas-safa wal-marwata min sha'a'irillah",
       "translation": "Indeed, Safa and Marwah are among the symbols of Allah",
       "translationUrdu": "بے شک صفا اور مروہ اللہ کی نشانیوں میں سے ہیں",
-      "reference": { "source": "quran", "chapter": "Al-Baqarah", "verse": "2:158" },
-      "tags": ["hajj", "umrah", "safa marwah"],
-      "searchKeywords": ["safa", "marwah", "sa'i", "صفا مروہ"]
+      "reference": {
+        "source": "quran",
+        "chapter": "Al-Baqarah",
+        "verse": "2:158"
+      },
+      "tags": [
+        "hajj",
+        "umrah",
+        "safa marwah"
+      ],
+      "searchKeywords": [
+        "safa",
+        "marwah",
+        "sa'i",
+        "صفا مروہ"
+      ]
     },
     {
       "id": "funeral_003",
       "title": "When Closing the Eyes of the Deceased",
       "titleArabic": "دعاء تغميض الميت",
       "titleUrdu": "میت کی آنکھیں بند کرتے وقت کی دعا",
-      "category": { "id": "funeral", "name": "Funeral & Death" },
+      "category": {
+        "id": "funeral",
+        "name": "Funeral & Death"
+      },
       "arabicText": "اللَّهُمَّ اغْفِرْ لِ... وَارْفَعْ دَرَجَتَهُ فِي الْمَهْدِيِّينَ، وَاخْلُفْهُ فِي عَقِبِهِ فِي الْغَابِرِينَ، وَاغْفِرْ لَنَا وَلَهُ يَا رَبَّ الْعَالَمِينَ، وَافْسَحْ لَهُ فِي قَبْرِهِ، وَنَوِّرْ لَهُ فِيهِ",
       "transliteration": "Allahummaghfir li... warfa' darajatahu fil-mahdiyyin, wakhlufhu fi 'aqibihi fil-ghabirin, waghfir lana wa lahu ya rabbal-'alamin, wafsah lahu fi qabrihi, wa nawwir lahu fih",
       "translation": "O Allah, forgive [name], and elevate his station among those who are guided. Send him along the path of those who came before, and forgive us and him, O Lord of the worlds. Enlarge for him his grave and shed light upon him in it",
       "translationUrdu": "اے اللہ! [نام] کو بخش دے، اور ہدایت یافتہ لوگوں میں اس کا درجہ بلند فرما۔ اسے گزرے ہوئے لوگوں میں اس کا قائم مقام بنا، اور ہمیں اور اسے بخش دے اے رب العالمین۔ اس کی قبر کو کشادہ کر دے، اور اس میں اس کے لیے نور کر دے",
-      "reference": { "source": "hadith", "book": "Muslim", "hadithNumber": "920", "authenticity": "sahih" },
-      "tags": ["funeral", "death", "deceased"],
-      "searchKeywords": ["death", "deceased", "maut", "موت"]
+      "reference": {
+        "source": "hadith",
+        "book": "Muslim",
+        "hadithNumber": "920",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "funeral",
+        "death",
+        "deceased"
+      ],
+      "searchKeywords": [
+        "death",
+        "deceased",
+        "maut",
+        "موت"
+      ]
     },
     {
       "id": "funeral_004",
       "title": "Condolence",
       "titleArabic": "دعاء التعزية",
       "titleUrdu": "تعزیت کی دعا",
-      "category": { "id": "funeral", "name": "Funeral & Death" },
+      "category": {
+        "id": "funeral",
+        "name": "Funeral & Death"
+      },
       "arabicText": "إِنَّ لِلَّهِ مَا أَخَذَ، وَلَهُ مَا أَعْطَى، وَكُلُّ شَيْءٍ عِنْدَهُ بِأَجَلٍ مُسَمًّى، فَلْتَصْبِرْ وَلْتَحْتَسِبْ",
       "transliteration": "Inna lillahi ma akhada, wa lahu ma a'ta, wa kullu shay'in 'indahu bi-ajalin musamma, faltasbir waltahtasib",
       "translation": "Indeed, to Allah belongs what He took, and to Him belongs what He gave, and everything with Him has an appointed time. So be patient and seek reward",
       "translationUrdu": "بے شک اللہ ہی کا ہے جو اس نے لیا، اور اسی کا ہے جو اس نے دیا، اور اس کے پاس ہر چیز ایک مقررہ وقت کے ساتھ ہے، پس صبر کرو اور ثواب کی امید رکھو",
-      "reference": { "source": "hadith", "book": "Bukhari", "hadithNumber": "1284", "authenticity": "sahih" },
-      "tags": ["funeral", "condolence", "taziyat"],
-      "searchKeywords": ["condolence", "taziyat", "تعزیت"]
-    },
-    {
-      "id": "gratitude_003",
-      "title": "When Receiving Good News",
-      "titleArabic": "دعاء عند البشارة",
-      "titleUrdu": "خوشخبری ملنے پر دعا",
-      "category": { "id": "gratitude", "name": "Gratitude & Praise" },
-      "arabicText": "الْحَمْدُ لِلَّهِ الَّذِي بِنِعْمَتِهِ تَتِمُّ الصَّالِحَاتُ",
-      "transliteration": "Alhamdu lillahil-ladhi bi-ni'matihi tatimmus-salihat",
-      "translation": "All praise is to Allah by Whose favor good things are completed",
-      "translationUrdu": "تمام تعریفیں اللہ کے لیے ہیں جس کی نعمت سے نیکیاں مکمل ہوتی ہیں",
-      "reference": { "source": "hadith", "book": "Ibn Majah", "hadithNumber": "3803", "authenticity": "sahih" },
-      "tags": ["gratitude", "good news", "blessing"],
-      "searchKeywords": ["good news", "success", "khushkhabri", "خوشخبری"]
+      "reference": {
+        "source": "hadith",
+        "book": "Bukhari",
+        "hadithNumber": "1284",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "funeral",
+        "condolence",
+        "taziyat"
+      ],
+      "searchKeywords": [
+        "condolence",
+        "taziyat",
+        "تعزیت"
+      ]
     },
     {
       "id": "gratitude_004",
       "title": "Praising Allah's Greatness",
       "titleArabic": "تكبير الله",
       "titleUrdu": "اللہ کی بڑائی",
-      "category": { "id": "gratitude", "name": "Gratitude & Praise" },
+      "category": {
+        "id": "gratitude",
+        "name": "Gratitude & Praise"
+      },
       "arabicText": "اللَّهُ أَكْبَرُ",
       "transliteration": "Allahu Akbar",
       "translation": "Allah is the Greatest",
       "translationUrdu": "اللہ سب سے بڑا ہے",
-      "reference": { "source": "hadith", "book": "Multiple sources", "authenticity": "mutawatir" },
+      "reference": {
+        "source": "hadith",
+        "book": "Multiple sources",
+        "authenticity": "mutawatir"
+      },
       "benefits": "One of the best forms of remembrance",
       "benefitsUrdu": "سب سے بہترین ذکر میں سے ایک",
-      "tags": ["gratitude", "praise", "takbir"],
-      "searchKeywords": ["takbir", "allahu akbar", "تکبیر"]
+      "tags": [
+        "gratitude",
+        "praise",
+        "takbir"
+      ],
+      "searchKeywords": [
+        "takbir",
+        "allahu akbar",
+        "تکبیر"
+      ]
     },
     {
       "id": "protection_005",
       "title": "Last Two Verses of Surah Baqarah",
       "titleArabic": "آخر سورة البقرة",
       "titleUrdu": "سورہ بقرہ کی آخری دو آیتیں",
-      "category": { "id": "protection", "name": "Protection" },
+      "category": {
+        "id": "protection",
+        "name": "Protection"
+      },
       "arabicText": "آمَنَ الرَّسُولُ بِمَا أُنزِلَ إِلَيْهِ مِن رَّبِّهِ وَالْمُؤْمِنُونَ ۚ كُلٌّ آمَنَ بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِّن رُّسُلِهِ ۚ وَقَالُوا سَمِعْنَا وَأَطَعْنَا ۖ غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ الْمَصِيرُ",
       "transliteration": "Amanar-rasulu bima unzila ilayhi mir-rabbihi wal-mu'minun, kullun amana billahi wa mala'ikatihi wa kutubihi wa rusulihi la nufarriqu bayna ahadim mir-rusulihi wa qalu sami'na wa ata'na ghufranaka rabbana wa ilaykal-masir",
       "translation": "The Messenger has believed in what was revealed to him from his Lord, and the believers. All of them have believed in Allah and His angels and His books and His messengers, saying, 'We make no distinction between any of His messengers.' And they say, 'We hear and we obey. Your forgiveness, our Lord, and to You is the final destination'",
       "translationUrdu": "رسول ایمان لایا اس چیز پر جو اس کی طرف اس کے رب کی طرف سے نازل کی گئی اور مومنین بھی۔ سب ایمان لائے اللہ پر اور اس کے فرشتوں پر اور اس کی کتابوں پر اور اس کے رسولوں پر، ہم اس کے رسولوں میں سے کسی کے درمیان فرق نہیں کرتے۔ اور انہوں نے کہا ہم نے سنا اور اطاعت کی، اے ہمارے رب تیری بخشش، اور تیری طرف ہی لوٹنا ہے",
-      "reference": { "source": "quran", "chapter": "Al-Baqarah", "verse": "2:285" },
+      "reference": {
+        "source": "quran",
+        "chapter": "Al-Baqarah",
+        "verse": "2:285"
+      },
       "benefits": "Whoever recites these two verses at night, they will suffice him",
       "benefitsUrdu": "جو رات میں یہ دو آیتیں پڑھے گا، وہ اس کے لیے کافی ہوں گی",
-      "tags": ["protection", "night", "sleep"],
-      "searchKeywords": ["baqarah", "last verses", "آخری آیتیں"]
+      "tags": [
+        "protection",
+        "night",
+        "sleep"
+      ],
+      "searchKeywords": [
+        "baqarah",
+        "last verses",
+        "آخری آیتیں"
+      ]
     },
     {
       "id": "daily_006",
       "title": "Entering the Market",
       "titleArabic": "دعاء دخول السوق",
       "titleUrdu": "بازار میں داخل ہونے کی دعا",
-      "category": { "id": "daily", "name": "Daily Life" },
+      "category": {
+        "id": "daily",
+        "name": "Daily Life"
+      },
       "arabicText": "لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، يُحْيِي وَيُمِيتُ، وَهُوَ حَيٌّ لاَ يَمُوتُ، بِيَدِهِ الْخَيْرُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
       "transliteration": "La ilaha illallahu wahdahu la sharika lah, lahul-mulku wa lahul-hamdu, yuhyi wa yumit, wa huwa hayyun la yamut, biyadihil-khayr, wa huwa 'ala kulli shay'in qadir",
       "translation": "There is no deity except Allah, alone without partner. To Him belongs dominion, and to Him belongs praise. He gives life and causes death, and He is Living and does not die. In His Hand is all good, and He is over all things competent",
       "translationUrdu": "اللہ کے سوا کوئی معبود نہیں، وہ اکیلا ہے، اس کا کوئی شریک نہیں، اسی کی بادشاہت ہے، اسی کے لیے تمام تعریفیں ہیں، وہ زندہ کرتا ہے اور مارتا ہے، اور وہ زندہ ہے مرتا نہیں، اس کے ہاتھ میں تمام بھلائی ہے، اور وہ ہر چیز پر قادر ہے",
-      "reference": { "source": "hadith", "book": "Tirmidhi", "hadithNumber": "3428", "authenticity": "hasan" },
+      "reference": {
+        "source": "hadith",
+        "book": "Tirmidhi",
+        "hadithNumber": "3428",
+        "authenticity": "hasan"
+      },
       "benefits": "A million good deeds will be written for him, a million sins will be wiped away, and he will be raised a million degrees",
       "benefitsUrdu": "اس کے لیے دس لاکھ نیکیاں لکھی جائیں گی، دس لاکھ گناہ مٹائے جائیں گے، اور دس لاکھ درجے بلند کیے جائیں گے",
-      "tags": ["market", "shopping", "daily"],
-      "searchKeywords": ["market", "shopping", "bazaar", "بازار"]
+      "tags": [
+        "market",
+        "shopping",
+        "daily"
+      ],
+      "searchKeywords": [
+        "market",
+        "shopping",
+        "bazaar",
+        "بازار"
+      ]
     },
     {
       "id": "anxiety_005",
       "title": "For Removing Debt",
       "titleArabic": "دعاء قضاء الدين",
       "titleUrdu": "قرضے سے نجات کی دعا",
-      "category": { "id": "anxiety", "name": "Anxiety & Distress" },
+      "category": {
+        "id": "anxiety",
+        "name": "Anxiety & Distress"
+      },
       "arabicText": "اللَّهُمَّ اكْفِنِي بِحَلالِكَ عَنْ حَرَامِكَ، وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ",
       "transliteration": "Allahummak-fini bihalalika 'an haramika, wa aghnini bifadlika 'amman siwak",
       "translation": "O Allah, suffice me with what You have allowed instead of what You have forbidden, and make me independent of all others besides You",
       "translationUrdu": "اے اللہ! مجھے اپنے حلال سے حرام سے بے نیاز کر دے، اور اپنے فضل سے مجھے تیرے علاوہ سب سے بے نیاز کر دے",
-      "reference": { "source": "hadith", "book": "Tirmidhi", "hadithNumber": "3563", "authenticity": "hasan" },
-      "tags": ["debt", "financial", "worry"],
-      "searchKeywords": ["debt", "loan", "qarz", "قرضہ"]
+      "reference": {
+        "source": "hadith",
+        "book": "Tirmidhi",
+        "hadithNumber": "3563",
+        "authenticity": "hasan"
+      },
+      "tags": [
+        "debt",
+        "financial",
+        "worry"
+      ],
+      "searchKeywords": [
+        "debt",
+        "loan",
+        "qarz",
+        "قرضہ"
+      ]
     },
     {
       "id": "health_005",
       "title": "Protection from Illness",
       "titleArabic": "دعاء الوقاية من المرض",
       "titleUrdu": "بیماری سے بچاؤ کی دعا",
-      "category": { "id": "health", "name": "Health & Wellness" },
+      "category": {
+        "id": "health",
+        "name": "Health & Wellness"
+      },
       "arabicText": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْبَرَصِ، وَالْجُنُونِ، وَالْجُذَامِ، وَمِنْ سَيِّئِ الأَسْقَامِ",
       "transliteration": "Allahumma inni a'udhu bika minal-barasi, wal-jununi, wal-judhami, wa min sayyi'il-asqam",
       "translation": "O Allah, I seek refuge in You from leprosy, insanity, elephantiasis, and evil diseases",
       "translationUrdu": "اے اللہ! میں تیری پناہ چاہتا ہوں برص، جنون، کوڑھ، اور بری بیماریوں سے",
-      "reference": { "source": "hadith", "book": "Abu Dawud", "hadithNumber": "1554", "authenticity": "sahih" },
-      "tags": ["health", "protection", "illness"],
-      "searchKeywords": ["illness", "disease", "bimari", "بیماری"]
+      "reference": {
+        "source": "hadith",
+        "book": "Abu Dawud",
+        "hadithNumber": "1554",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "health",
+        "protection",
+        "illness"
+      ],
+      "searchKeywords": [
+        "illness",
+        "disease",
+        "bimari",
+        "بیماری"
+      ]
+    },
+    {
+      "id": "forgiveness_002",
+      "title": "Master of Seeking Forgiveness",
+      "titleArabic": "سيد الاستغفار",
+      "titleUrdu": "سید الاستغفار",
+      "category": {
+        "id": "forgiveness",
+        "name": "Forgiveness"
+      },
+      "arabicText": "اللَّهُمَّ أَنْتَ رَبِّي لاَ إِلَهَ إِلاَّ أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ بِذَنْبِي فَاغْفِرْ لِي، فَإِنَّهُ لاَ يَغْفِرُ الذُّنُوبَ إِلاَّ أَنْتَ",
+      "transliteration": "Allahumma anta rabbi la ilaha illa ant, khalaqtani wa ana 'abduk, wa ana 'ala 'ahdika wa wa'dika mas-tata't, a'udhu bika min sharri ma sana't, abu'u laka bi-ni'matika 'alayy, wa abu'u bidhanbi faghfir li, fa-innahu la yaghfirudh-dhunuba illa ant",
+      "translation": "O Allah, You are my Lord, there is no deity except You. You created me and I am Your servant, and I am faithful to my covenant and my promise as much as I can. I seek refuge in You from the evil I have done. I acknowledge Your favor upon me and I acknowledge my sin, so forgive me, for verily none can forgive sins except You",
+      "translationUrdu": "اے اللہ! تو میرا رب ہے، تیرے سوا کوئی معبود نہیں، تو نے مجھے پیدا کیا اور میں تیرا بندہ ہوں، اور میں اپنی استطاعت کے مطابق تیرے عہد اور وعدے پر قائم ہوں، میں تیری پناہ چاہتا ہوں اس شر سے جو میں نے کیا، میں تیری نعمت کا اقرار کرتا ہوں جو مجھ پر ہے، اور میں اپنے گناہ کا اقرار کرتا ہوں، پس مجھے بخش دے، بے شک تیرے سوا گناہوں کو کوئی نہیں بخش سکتا",
+      "reference": {
+        "source": "hadith",
+        "book": "Bukhari",
+        "hadithNumber": "6306",
+        "authenticity": "sahih"
+      },
+      "benefits": "Whoever says it during the day with firm faith in it and dies on that day before the evening, will be from among the people of Paradise",
+      "benefitsUrdu": "جو اسے دن میں یقین کے ساتھ کہے اور شام سے پہلے اس دن مر جائے تو وہ جنتیوں میں سے ہوگا",
+      "tags": [
+        "forgiveness",
+        "sayyidul istighfar"
+      ],
+      "searchKeywords": [
+        "sayyidul istighfar",
+        "master forgiveness",
+        "سید الاستغفار"
+      ]
+    },
+    {
+      "id": "forgiveness_003",
+      "title": "Simple Repentance",
+      "titleArabic": "التوبة البسيطة",
+      "titleUrdu": "آسان توبہ",
+      "category": {
+        "id": "forgiveness",
+        "name": "Forgiveness"
+      },
+      "arabicText": "رَبِّ اغْفِرْ لِي",
+      "transliteration": "Rabbighfir li",
+      "translation": "My Lord, forgive me",
+      "translationUrdu": "اے میرے رب! مجھے بخش دے",
+      "reference": {
+        "source": "hadith",
+        "book": "Abu Dawud",
+        "hadithNumber": "874",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "forgiveness",
+        "simple"
+      ],
+      "searchKeywords": [
+        "simple forgiveness",
+        "toba",
+        "توبہ"
+      ]
+    },
+    {
+      "id": "daily_006",
+      "title": "Entering the Market",
+      "titleArabic": "دعاء دخول السوق",
+      "titleUrdu": "بازار میں داخل ہونے کی دعا",
+      "category": {
+        "id": "daily",
+        "name": "Daily Life"
+      },
+      "arabicText": "لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، يُحْيِي وَيُمِيتُ، وَهُوَ حَيٌّ لاَ يَمُوتُ، بِيَدِهِ الْخَيْرُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+      "transliteration": "La ilaha illallahu wahdahu la sharika lah, lahul-mulku wa lahul-hamdu, yuhyi wa yumit, wa huwa hayyun la yamut, biyadihil-khayr, wa huwa 'ala kulli shay'in qadir",
+      "translation": "There is no deity except Allah, alone without partner. To Him belongs dominion, and to Him belongs praise. He gives life and causes death, and He is Living and does not die. In His Hand is all good, and He is over all things competent",
+      "translationUrdu": "اللہ کے سوا کوئی معبود نہیں، وہ اکیلا ہے، اس کا کوئی شریک نہیں، اسی کی بادشاہت ہے، اسی کے لیے تمام تعریفیں ہیں، وہ زندہ کرتا ہے اور مارتا ہے، اور وہ زندہ ہے مرتا نہیں، اس کے ہاتھ میں تمام بھلائی ہے، اور وہ ہر چیز پر قادر ہے",
+      "reference": {
+        "source": "hadith",
+        "book": "Tirmidhi",
+        "hadithNumber": "3428",
+        "authenticity": "hasan"
+      },
+      "benefits": "A million good deeds will be written for him, a million sins will be wiped away, and he will be raised a million degrees",
+      "benefitsUrdu": "اس کے لیے دس لاکھ نیکیاں لکھی جائیں گی، دس لاکھ گناہ مٹائے جائیں گے، اور دس لاکھ درجے بلند کیے جائیں گے",
+      "tags": [
+        "market",
+        "shopping",
+        "daily"
+      ],
+      "searchKeywords": [
+        "market",
+        "shopping",
+        "bazaar",
+        "بازار"
+      ]
+    },
+    {
+      "id": "ramadan_002",
+      "title": "Laylatul Qadr",
+      "titleArabic": "دعاء ليلة القدر",
+      "titleUrdu": "شب قدر کی دعا",
+      "category": {
+        "id": "ramadan",
+        "name": "Ramadan & Fasting"
+      },
+      "arabicText": "اللَّهُمَّ إِنَّكَ عَفُوٌّ كَرِيمٌ تُحِبُّ الْعَفْوَ فَاعْفُ عَنِّي",
+      "transliteration": "Allahumma innaka 'afuwwun karimun tuhibbul-'afwa fa'fu 'anni",
+      "translation": "O Allah, You are Most Forgiving, Most Generous, You love to forgive, so forgive me",
+      "translationUrdu": "اے اللہ! بے شک تو معاف کرنے والا کریم ہے، معافی کو پسند کرتا ہے، پس مجھے معاف فرما",
+      "reference": {
+        "source": "hadith",
+        "book": "Tirmidhi",
+        "hadithNumber": "3513",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "ramadan",
+        "last ten nights"
+      ],
+      "searchKeywords": [
+        "last ten",
+        "laylatul qadr",
+        "شب قدر"
+      ]
+    },
+    {
+      "id": "hajj_001",
+      "title": "Talbiyah",
+      "titleArabic": "التلبية",
+      "titleUrdu": "تلبیہ",
+      "category": {
+        "id": "hajj",
+        "name": "Hajj & Umrah"
+      },
+      "arabicText": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لاَ شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ لاَ شَرِيكَ لَكَ",
+      "transliteration": "Labbayka Allahumma labbayk, labbayka la sharika laka labbayk, innal-hamda wan-ni'mata laka wal-mulk, la sharika lak",
+      "translation": "Here I am, O Allah, here I am. Here I am, You have no partner, here I am. Verily all praise, grace and sovereignty belong to You. You have no partner",
+      "translationUrdu": "حاضر ہوں اے اللہ حاضر ہوں، حاضر ہوں تیرا کوئی شریک نہیں حاضر ہوں، بے شک تمام تعریف، نعمت اور بادشاہی تیری ہے، تیرا کوئی شریک نہیں",
+      "reference": {
+        "source": "hadith",
+        "book": "Muslim",
+        "hadithNumber": "1184",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "hajj",
+        "umrah",
+        "talbiyah"
+      ],
+      "searchKeywords": [
+        "talbiyah",
+        "labbayk",
+        "تلبیہ"
+      ]
+    },
+    {
+      "id": "hajj_003",
+      "title": "At Mount Arafat",
+      "titleArabic": "دعاء عرفة",
+      "titleUrdu": "عرفات میں دعا",
+      "category": {
+        "id": "hajj",
+        "name": "Hajj & Umrah"
+      },
+      "arabicText": "لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+      "transliteration": "La ilaha illallahu wahdahu la sharika lah, lahul-mulku wa lahul-hamdu, wa huwa 'ala kulli shay'in qadir",
+      "translation": "There is no deity except Allah, alone without partner. To Him belongs dominion, and to Him belongs all praise, and He is over all things competent",
+      "translationUrdu": "اللہ کے سوا کوئی معبود نہیں، وہ اکیلا ہے، اس کا کوئی شریک نہیں، اسی کی بادشاہت ہے، اسی کے لیے تمام تعریفیں ہیں، اور وہ ہر چیز پر قادر ہے",
+      "reference": {
+        "source": "hadith",
+        "book": "Tirmidhi",
+        "hadithNumber": "3585",
+        "authenticity": "hasan"
+      },
+      "benefits": "The best supplication is the supplication on the day of Arafat",
+      "benefitsUrdu": "سب سے بہترین دعا عرفہ کے دن کی دعا ہے",
+      "tags": [
+        "hajj",
+        "arafat"
+      ],
+      "searchKeywords": [
+        "arafat",
+        "hajj",
+        "عرفات"
+      ]
+    },
+    {
+      "id": "hajj_004",
+      "title": "At Safa and Marwah",
+      "titleArabic": "دعاء الصفا والمروة",
+      "titleUrdu": "صفا اور مروہ پر دعا",
+      "category": {
+        "id": "hajj",
+        "name": "Hajj & Umrah"
+      },
+      "arabicText": "إِنَّ الصَّفَا وَالْمَرْوَةَ مِن شَعَائِرِ اللَّهِ",
+      "transliteration": "Innas-safa wal-marwata min sha'a'irillah",
+      "translation": "Indeed, Safa and Marwah are among the symbols of Allah",
+      "translationUrdu": "بے شک صفا اور مروہ اللہ کی نشانیوں میں سے ہیں",
+      "reference": {
+        "source": "quran",
+        "chapter": "Al-Baqarah",
+        "verse": "2:158"
+      },
+      "tags": [
+        "hajj",
+        "umrah",
+        "safa marwah"
+      ],
+      "searchKeywords": [
+        "safa",
+        "marwah",
+        "sa'i",
+        "صفا مروہ"
+      ]
+    },
+    {
+      "id": "funeral_001",
+      "title": "For the Deceased",
+      "titleArabic": "الصلاة على الميت",
+      "titleUrdu": "میت کے لیے دعا",
+      "category": {
+        "id": "funeral",
+        "name": "Funeral & Death"
+      },
+      "arabicText": "اللَّهُمَّ اغْفِرْ لَهُ وَارْحَمْهُ، وَعَافِهِ وَاعْفُ عَنْهُ",
+      "transliteration": "Allahummaghfir lahu warhamhu, wa 'afihi wa'fu 'anhu",
+      "translation": "O Allah, forgive him and have mercy on him, and give him strength and pardon him",
+      "translationUrdu": "اے اللہ! اسے بخش دے اور اس پر رحم فرما، اسے عافیت دے اور اسے معاف فرما",
+      "reference": {
+        "source": "hadith",
+        "book": "Muslim",
+        "hadithNumber": "963",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "funeral",
+        "deceased",
+        "janazah"
+      ],
+      "searchKeywords": [
+        "deceased",
+        "janazah",
+        "جنازہ"
+      ]
+    },
+    {
+      "id": "funeral_002",
+      "title": "When Someone Dies",
+      "titleArabic": "عند وفاة المسلم",
+      "titleUrdu": "کسی کی موت کے وقت",
+      "category": {
+        "id": "funeral",
+        "name": "Funeral & Death"
+      },
+      "arabicText": "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
+      "transliteration": "Inna lillahi wa inna ilayhi raji'un",
+      "translation": "Indeed we belong to Allah, and indeed to Him we will return",
+      "translationUrdu": "بے شک ہم اللہ کے لیے ہیں اور بے شک ہم اسی کی طرف لوٹنے والے ہیں",
+      "reference": {
+        "source": "quran",
+        "chapter": "Al-Baqarah",
+        "verse": "2:156"
+      },
+      "tags": [
+        "death",
+        "calamity"
+      ],
+      "searchKeywords": [
+        "death",
+        "maut",
+        "موت"
+      ]
+    },
+    {
+      "id": "funeral_003",
+      "title": "When Closing the Eyes of the Deceased",
+      "titleArabic": "دعاء تغميض الميت",
+      "titleUrdu": "میت کی آنکھیں بند کرتے وقت کی دعا",
+      "category": {
+        "id": "funeral",
+        "name": "Funeral & Death"
+      },
+      "arabicText": "اللَّهُمَّ اغْفِرْ لِ... وَارْفَعْ دَرَجَتَهُ فِي الْمَهْدِيِّينَ، وَاخْلُفْهُ فِي عَقِبِهِ فِي الْغَابِرِينَ، وَاغْفِرْ لَنَا وَلَهُ يَا رَبَّ الْعَالَمِينَ، وَافْسَحْ لَهُ فِي قَبْرِهِ، وَنَوِّرْ لَهُ فِيهِ",
+      "transliteration": "Allahummaghfir li... warfa' darajatahu fil-mahdiyyin, wakhlufhu fi 'aqibihi fil-ghabirin, waghfir lana wa lahu ya rabbal-'alamin, wafsah lahu fi qabrihi, wa nawwir lahu fih",
+      "translation": "O Allah, forgive [name], and elevate his station among those who are guided. Send him along the path of those who came before, and forgive us and him, O Lord of the worlds. Enlarge for him his grave and shed light upon him in it",
+      "translationUrdu": "اے اللہ! [نام] کو بخش دے، اور ہدایت یافتہ لوگوں میں اس کا درجہ بلند فرما۔ اسے گزرے ہوئے لوگوں میں اس کا قائم مقام بنا، اور ہمیں اور اسے بخش دے اے رب العالمین۔ اس کی قبر کو کشادہ کر دے، اور اس میں اس کے لیے نور کر دے",
+      "reference": {
+        "source": "hadith",
+        "book": "Muslim",
+        "hadithNumber": "920",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "funeral",
+        "death",
+        "deceased"
+      ],
+      "searchKeywords": [
+        "death",
+        "deceased",
+        "maut",
+        "موت"
+      ]
+    },
+    {
+      "id": "funeral_004",
+      "title": "Condolence",
+      "titleArabic": "دعاء التعزية",
+      "titleUrdu": "تعزیت کی دعا",
+      "category": {
+        "id": "funeral",
+        "name": "Funeral & Death"
+      },
+      "arabicText": "إِنَّ لِلَّهِ مَا أَخَذَ، وَلَهُ مَا أَعْطَى، وَكُلُّ شَيْءٍ عِنْدَهُ بِأَجَلٍ مُسَمًّى، فَلْتَصْبِرْ وَلْتَحْتَسِبْ",
+      "transliteration": "Inna lillahi ma akhada, wa lahu ma a'ta, wa kullu shay'in 'indahu bi-ajalin musamma, faltasbir waltahtasib",
+      "translation": "Indeed, to Allah belongs what He took, and to Him belongs what He gave, and everything with Him has an appointed time. So be patient and seek reward",
+      "translationUrdu": "بے شک اللہ ہی کا ہے جو اس نے لیا، اور اسی کا ہے جو اس نے دیا، اور اس کے پاس ہر چیز ایک مقررہ وقت کے ساتھ ہے، پس صبر کرو اور ثواب کی امید رکھو",
+      "reference": {
+        "source": "hadith",
+        "book": "Bukhari",
+        "hadithNumber": "1284",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "funeral",
+        "condolence",
+        "taziyat"
+      ],
+      "searchKeywords": [
+        "condolence",
+        "taziyat",
+        "تعزیت"
+      ]
+    },
+    {
+      "id": "daily_007",
+      "title": "When Looking in the Mirror",
+      "titleArabic": "دعاء النظر في المرآة",
+      "titleUrdu": "آئینے میں دیکھتے وقت",
+      "category": {
+        "id": "daily",
+        "name": "Daily Life"
+      },
+      "arabicText": "اللَّهُمَّ كَمَا حَسَّنْتَ خَلْقِي فَحَسِّنْ خُلُقِي",
+      "transliteration": "Allahumma kama hassanta khalqi fa-hassin khuluqi",
+      "translation": "O Allah, just as You have made my external features beautiful, make my character beautiful as well",
+      "translationUrdu": "اے اللہ! جیسے تو نے میری صورت کو خوبصورت بنایا ہے، اسی طرح میری سیرت کو بھی خوبصورت بنا دے",
+      "reference": {
+        "source": "hadith",
+        "book": "Ahmad",
+        "hadithNumber": "24460",
+        "authenticity": "hasan"
+      },
+      "tags": [
+        "daily",
+        "mirror"
+      ],
+      "searchKeywords": [
+        "mirror",
+        "aina",
+        "مرآة"
+      ]
+    },
+    {
+      "id": "daily_008",
+      "title": "When Wearing New Clothes",
+      "titleArabic": "دعاء لبس الثوب الجديد",
+      "titleUrdu": "نیا کپڑا پہنتے وقت",
+      "category": {
+        "id": "daily",
+        "name": "Daily Life"
+      },
+      "arabicText": "اللَّهُمَّ لَكَ الْحَمْدُ أَنْتَ كَسَوْتَنِيهِ، أَسْأَلُكَ مِنْ خَيْرِهِ وَخَيْرِ مَا صُنِعَ لَهُ، وَأَعُوذُ بِكَ مِنْ شَرِّهِ وَشَرِّ مَا صُنِعَ لَهُ",
+      "transliteration": "Allahumma lakal-hamdu anta kasawtanih, as'aluka min khayrihi wa khayri ma suni'a lah, wa a'udhu bika min sharrihi wa sharri ma suni'a lah",
+      "translation": "O Allah, to You belongs all praise, You have clothed me with it. I ask You for its goodness and the goodness of what it was made for, and I seek refuge with You from its evil and the evil of what it was made for",
+      "translationUrdu": "اے اللہ! تیرے لیے ہی تمام تعریفیں ہیں، تو نے مجھے یہ پہنایا، میں تجھ سے اس کی بھلائی اور جس کے لیے یہ بنایا گیا اس کی بھلائی مانگتا ہوں، اور میں تیری پناہ چاہتا ہوں اس کے شر اور جس کے لیے یہ بنایا گیا اس کے شر سے",
+      "reference": {
+        "source": "hadith",
+        "book": "Abu Dawud",
+        "hadithNumber": "4020",
+        "authenticity": "hasan"
+      },
+      "tags": [
+        "daily",
+        "clothes"
+      ],
+      "searchKeywords": [
+        "clothes",
+        "new",
+        "kapra",
+        "ثوب"
+      ]
+    },
+    {
+      "id": "daily_009",
+      "title": "When Sneezing",
+      "titleArabic": "عند العطاس",
+      "titleUrdu": "چھینک آنے پر",
+      "category": {
+        "id": "daily",
+        "name": "Daily Life"
+      },
+      "arabicText": "الْحَمْدُ لِلَّهِ",
+      "transliteration": "Alhamdulillah",
+      "translation": "All praise is for Allah",
+      "translationUrdu": "تمام تعریفیں اللہ کے لیے ہیں",
+      "reference": {
+        "source": "hadith",
+        "book": "Bukhari",
+        "hadithNumber": "6224",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "daily",
+        "sneezing"
+      ],
+      "searchKeywords": [
+        "sneeze",
+        "chheenk",
+        "عطاس"
+      ]
+    },
+    {
+      "id": "daily_010",
+      "title": "Response to Someone Sneezing",
+      "titleArabic": "الرد على العاطس",
+      "titleUrdu": "چھینکنے والے کا جواب",
+      "category": {
+        "id": "daily",
+        "name": "Daily Life"
+      },
+      "arabicText": "يَرْحَمُكَ اللَّهُ",
+      "transliteration": "Yarhamukallah",
+      "translation": "May Allah have mercy on you",
+      "translationUrdu": "اللہ تم پر رحم کرے",
+      "reference": {
+        "source": "hadith",
+        "book": "Bukhari",
+        "hadithNumber": "6224",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "daily",
+        "response"
+      ],
+      "searchKeywords": [
+        "sneeze response",
+        "yarhamukallah",
+        "یرحمک"
+      ]
     }
   ]
 }
