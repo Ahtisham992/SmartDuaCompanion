@@ -1,15 +1,6 @@
 {
-  "version": 6,
+  "version": 7,
   "categories": [
-    {
-      "id": "daily",
-      "name": "Daily Life",
-      "nameArabic": "الحياة اليومية",
-      "nameUrdu": "روزمرہ کی زندگی",
-      "icon": "sun",
-      "color": "#F59E0B",
-      "order": 1
-    },
     {
       "id": "sleep",
       "name": "Sleep & Waking",
