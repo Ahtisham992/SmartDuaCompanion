@@ -1,13 +1,15 @@
 // src/navigation/TabNavigator.tsx
 import React from 'react';
-import { Image, StyleSheet, View, Text } from 'react-native';
+import { Image, StyleSheet, View, Text, Platform } from 'react-native'; // Added Platform for safety
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import { useSafeAreaInsets } from 'react-native-safe-area-context'; // <--- 1. Import Hook
+
 import { TabParamList } from './types';
 import HomeScreen from '../screens/HomeScreen';
 import SearchScreen from '../screens/SearchScreen';
 import FavoritesScreen from '../screens/FavoritesScreen';
-import TasbihScreen from '../screens/TasbihScreen'; // NEW
+import TasbihScreen from '../screens/TasbihScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 import { useThemeColors } from '../hooks/useThemeColors';
 
@@ -15,6 +17,7 @@ const Tab = createBottomTabNavigator<TabParamList>();
 
 const TabNavigator = () => {
   const colors = useThemeColors();
+  const insets = useSafeAreaInsets(); // <--- 2. Get Safe Area Values
 
   return (
     <Tab.Navigator
@@ -22,9 +25,13 @@ const TabNavigator = () => {
         tabBarActiveTintColor: colors.primary.main,
         tabBarInactiveTintColor: colors.text.secondary,
         tabBarStyle: {
-          paddingBottom: 5,
+          // 3. FIX: Add system bottom bar height to the standard 60px
+          height: 60 + (insets.bottom > 0 ? insets.bottom : 0), 
+          
+          // 4. FIX: Push content up so it's not covered by the black bar
+          paddingBottom: insets.bottom > 0 ? insets.bottom : 5, 
+          
           paddingTop: 5,
-          height: 60,
           backgroundColor: colors.background.paper,
           borderTopColor: colors.background.subtle,
         },
@@ -77,7 +84,6 @@ const TabNavigator = () => {
           tabBarIcon: ({ color, size }) => <Icon name="magnify" size={size} color={color} />,
         }}
       />
-      {/* NEW: Tasbih Counter Tab */}
       <Tab.Screen
         name="Tasbih"
         component={TasbihScreen}
