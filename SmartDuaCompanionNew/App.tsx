@@ -16,45 +16,55 @@ import { fetchRemoteUpdate } from './src/store/slices/duaSlice'; // <--- Import 
 
 // Define your JSON URL
 const REMOTE_JSON_URL = 'https://raw.githubusercontent.com/Ahtisham992/SmartDuaCompanion/main/SmartDuaCompanionNew/src/data/initial-duas.json';
+// src/App.tsx
 
-// --- Inner Component (Where Logic Lives) ---
+// 1. Add DatabaseService to imports
+import DatabaseService from './src/services/database/DatabaseService'; 
+
+// ... other imports (React, NetInfo, useDispatch, etc.) stay the same ...
+
 const MainRoot = () => {
   const isDarkMode = useColorScheme() === 'dark';
   const [isShowSplash, setIsShowSplash] = useState(true);
   
-  // Redux Hooks
   const dispatch = useDispatch<any>();
-  const currentVersion = useSelector((state: RootState) => state.dua.version);
+  // ❌ REMOVED: const currentVersion = useSelector(...) -> potentially unreliable if persist fails
 
-  // --- Auto-Update Check Logic ---
   useEffect(() => {
     const checkForUpdatesSilent = async () => {
-      // 1. Check Network Status
       const state = await NetInfo.fetch();
 
-      // Only proceed if on Wi-Fi
       if (state.type === 'wifi' && state.isConnected) {
         console.log('📶 Wi-Fi detected, checking for updates...');
         try {
+          // 1. Get the TRUE local version directly from storage
+          const localVersion = await DatabaseService.getCurrentVersion();
+          
+          // 2. Get Remote Version
           const response = await fetch(REMOTE_JSON_URL);
           if (response.ok) {
             const data = await response.json();
             const remoteVersion = data.version || 1;
 
-            if (remoteVersion > currentVersion) {
-              console.log(`🚀 Update found! V${currentVersion} -> V${remoteVersion}`);
-              
+            console.log(`📊 Check: Local(${localVersion}) vs Remote(${remoteVersion})`);
+
+            // 3. Compare
+            if (remoteVersion > localVersion) {
+              console.log('🚀 Update found! Prompting user...');
               Alert.alert(
                 "New Update Available",
-                "New Duas and translations are available. Would you like to update now?",
+                "New Duas are available. Update now?",
                 [
                   { text: "Cancel", style: "cancel" },
                   { 
                     text: "Update Now", 
+                    // Update Redux AND Database
                     onPress: () => dispatch(fetchRemoteUpdate(REMOTE_JSON_URL))
                   }
                 ]
               );
+            } else {
+              console.log('✅ App is up to date.');
             }
           }
         } catch (error) {
@@ -64,9 +74,8 @@ const MainRoot = () => {
     };
 
     checkForUpdatesSilent();
-  }, []); // Run once on mount
+  }, []);
 
-  // --- Render Logic (Splash vs App) ---
   if (isShowSplash) {
     return <SplashScreen onFinish={() => setIsShowSplash(false)} />;
   }
@@ -83,16 +92,3 @@ const MainRoot = () => {
     </SafeAreaProvider>
   );
 };
-
-// --- Main App Component ---
-function App(): React.JSX.Element {
-  return (
-    <Provider store={store}>
-      <PersistGate loading={<Loading />} persistor={persistor}>
-        <MainRoot />
-      </PersistGate>
-    </Provider>
-  );
-}
-
-export default App;

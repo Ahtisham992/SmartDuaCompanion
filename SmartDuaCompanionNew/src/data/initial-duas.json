@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "categories": [
     {
       "id": "daily",
@@ -1329,7 +1329,7 @@
       ]
     },
     {
-      "id": "daily_007",
+      "id": "daily_001",
       "title": "When Wearing New Clothes",
       "titleArabic": "دعاء لبس الجديد",
       "titleUrdu": "نیا کپڑا پہننے کی دعا",
