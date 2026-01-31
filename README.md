@@ -36,9 +36,9 @@ Whether you are looking for morning/evening Azkar, protection duas, or supplicat
 
 ## 📱 Screenshots
 
-| Home Screen | Dark Mode | Urdu Interface | Dua Detail |
-|:---:|:---:|:---:|:---:|
-| <img src="screenshots/home_light.png" width="200" alt="Home Light"/> | <img src="screenshots/home_dark.png" width="200" alt="Home Dark"/> | <img src="screenshots/urdu_mode.png" width="200" alt="Urdu Mode"/> | <img src="screenshots/detail.png" width="200" alt="Detail Screen"/> |
+| Home Screen | Dark Mode | Urdu Interface | Dua Detail | Allah Names |
+|:---:|:---:|:---:|:---:|:---:|
+| <img src="./SmartDuaCompanionNew/src/assets/images/light theme.jpeg" width="200" alt="Home Light"/> | <img src="./SmartDuaCompanionNew/src/assets/images/dark theme.jpeg" width="200" alt="Home Dark"/> | <img src="./SmartDuaCompanionNew/src/assets/images/urdu language.jpeg" width="200" alt="Urdu Mode"/> | <img src="./SmartDuaCompanionNew/src/assets/images/Dua details.jpeg" width="200" alt="Detail Screen"/> | <img src="./SmartDuaCompanionNew/src/assets/images/Allah names.jpeg" width="200" alt="Allah names"/>
 
 *(Note: Screenshots demonstrate the app's bilingual and theme capabilities)*
 
