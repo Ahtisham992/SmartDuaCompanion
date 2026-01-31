@@ -309,7 +309,7 @@ const REMOTE_JSON_URL = 'https://raw.githubusercontent.com/Ahtisham992/SmartDuaC
       <View style={[styles.section, { backgroundColor: colors.background.paper }]}>
         <View style={styles.infoRow}>
           <Icon name="information-outline" size={20} color={colors.primary.main} />
-          <Text style={[styles.infoText, { color: colors.text.primary }]}>Smart Dua Companion v1.0.0</Text>
+          <Text style={[styles.infoText, { color: colors.text.primary }]}>Smart Dua Companion v2.0.0</Text>
         </View>
       </View>
 

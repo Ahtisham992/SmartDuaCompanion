@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 2,
   "categories": [
     {
       "id": "daily",
@@ -2608,35 +2608,6 @@
         "shopping",
         "bazaar",
         "بازار"
-      ]
-    },
-    {
-      "id": "ramadan_002",
-      "title": "Laylatul Qadr",
-      "titleArabic": "دعاء ليلة القدر",
-      "titleUrdu": "شب قدر کی دعا",
-      "category": {
-        "id": "ramadan",
-        "name": "Ramadan & Fasting"
-      },
-      "arabicText": "اللَّهُمَّ إِنَّكَ عَفُوٌّ كَرِيمٌ تُحِبُّ الْعَفْوَ فَاعْفُ عَنِّي",
-      "transliteration": "Allahumma innaka 'afuwwun karimun tuhibbul-'afwa fa'fu 'anni",
-      "translation": "O Allah, You are Most Forgiving, Most Generous, You love to forgive, so forgive me",
-      "translationUrdu": "اے اللہ! بے شک تو معاف کرنے والا کریم ہے، معافی کو پسند کرتا ہے، پس مجھے معاف فرما",
-      "reference": {
-        "source": "hadith",
-        "book": "Tirmidhi",
-        "hadithNumber": "3513",
-        "authenticity": "sahih"
-      },
-      "tags": [
-        "ramadan",
-        "last ten nights"
-      ],
-      "searchKeywords": [
-        "last ten",
-        "laylatul qadr",
-        "شب قدر"
       ]
     },
     {
