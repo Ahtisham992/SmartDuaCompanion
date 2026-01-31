@@ -1,6 +1,6 @@
 // =====================================================
 // src/screens/SettingsScreen.tsx
-// UPDATED: Complete with Update & Reset Features
+// UPDATED: Added 'Auto' Theme Button
 // =====================================================
 import React from 'react';
 import {
@@ -11,12 +11,13 @@ import {
   ScrollView,
   StyleSheet,
   Alert,
+  Linking,
 } from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { AnyAction, ThunkDispatch } from '@reduxjs/toolkit';
 
-import { RootState, persistor } from '../store';
+import { RootState } from '../store';
 import {
   toggleTransliteration,
   toggleTranslation,
@@ -25,28 +26,27 @@ import {
   setLanguage,
   setTheme,
 } from '../store/slices/settingsSlice';
-import { fetchRemoteUpdate } from '../store/slices/duaSlice'; // <--- Import the Update Action
+import { fetchRemoteUpdate } from '../store/slices/duaSlice'; 
 import { spacing, typography } from '../theme'; 
 import { useThemeColors } from '../hooks/useThemeColors';
 
 const SettingsScreen = () => {
-  // Use typed dispatch for Thunks
   const dispatch = useDispatch<ThunkDispatch<RootState, any, AnyAction>>();
   const settings = useSelector((state: RootState) => state.settings);
   const colors = useThemeColors();
 
-// 👇 Use this RAW GitHub link
-const REMOTE_JSON_URL = 'https://raw.githubusercontent.com/Ahtisham992/SmartDuaCompanion/main/SmartDuaCompanionNew/src/data/initial-duas.json';
-  // --- HANDLERS ---
+  const REMOTE_JSON_URL = 'https://raw.githubusercontent.com/Ahtisham992/SmartDuaCompanion/main/SmartDuaCompanionNew/src/data/initial-duas.json';
 
+  // --- HANDLERS ---
   const handleToggleTransliteration = () => { dispatch(toggleTransliteration()); };
   const handleToggleTranslation = () => { dispatch(toggleTranslation()); };
   const handleToggleNotifications = () => { dispatch(toggleNotifications()); };
   const handleFontSizeChange = (size: 'small' | 'medium' | 'large') => { dispatch(updateFontSize(size)); };
   const handleLanguageChange = (lang: 'en' | 'ur' | 'ar') => { dispatch(setLanguage(lang)); };
-  const handleThemeChange = (theme: 'light' | 'dark') => { dispatch(setTheme(theme)); };
+  
+  // UPDATED: Accepts 'system'
+  const handleThemeChange = (theme: 'light' | 'dark' | 'system') => { dispatch(setTheme(theme)); };
 
-  // --- UPDATE HANDLER ---
   const handleCheckUpdate = async () => {
     Alert.alert(
         "Check for Updates",
@@ -57,11 +57,9 @@ const REMOTE_JSON_URL = 'https://raw.githubusercontent.com/Ahtisham992/SmartDuaC
                 text: "Check & Update", 
                 onPress: async () => {
                     try {
-                        // Dispatches the Thunk to download and save new data
                         const result = await dispatch(fetchRemoteUpdate(REMOTE_JSON_URL)).unwrap();
                         Alert.alert("Success", `App updated to Content Version ${result.version}`);
                     } catch (error: any) {
-                        // If "App is already up to date" or network error
                         Alert.alert("Update Status", error || "You are already on the latest version.");
                     }
                 } 
@@ -70,27 +68,8 @@ const REMOTE_JSON_URL = 'https://raw.githubusercontent.com/Ahtisham992/SmartDuaC
     );
   };
 
-  // --- RESET HANDLER ---
-  const handleResetData = async () => {
-    Alert.alert(
-      "Factory Reset",
-      "This will wipe all downloaded data and restore the original Duas that came with the app. Your favorites will be cleared.",
-      [
-        { text: "Cancel", style: "cancel" },
-        { 
-          text: "Reset Everything", 
-          style: "destructive", 
-          onPress: async () => {
-            // 1. Wipe Disk Storage
-            await persistor.purge();
-            // 2. Wipe Redux Memory & Reload Initial JSON
-            dispatch({ type: 'RESET_APP' });
-            
-            Alert.alert("Reset Complete", "The app has been restored to its original state.");
-          }
-        }
-      ]
-    );
+  const handleEmailSupport = () => {
+    Linking.openURL('mailto:shamimuhmmad77@gmail.com?subject=Smart Dua Companion Feedback');
   };
 
   return (
@@ -131,7 +110,70 @@ const REMOTE_JSON_URL = 'https://raw.githubusercontent.com/Ahtisham992/SmartDuaC
         </View>
       </View>
 
-      {/* 2. Display Settings */}
+      {/* 2. Theme Settings (UPDATED) */}
+      <View style={[styles.section, { backgroundColor: colors.background.paper }]}>
+        <Text style={[styles.sectionTitle, { color: colors.text.primary }]}>
+          {settings.language === 'ur' ? 'تھیم' : 'Theme'}
+        </Text>
+
+        <View style={styles.themeButtons}>
+          {/* Light Button */}
+          <TouchableOpacity
+            style={[
+              styles.themeButton,
+              { backgroundColor: settings.theme === 'light' ? colors.primary.main : colors.background.subtle }
+            ]}
+            onPress={() => handleThemeChange('light')}
+          >
+            <Icon 
+              name="white-balance-sunny" 
+              size={24} 
+              color={settings.theme === 'light' ? '#fff' : colors.text.secondary}
+            />
+            <Text style={[styles.themeButtonText, { color: settings.theme === 'light' ? '#fff' : colors.text.secondary }]}>
+              {settings.language === 'ur' ? 'روشن' : 'Light'}
+            </Text>
+          </TouchableOpacity>
+
+          {/* Dark Button */}
+          <TouchableOpacity
+            style={[
+              styles.themeButton,
+              { backgroundColor: settings.theme === 'dark' ? colors.primary.main : colors.background.subtle }
+            ]}
+            onPress={() => handleThemeChange('dark')}
+          >
+            <Icon 
+              name="moon-waning-crescent" 
+              size={24} 
+              color={settings.theme === 'dark' ? '#fff' : colors.text.secondary}
+            />
+            <Text style={[styles.themeButtonText, { color: settings.theme === 'dark' ? '#fff' : colors.text.secondary }]}>
+              {settings.language === 'ur' ? 'تاریک' : 'Dark'}
+            </Text>
+          </TouchableOpacity>
+
+          {/* Auto/System Button */}
+          <TouchableOpacity
+            style={[
+              styles.themeButton,
+              { backgroundColor: settings.theme === 'system' ? colors.primary.main : colors.background.subtle }
+            ]}
+            onPress={() => handleThemeChange('system')}
+          >
+            <Icon 
+              name="theme-light-dark" 
+              size={24} 
+              color={settings.theme === 'system' ? '#fff' : colors.text.secondary}
+            />
+            <Text style={[styles.themeButtonText, { color: settings.theme === 'system' ? '#fff' : colors.text.secondary }]}>
+              {settings.language === 'ur' ? 'آٹو' : 'Auto'}
+            </Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+
+      {/* 3. Display Settings */}
       <View style={[styles.section, { backgroundColor: colors.background.paper }]}>
         <Text style={[styles.sectionTitle, { color: colors.text.primary }]}>
           {settings.language === 'ur' ? 'ڈسپلے' : 'Display'}
@@ -198,49 +240,6 @@ const REMOTE_JSON_URL = 'https://raw.githubusercontent.com/Ahtisham992/SmartDuaC
         </View>
       </View>
 
-      {/* 3. Theme Settings */}
-      <View style={[styles.section, { backgroundColor: colors.background.paper }]}>
-        <Text style={[styles.sectionTitle, { color: colors.text.primary }]}>
-          {settings.language === 'ur' ? 'تھیم' : 'Theme'}
-        </Text>
-
-        <View style={styles.themeButtons}>
-          <TouchableOpacity
-            style={[
-              styles.themeButton,
-              { backgroundColor: settings.theme === 'light' ? colors.primary.main : colors.background.subtle }
-            ]}
-            onPress={() => handleThemeChange('light')}
-          >
-            <Icon 
-              name="white-balance-sunny" 
-              size={24} 
-              color={settings.theme === 'light' ? '#fff' : colors.text.secondary}
-            />
-            <Text style={[styles.themeButtonText, { color: settings.theme === 'light' ? '#fff' : colors.text.secondary }]}>
-              {settings.language === 'ur' ? 'روشن' : 'Light'}
-            </Text>
-          </TouchableOpacity>
-
-          <TouchableOpacity
-            style={[
-              styles.themeButton,
-              { backgroundColor: settings.theme === 'dark' ? colors.primary.main : colors.background.subtle }
-            ]}
-            onPress={() => handleThemeChange('dark')}
-          >
-            <Icon 
-              name="moon-waning-crescent" 
-              size={24} 
-              color={settings.theme === 'dark' ? '#fff' : colors.text.secondary}
-            />
-            <Text style={[styles.themeButtonText, { color: settings.theme === 'dark' ? '#fff' : colors.text.secondary }]}>
-              {settings.language === 'ur' ? 'تاریک' : 'Dark'}
-            </Text>
-          </TouchableOpacity>
-        </View>
-      </View>
-
       {/* 4. Notifications */}
       <View style={[styles.section, { backgroundColor: colors.background.paper }]}>
         <Text style={[styles.sectionTitle, { color: colors.text.primary }]}>
@@ -266,10 +265,10 @@ const REMOTE_JSON_URL = 'https://raw.githubusercontent.com/Ahtisham992/SmartDuaC
         </View>
       </View>
 
-      {/* 5. Content Updates (NEW) */}
+      {/* 5. Content Updates */}
       <View style={[styles.section, { backgroundColor: colors.background.paper }]}>
         <Text style={[styles.sectionTitle, { color: colors.primary.main }]}>
-          Content Updates
+          {settings.language === 'ur' ? 'اپ ڈیٹس' : 'Content Updates'}
         </Text>
         <TouchableOpacity
           style={[styles.resetButton, { backgroundColor: colors.primary.light + '20', borderColor: colors.primary.main }]} 
@@ -277,43 +276,48 @@ const REMOTE_JSON_URL = 'https://raw.githubusercontent.com/Ahtisham992/SmartDuaC
         >
           <Icon name="cloud-download" size={24} color={colors.primary.main} />
           <Text style={[styles.resetButtonText, { color: colors.primary.main }]}>
-            Check for New Duas
+            {settings.language === 'ur' ? 'نئی دعائیں چیک کریں' : 'Check for New Duas'}
           </Text>
         </TouchableOpacity>
-        <Text style={[styles.resetSubtext, { color: colors.text.secondary }]}>
-          Download latest translations and audio without updating the app.
-        </Text>
       </View>
 
-      {/* 6. Developer Tools (Factory Reset) */}
-      {/*<View style={[styles.section, { backgroundColor: colors.background.paper }]}>
-        <Text style={[styles.sectionTitle, { color: colors.accent.error }]}>
-          Advanced
-        </Text>
-        <TouchableOpacity
-          style={[styles.resetButton, { backgroundColor: '#FFEBEE', borderColor: '#FFCDD2' }]} 
-          onPress={handleResetData}
-        >
-          <Icon name="database-refresh" size={24} color={colors.accent.error} />
-          <Text style={[styles.resetButtonText, { color: colors.accent.error }]}>
-            Factory Reset App
-          </Text>
-        </TouchableOpacity>
-        <Text style={[styles.resetSubtext, { color: colors.text.secondary }]}>
-          Use this if you encounter issues or want to clear all data.
-        </Text>
-      </View>
-      */}
-
-      {/* App Info */}
+      {/* 6. Contact & Feedback */}
       <View style={[styles.section, { backgroundColor: colors.background.paper }]}>
-        <View style={styles.infoRow}>
-          <Icon name="information-outline" size={20} color={colors.primary.main} />
-          <Text style={[styles.infoText, { color: colors.text.primary }]}>Smart Dua Companion v2.0.0</Text>
+        <Text style={[styles.sectionTitle, { color: colors.text.primary }]}>
+          {settings.language === 'ur' ? 'رابطہ اور فیڈبیک' : 'Contact & Feedback'}
+        </Text>
+        
+        <View style={{ alignItems: 'center', paddingVertical: spacing.sm }}>
+          <Text style={[styles.developerText, { color: colors.text.primary }]}>
+            Created by <Text style={{ fontWeight: 'bold', color: colors.primary.main }}>Muhammad Ahtisham</Text>
+          </Text>
+          
+          <Text style={[styles.feedbackText, { color: colors.text.secondary }]}>
+            {settings.language === 'ur'
+              ? 'اگر آپ کو کسی دعا یا ترجمہ میں کوئی غلطی نظر آئے تو براہ کرم ہمیں ای میل کریں۔'
+              : 'Found a mistake in a Dua or translation? Please let us know.'}
+          </Text>
+
+          <TouchableOpacity 
+            style={[styles.emailButton, { backgroundColor: colors.background.subtle }]} 
+            onPress={handleEmailSupport}
+          >
+            <Icon name="email-outline" size={20} color={colors.text.primary} />
+            <Text style={[styles.emailButtonText, { color: colors.text.primary }]}>
+              shamimuhmmad77@gmail.com
+            </Text>
+          </TouchableOpacity>
         </View>
       </View>
 
-      <View style={{ height: spacing.xl }} />
+      {/* App Info */}
+      <View style={[styles.section, { backgroundColor: colors.background.paper, marginBottom: spacing.xl }]}>
+        <View style={styles.infoRow}>
+          <Icon name="information-outline" size={18} color={colors.text.secondary} />
+          <Text style={[styles.infoText, { color: colors.text.secondary }]}>Smart Dua Companion v2.0.0</Text>
+        </View>
+      </View>
+
     </ScrollView>
   );
 };
@@ -334,14 +338,18 @@ const styles = StyleSheet.create({
   fontSizeButton: { width: 50, height: 50, borderRadius: 25, justifyContent: 'center', alignItems: 'center', marginLeft: spacing.sm, borderWidth: 2 },
   fontSizeButtonText: { fontSize: typography.sizes.md, fontWeight: 'bold' },
   fontSizeLabel: { fontSize: 10, marginTop: 2 },
-  themeButtons: { flexDirection: 'row', justifyContent: 'space-between' },
-  themeButton: { flex: 1, alignItems: 'center', padding: spacing.md, marginHorizontal: spacing.xs, borderRadius: 12 },
+  themeButtons: { flexDirection: 'row', justifyContent: 'space-between', gap: 8 }, // Added gap
+  themeButton: { flex: 1, alignItems: 'center', padding: spacing.md, borderRadius: 12 },
   themeButtonText: { fontSize: typography.sizes.sm, marginTop: spacing.xs, fontWeight: '600' },
   resetButton: { padding: spacing.md, borderRadius: 12, alignItems: 'center', borderWidth: 1, flexDirection: 'row', justifyContent: 'center' },
   resetButtonText: { fontWeight: 'bold', marginLeft: 10, fontSize: typography.sizes.md },
   resetSubtext: { textAlign: 'center', fontSize: typography.sizes.sm, marginTop: 8 },
-  infoRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', marginBottom: spacing.sm },
-  infoText: { fontSize: typography.sizes.md, marginLeft: spacing.sm, fontWeight: '600' },
+  infoRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center' },
+  infoText: { fontSize: typography.sizes.sm, marginLeft: spacing.xs },
+  developerText: { fontSize: typography.sizes.md, marginBottom: 8 },
+  feedbackText: { fontSize: typography.sizes.sm, textAlign: 'center', marginBottom: 16, paddingHorizontal: 10 },
+  emailButton: { flexDirection: 'row', alignItems: 'center', paddingVertical: 10, paddingHorizontal: 20, borderRadius: 20 },
+  emailButtonText: { marginLeft: 8, fontWeight: '600' }
 });
 
 export default SettingsScreen;

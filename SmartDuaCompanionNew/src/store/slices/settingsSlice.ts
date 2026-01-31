@@ -1,16 +1,26 @@
 // =====================================================
 // src/store/slices/settingsSlice.ts
-// Your existing settings slice - NO CHANGES NEEDED
+// UPDATED: Supports 'system' theme
 // =====================================================
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { UserPreferences } from '../../types/dua.types';
 
-const initialState: UserPreferences = {
+// Define the state interface locally to ensure 'system' is accepted
+interface SettingsState {
+  fontSize: 'small' | 'medium' | 'large';
+  showTransliteration: boolean;
+  showTranslation: boolean;
+  audioAutoPlay: boolean;
+  theme: 'light' | 'dark' | 'system'; // <--- ADDED 'system'
+  language: 'en' | 'ur' | 'ar';
+  notificationsEnabled: boolean;
+}
+
+const initialState: SettingsState = {
   fontSize: 'medium',
   showTransliteration: true,
   showTranslation: true,
   audioAutoPlay: false,
-  theme: 'light',
+  theme: 'system', // <--- DEFAULT IS NOW SYSTEM
   language: 'en',
   notificationsEnabled: true,
 };
@@ -31,7 +41,8 @@ const settingsSlice = createSlice({
     toggleAudioAutoPlay: (state) => {
       state.audioAutoPlay = !state.audioAutoPlay;
     },
-    setTheme: (state, action: PayloadAction<'light' | 'dark'>) => {
+    // Updated to accept 'system'
+    setTheme: (state, action: PayloadAction<'light' | 'dark' | 'system'>) => {
       state.theme = action.payload;
     },
     setLanguage: (state, action: PayloadAction<'en' | 'ur' | 'ar'>) => {
@@ -40,7 +51,7 @@ const settingsSlice = createSlice({
     toggleNotifications: (state) => {
       state.notificationsEnabled = !state.notificationsEnabled;
     },
-    updateSettings: (state, action: PayloadAction<Partial<UserPreferences>>) => {
+    updateSettings: (state, action: PayloadAction<Partial<SettingsState>>) => {
       return { ...state, ...action.payload };
     },
   },
