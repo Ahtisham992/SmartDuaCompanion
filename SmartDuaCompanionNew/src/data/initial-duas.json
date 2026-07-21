@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "categories": [
     {
       "id": "daily",
@@ -144,38 +144,27 @@
       "icon": "moon",
       "color": "#9333EA",
       "order": 16
+    },
+    {
+      "id": "wealth_peace",
+      "name": "Wealth & Peace",
+      "nameArabic": "المال والسلام",
+      "nameUrdu": "مال اور سکون",
+      "icon": "coins",
+      "color": "#B45309",
+      "order": 17
+    },
+    {
+      "id": "character",
+      "name": "Character & Manners",
+      "nameArabic": "الأخلاق والآداب",
+      "nameUrdu": "اخلاق و آداب",
+      "icon": "user-heart",
+      "color": "#0369A1",
+      "order": 18
     }
   ],
   "duas": [
-    {
-      "id": "business_001",
-      "title": "When Starting a Business Transaction",
-      "titleArabic": "دعاء بدء العمل التجاري",
-      "titleUrdu": "کاروبار شروع کرنے کی دعا",
-      "category": {
-        "id": "daily",
-        "name": "Daily Life"
-      },
-      "arabicText": "اللَّهُمَّ بَارِكْ لِي فِي بَيْعِي وَتِجَارَتِي، وَارْزُقْنِي مِنْ فَضْلِكَ رِزْقًا حَلَالًا طَيِّبًا",
-      "transliteration": "Allahumma barik li fi bay'i wa tijarati, warzuqni min fadlika rizqan halalan tayyiba",
-      "translation": "O Allah, bless my selling and my trade, and provide me from Your bounty a pure and lawful provision",
-      "translationUrdu": "اے اللہ! میری تجارت اور کاروبار میں برکت دے، اور اپنے فضل سے مجھے حلال اور پاکیزہ رزق عطا فرما",
-      "reference": {
-        "source": "traditional",
-        "book": "Common supplication",
-        "authenticity": "widespread"
-      },
-      "tags": [
-        "business",
-        "trade",
-        "halal income"
-      ],
-      "searchKeywords": [
-        "business",
-        "trade",
-        "کاروبار"
-      ]
-    },
     {
       "id": "daily_001",
       "title": "When Wearing New Clothes",
@@ -845,7 +834,7 @@
         "name": "Sleep & Waking"
       },
       "arabicText": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ وَلَا يَئُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيمُ",
-      "transliteration": "Allahu la ilaha illa Huwal-Hayyul-Qayyum, la ta'khudhuhu sinatun wa la nawm, lahu ma fis-samawati wa ma fil-ard...",
+      "transliteration": "Allahu la ilaha illa Huwal-Hayyul-Qayyum, la ta'khudhuhu sinatun wa la nawm, lahu ma fis-samawati wa ma fil-ard, man dhal-ladhi yashfa'u 'indahu illa bi-idhnih, ya'lamu ma bayna aydihim wa ma khalfahum, wa la yuhituna bishay'in min 'ilmihi illa bima sha'a, wasi'a kursiyyuhus-samawati wal-ard, wa la ya'uduhu hifdhuhuma, wa Huwal-'Aliyyul-'Adhim",
       "translation": "Allah - there is no deity except Him, the Ever-Living, the Sustainer of existence. Neither drowsiness overtakes Him nor sleep. To Him belongs whatever is in the heavens and whatever is on the earth. Who is it that can intercede with Him except by His permission? His Kursi extends over the heavens and the earth, and their preservation tires Him not. And He is the Most High, the Most Great",
       "translationUrdu": "اللہ، اس کے سوا کوئی معبود نہیں، زندہ ہے، قائم رہنے والا ہے۔ اسے نہ اونگھ آتی ہے اور نہ نیند۔ اس کی کرسی آسمانوں اور زمین کو وسعت میں لیے ہوئے ہے، اور ان کی حفاظت اسے تھکاتی نہیں۔ اور وہی بلند و برتر ہے، عظمت والا ہے",
       "reference": {
@@ -1004,9 +993,9 @@
         "name": "Travel"
       },
       "arabicText": "اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ، سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ، وَإِنَّا إِلَى رَبِّنَا لَمُنْقَلِبُونَ، اللَّهُمَّ إِنَّا نَسْأَلُكَ فِي سَفَرِنَا هَذَا الْبِرَّ وَالتَّقْوَى",
-      "transliteration": "Allahu Akbar x3, Subhanal-ladhi sakhkhara lana hadha... Allahumma inna nas'aluka fi safarina hadhal-birra wat-taqwa, wa minal-'amali ma tarda. Allahumma hawwin 'alayna safarana hadha, watwi 'anna bu'dahu...",
-      "translation": "Allah is the Greatest (3x). Glory be to Him Who has subjected this to us... O Allah, we ask You on this our journey for goodness and piety, and works that please You. O Allah, make easy for us this journey and shorten its distance. O Allah, You are our Companion on the road and Guardian of our family. O Allah, I seek refuge in You from the difficulties of travel, an unpleasant sight, and an ill outcome for wealth and family",
-      "translationUrdu": "اللہ سب سے بڑا ہے (3 بار)۔ پاک ہے وہ ذات جس نے اس کو ہمارے لیے مسخر کر دیا... اے اللہ! ہم تجھ سے اس سفر میں نیکی اور تقویٰ مانگتے ہیں۔ اے اللہ! ہمارے لیے اس سفر کو آسان کر دے۔ اے اللہ! تو ہی سفر میں ساتھی ہے",
+      "transliteration": "Allahu Akbar, Allahu Akbar, Allahu Akbar, Subhanal-ladhi sakhkhara lana hadha wa ma kunna lahu muqrinin, wa inna ila rabbina lamunqalibun. Allahumma inna nas'aluka fi safarina hadhal-birra wat-taqwa, wa minal-'amali ma tarda. Allahumma hawwin 'alayna safarana hadha, watwi 'anna bu'dahu. Allahumma antas-sahibu fis-safari, wal-khalifatu fil-ahli. Allahumma inni a'udhu bika min wa'tha'is-safari, wa ka'abatil-manzari, wa su'il-munqalabi fil-mali wal-ahli",
+      "translation": "Allah is the Greatest, Allah is the Greatest, Allah is the Greatest. Glory be to Him Who has subjected this to us, and we could never have it by our efforts. Surely, unto our Lord we are to return. O Allah, we ask You on this our journey for goodness and piety, and for works that are pleasing to You. O Allah, make easy for us this journey of ours and make short its length for us. O Allah, You are our Companion on the road and the Guardian of our family. O Allah, I seek refuge in You from the difficulties of travel, from a distressing sight, and from an ill-fated outcome for our wealth and family",
+      "translationUrdu": "اللہ سب سے بڑا ہے، اللہ سب سے بڑا ہے، اللہ سب سے بڑا ہے۔ پاک ہے وہ ذات جس نے اس کو ہمارے لیے مسخر کر دیا اور ہم اس کی طاقت نہیں رکھتے تھے، اور بے شک ہم اپنے رب کی طرف لوٹنے والے ہیں۔ اے اللہ! ہم تجھ سے اس سفر میں نیکی اور تقویٰ مانگتے ہیں اور ایسے اعمال جن سے تو راضی ہو۔ اے اللہ! ہمارے لیے اس سفر کو آسان کر دے اور اس کی دوری کو ہمارے لیے سمیٹ دے۔ اے اللہ! تو ہی سفر میں ساتھی ہے اور گھر والوں میں نگہبان ہے۔ اے اللہ! میں تیری پناہ چاہتا ہوں سفر کی مشقت سے، غمگین منظر سے، اور مال و اہل میں برے انجام سے",
       "reference": {
         "source": "hadith",
         "book": "Muslim",
@@ -1067,9 +1056,9 @@
         "name": "Travel"
       },
       "arabicText": "بِسْمِ اللَّهِ، الْحَمْدُ لِلَّهِ، سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ، وَإِنَّا إِلَى رَبِّنَا لَمُنقَلِبُونَ، الْحَمْدُ لِلَّهِ، الْحَمْدُ لِلَّهِ، الْحَمْدُ لِلَّهِ، اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ، سُبْحَانَكَ اللَّهُمَّ إِنِّي ظَلَمْتُ نَفْسِي فَاغْفِرْ لِي، فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ",
-      "transliteration": "Bismillah, alhamdu lillah, subhanal-ladhi sakhkhara lana hadha wa ma kunna lahu muqrinin, wa inna ila rabbina lamunqalibun. Alhamdu lillah (3x), Allahu Akbar (3x), subhanaka Allahumma inni zalamtu nafsi faghfir li, fa innahu la yaghfirudh-dhunuba illa Ant",
-      "translation": "In the name of Allah, praise be to Allah. Glory to Him Who has subjected this to us, for we could never have done it by ourselves, and to our Lord we are surely returning. Praise be to Allah (3x), Allah is the Greatest (3x). Glory to You, O Allah, I have indeed wronged myself, so forgive me, for none forgives sins except You",
-      "translationUrdu": "اللہ کے نام سے، تمام تعریفیں اللہ کے لیے ہیں۔ پاک ہے وہ ذات جس نے اس کو ہمارے لیے مسخر کر دیا",
+      "transliteration": "Bismillah, alhamdu lillah, subhanal-ladhi sakhkhara lana hadha wa ma kunna lahu muqrinin, wa inna ila rabbina lamunqalibun, alhamdu lillah, alhamdu lillah, alhamdu lillah, Allahu Akbar, Allahu Akbar, Allahu Akbar, subhanaka Allahumma inni zalamtu nafsi faghfir li, fa innahu la yaghfirudh-dhunuba illa Ant",
+      "translation": "In the name of Allah. All praise is to Allah. Glory to Him Who has subjected this to us, for we could never have done it by ourselves, and to our Lord we are surely returning. All praise is to Allah (three times). Allah is the Greatest (three times). Glory be to You, O Allah, I have indeed wronged myself, so forgive me, for none forgives sins except You",
+      "translationUrdu": "اللہ کے نام سے، تمام تعریفیں اللہ کے لیے ہیں۔ پاک ہے وہ ذات جس نے اس کو ہمارے لیے مسخر کر دیا اور ہم اس کی طاقت نہیں رکھتے تھے، اور بے شک ہم اپنے رب کی طرف لوٹنے والے ہیں۔ تمام تعریفیں اللہ کے لیے ہیں (تین بار)۔ اللہ سب سے بڑا ہے (تین بار)۔ اے اللہ! تو پاک ہے، بے شک میں نے اپنی جان پر ظلم کیا، پس مجھے بخش دے، کیونکہ تیرے سوا کوئی گناہ نہیں بخشتا",
       "reference": {
         "source": "hadith",
         "book": "Abu Dawud",
@@ -1315,10 +1304,10 @@
         "id": "anxiety",
         "name": "Anxiety & Distress"
       },
-      "arabicText": "اللَّهُمَّ إِنِّي عَبْدُكَ، ابْنُ عَبْدِكَ، ابْنُ أَمَتِكَ، نَاصِيَتِي بِيَدِكَ، مَاضٍ فِيَّ حُكْمُكَ، عَدْلٌ فِيَّ قَضَاؤُكَ، أَسْأَلُكَ بِكُلِّ اسْمٍ هُوَ لَكَ ... أَنْ تَجْعَلَ الْقُرْآنَ رَبِيعَ قَلْبِي وَنُورَ صَدْرِي وَجَلَاءَ حُزْنِي وَذَهَابَ هَمِّي",
-      "transliteration": "Allahumma inni 'abduka, ibnu 'abdika, ibnu amatika, nasiyati biyadika... an taj'alal-Qur'ana rabi'a qalbi wa nura sadri wa jala'a huzni wa dhahaba hammi",
-      "translation": "O Allah, I am Your servant, son of Your servant, son of Your maidservant. My forelock is in Your hand... that You make the Quran the life of my heart and the light of my breast, and a departure for my sorrow and a release for my anxiety",
-      "translationUrdu": "اے اللہ! میں تیرا بندہ ہوں... کہ تو قرآن کو میرے دل کی بہار، میرے سینے کا نور، میرے غم کا خاتمہ، اور میری پریشانی کا زوال بنا دے",
+      "arabicText": "اللَّهُمَّ إِنِّي عَبْدُكَ، ابْنُ عَبْدِكَ، ابْنُ أَمَتِكَ، نَاصِيَتِي بِيَدِكَ، مَاضٍ فِيَّ حُكْمُكَ، عَدْلٌ فِيَّ قَضَاؤُكَ، أَسْأَلُكَ بِكُلِّ اسْمٍ هُوَ لَكَ سَمَّيْتَ بِهِ نَفْسَكَ أَوْ أَنْزَلْتَهُ فِي كِتَابِكَ أَوْ عَلَّمْتَهُ أَحَدًا مِنْ خَلْقِكَ أَوِ اسْتَأْثَرْتَ بِهِ فِي عِلْمِ الْغَيْبِ عِنْدَكَ أَنْ تَجْعَلَ الْقُرْآنَ رَبِيعَ قَلْبِي وَنُورَ صَدْرِي وَجَلَاءَ حُزْنِي وَذَهَابَ هَمِّي",
+      "transliteration": "Allahumma inni 'abduka, ibnu 'abdika, ibnu amatika, nasiyati biyadika, madin fiyya hukmuka, 'adlun fiyya qada'uka, as'aluka bikulli ismin huwa laka sammayta bihi nafsaka aw anzaltahu fi kitabika aw 'allamtahu ahadan min khalqika awista'tharta bihi fi 'ilmil-ghaybi 'indaka an taj'alal-Qur'ana rabi'a qalbi wa nura sadri wa jala'a huzni wa dhahaba hammi",
+      "translation": "O Allah, I am Your servant, son of Your servant, son of Your maidservant. My forelock is in Your hand. Your command over me is forever executed and Your decree over me is just. I ask You by every name belonging to You which You have named Yourself with, or revealed in Your Book, or taught to any of Your creation, or preserved in the knowledge of the Unseen with You, that You make the Quran the life of my heart and the light of my breast, and a departure for my sorrow and a release for my anxiety",
+      "translationUrdu": "اے اللہ! میں تیرا بندہ ہوں، تیرے بندے کا بیٹا ہوں، تیری بندی کا بیٹا ہوں۔ میری پیشانی تیرے ہاتھ میں ہے۔ میرے بارے میں تیرا حکم نافذ ہے، میرے بارے میں تیرا فیصلہ عدل ہے۔ میں تجھ سے سوال کرتا ہوں تیرے ہر اس نام کے واسطے سے جو تیرا ہے، جس سے تو نے اپنے آپ کو نام دیا، یا اپنی کتاب میں نازل کیا، یا اپنی مخلوق میں سے کسی کو سکھایا، یا اپنے علم غیب میں محفوظ رکھا، کہ تو قرآن کو میرے دل کی بہار، میرے سینے کا نور، میرے غم کا خاتمہ، اور میری پریشانی کا زوال بنا دے",
       "reference": {
         "source": "hadith",
         "book": "Ahmad",
@@ -1436,67 +1425,6 @@
       ]
     },
     {
-      "id": "anxiety_005",
-      "title": "For Removing Debt",
-      "titleArabic": "دعاء قضاء الدين",
-      "titleUrdu": "قرضے سے نجات کی دعا",
-      "category": {
-        "id": "anxiety",
-        "name": "Anxiety & Distress"
-      },
-      "arabicText": "اللَّهُمَّ اكْفِنِي بِحَلالِكَ عَنْ حَرَامِكَ، وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ",
-      "transliteration": "Allahummak-fini bihalalika 'an haramika, wa aghnini bifadlika 'amman siwak",
-      "translation": "O Allah, suffice me with what You have allowed instead of what You have forbidden, and make me independent of all others besides You",
-      "translationUrdu": "اے اللہ! مجھے اپنے حلال سے حرام سے بے نیاز کر دے",
-      "reference": {
-        "source": "hadith",
-        "book": "Tirmidhi",
-        "hadithNumber": "3563",
-        "authenticity": "hasan"
-      },
-      "tags": [
-        "debt",
-        "financial",
-        "worry"
-      ],
-      "searchKeywords": [
-        "debt",
-        "loan",
-        "qarz",
-        "قرضہ"
-      ]
-    },
-    {
-      "id": "debt_002",
-      "title": "Dua When Struggling to Repay Debt",
-      "titleArabic": "دعاء عند الضيق من الدين",
-      "titleUrdu": "قرض کی تنگی کے وقت دعا",
-      "category": {
-        "id": "anxiety",
-        "name": "Anxiety & Distress"
-      },
-      "arabicText": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْبُخْلِ وَالْجُبْنِ، وَضَلَعِ الدَّيْنِ وَغَلَبَةِ الرِّجَالِ",
-      "transliteration": "Allahumma inni a'udhu bika minal-hammi wal-hazan, wal-'ajzi wal-kasal, wal-bukhli wal-jubn, wa dala'id-dayni wa ghalabatir-rijal",
-      "translation": "O Allah, I seek refuge in You from worry and grief, from incapacity and laziness, from cowardice and miserliness, from being overcome by debt and overpowered by men",
-      "translationUrdu": "اے اللہ! میں تیری پناہ چاہتا ہوں غم اور فکر سے، عاجزی اور سستی سے، بخل اور بزدلی سے، قرض کے غلبے اور لوگوں کے غلبے سے",
-      "reference": {
-        "source": "hadith",
-        "book": "Bukhari",
-        "hadithNumber": "2893",
-        "authenticity": "sahih"
-      },
-      "tags": [
-        "debt",
-        "worry",
-        "protection"
-      ],
-      "searchKeywords": [
-        "debt struggle",
-        "qarz ki tangi",
-        "قرض"
-      ]
-    },
-    {
       "id": "grief_001",
       "title": "For Overwhelming Grief and Loss",
       "titleArabic": "دعاء عند المصيبة العظيمة",
@@ -1557,37 +1485,6 @@
         "seeking relief",
         "kushadgi",
         "کشادگی"
-      ]
-    },
-    {
-      "id": "rizq_001",
-      "title": "For Provision and Sufficiency",
-      "titleArabic": "دعاء الرزق والكفاية",
-      "titleUrdu": "رزق اور کفایت کی دعا",
-      "category": {
-        "id": "anxiety",
-        "name": "Anxiety & Distress"
-      },
-      "arabicText": "اللَّهُمَّ اكْفِنِي بِحَلَالِكَ عَنْ حَرَامِكَ، وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ، اللَّهُمَّ إِنِّي أَسْأَلُكَ الْهُدَى وَالتُّقَى، وَالْعَفَافَ وَالْغِنَى",
-      "transliteration": "Allahummak-fini bihalalika 'an haramika, wa aghnini bifadlika 'amman siwak, Allahumma inni as'alukal-huda wat-tuqa, wal-'afafa wal-ghina",
-      "translation": "O Allah, suffice me with what is lawful instead of what is unlawful, and enrich me by Your favor above all others. O Allah, I ask You for guidance, piety, chastity, and self-sufficiency",
-      "translationUrdu": "اے اللہ! مجھے اپنے حلال سے حرام سے بچا، اور اپنے فضل سے مجھے تیرے علاوہ سب سے بے نیاز کر۔ اے اللہ! میں تجھ سے ہدایت، تقویٰ، پاکیزگی اور خوشحالی مانگتا ہوں",
-      "reference": {
-        "source": "hadith",
-        "book": "Muslim",
-        "hadithNumber": "2721",
-        "authenticity": "sahih"
-      },
-      "tags": [
-        "provision",
-        "rizq",
-        "sufficiency"
-      ],
-      "searchKeywords": [
-        "provision",
-        "rizq",
-        "sustenance",
-        "رزق"
       ]
     },
     {
@@ -2052,39 +1949,6 @@
         "exit",
         "خروج",
         "گھر سے نکلنا"
-      ]
-    },
-    {
-      "id": "home_003",
-      "title": "For Blessing in Wealth",
-      "titleArabic": "دعاء البركة في المال",
-      "titleUrdu": "مال میں برکت کی دعا",
-      "category": {
-        "id": "home",
-        "name": "Home & Family"
-      },
-      "arabicText": "اللَّهُمَّ بَارِكْ لَنَا فِيمَا رَزَقْتَنَا، وَقِنَا عَذَابَ النَّارِ",
-      "transliteration": "Allahumma barik lana fima razaqtana, wa qina 'adhaban-nar",
-      "translation": "O Allah, bless us in what You have provided us, and save us from the punishment of the Fire",
-      "translationUrdu": "اے اللہ! جو تو نے ہمیں رزق دیا ہے اس میں برکت دے",
-      "reference": {
-        "source": "hadith",
-        "book": "Muslim",
-        "hadithNumber": "2715",
-        "authenticity": "sahih"
-      },
-      "tags": [
-        "wealth",
-        "blessing",
-        "barakah"
-      ],
-      "searchKeywords": [
-        "wealth",
-        "money",
-        "barakah",
-        "barkat",
-        "maal",
-        "برکت"
       ]
     },
     {
@@ -3031,10 +2895,10 @@
         "id": "protection",
         "name": "Protection"
       },
-      "arabicText": "آمَنَ الرَّسُولُ بِمَا أُنزِلَ إِلَيْهِ مِن رَّبِّهِ وَالْمُؤْمِنُونَ...لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا",
-      "transliteration": "Amanar-Rasulu bima unzila ilayhi mir-Rabbihi wal-mu'minun... La yukallifullahu nafsan illa wus'aha, Rabbana la tu'akhidhna in nasina aw akhta'na... Anta Mawlana fansurna 'alal-qawmil-kafirin",
-      "translation": "The Messenger has believed in what was revealed to him from his Lord... Allah does not burden a soul beyond its capacity... Our Lord, do not take us to task if we forget or make a mistake... You are our protector, so give us victory over the disbelieving people",
-      "translationUrdu": "رسول ایمان لایا اس چیز پر جو اس کی طرف اس کے رب کی جانب سے نازل کی گئی... اللہ کسی جان کو اس کی طاقت سے زیادہ تکلیف نہیں دیتا",
+      "arabicText": "آمَنَ الرَّسُولُ بِمَا أُنزِلَ إِلَيْهِ مِن رَّبِّهِ وَالْمُؤْمِنُونَ ۚ كُلٌّ آمَنَ بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِّن رُّسُلِهِ ۚ وَقَالُوا سَمِعْنَا وَأَطَعْنَا ۖ غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ الْمَصِيرُ ﴿٢٨٥﴾ لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا اكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَا إِن نَّسِينَا أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَا إِصْرًا كَمَا حَمَلْتَهُ عَلَى الَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِ ۖ وَاعْفُ عَنَّا وَاغْفِرْ لَنَا وَارْحَمْنَا ۚ أَنتَ مَوْلَانَا فَانصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ ﴿٢٨٦﴾",
+      "transliteration": "Amanar-Rasulu bima unzila ilayhi mir-Rabbihi wal-mu'minun, kullun amana billahi wa mala'ikatihi wa kutubihi wa Rusulihi, la nufarriqu bayna ahadim-mir-Rusulihi, wa qalu sami'na wa ata'na ghufranaka Rabbana wa ilaykal-masir. La yukallifullahu nafsan illa wus'aha, laha ma kasabat wa 'alayha maktasabat, Rabbana la tu'akhidhna in nasina aw akhta'na, Rabbana wa la tahmil 'alayna isran kama hamaltahu 'alal-ladhina min qablina, Rabbana wa la tuhammilna ma la taqata lana bihi, wa'fu 'anna, waghfir lana, warhamna, Anta Mawlana fansurna 'alal-qawmil-kafirin",
+      "translation": "The Messenger has believed in what was revealed to him from his Lord, and so have the believers. All of them have believed in Allah and His angels and His books and His messengers, saying: 'We make no distinction between any of His messengers.' And they say: 'We hear and we obey. We seek Your forgiveness, our Lord, and to You is the final destination.' Allah does not burden a soul beyond its capacity. It will have the consequence of the good it has gained, and it will bear the consequence of the evil it has earned. 'Our Lord, do not take us to task if we forget or make a mistake. Our Lord, and do not lay upon us a burden like that which You laid upon those before us. Our Lord, and burden us not with that which we have no ability to bear. And pardon us, and forgive us, and have mercy upon us. You are our protector, so give us victory over the disbelieving people.'",
+      "translationUrdu": "رسول ایمان لایا اس چیز پر جو اس کی طرف اس کے رب کی جانب سے نازل کی گئی اور مومنین بھی۔ سب ایمان لائے اللہ پر اور اس کے فرشتوں پر اور اس کی کتابوں پر اور اس کے رسولوں پر۔ ہم اس کے رسولوں میں سے کسی میں فرق نہیں کرتے۔ اور انہوں نے کہا ہم نے سنا اور اطاعت کی۔ اے ہمارے رب! ہم تیری بخشش چاہتے ہیں اور تیری ہی طرف لوٹنا ہے۔ اللہ کسی جان کو اس کی طاقت سے زیادہ تکلیف نہیں دیتا۔ اس کے لیے وہ ہے جو اس نے کمایا اور اس پر وہ ہے جو اس نے کمایا۔ اے ہمارے رب! ہم سے مواخذہ نہ کر اگر ہم بھول جائیں یا خطا کریں۔ اے ہمارے رب! ہم پر ایسا بوجھ نہ ڈال جیسا تو نے ہم سے پہلے لوگوں پر ڈالا تھا۔ اے ہمارے رب! ہم پر وہ بوجھ نہ ڈال جس کی ہمیں طاقت نہیں۔ اور ہمیں معاف فرما، اور ہمیں بخش دے، اور ہم پر رحم فرما۔ تو ہمارا مولیٰ ہے، پس کافروں کے خلاف ہماری مدد فرما",
       "reference": {
         "source": "quran",
         "chapter": "Al-Baqarah",
@@ -3625,9 +3489,9 @@
         "name": "Forgiveness"
       },
       "arabicText": "اللَّهُمَّ أَنْتَ رَبِّي لاَ إِلَهَ إِلاَّ أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ لَكَ بِذَنْبِي فَاغْفِرْ لِي، فَإِنَّهُ لاَ يَغْفِرُ الذُّنُوبَ إِلاَّ أَنْتَ",
-      "transliteration": "Allahumma Anta Rabbi la ilaha illa Anta, khalaqtani wa ana 'abduka... fa innahu la yaghfirud-dhunuba illa Ant",
-      "translation": "O Allah, You are my Lord, none has the right to be worshipped except You. You created me and I am Your servant... I acknowledge my sin, so forgive me, for verily none can forgive sin except You",
-      "translationUrdu": "اے اللہ! تو ہی میرا رب ہے، تیرے سوا کوئی معبود نہیں... پس مجھے بخش دے، کیونکہ تیرے سوا کوئی گناہوں کو نہیں بخش سکتا",
+      "transliteration": "Allahumma Anta Rabbi la ilaha illa Anta, khalaqtani wa ana 'abduka, wa ana 'ala 'ahdika wa wa'dika mastata'tu, a'udhu bika min sharri ma sana'tu, abu'u laka bini'matika 'alayya, wa abu'u laka bidhanbi faghfir li, fa innahu la yaghfirud-dhunuba illa Ant",
+      "translation": "O Allah, You are my Lord, none has the right to be worshipped except You. You created me and I am Your servant, and I abide by Your covenant and promise as best I can. I take refuge in You from the evil of what I have done. I acknowledge Your favor upon me, and I acknowledge my sin, so forgive me, for verily none can forgive sin except You",
+      "translationUrdu": "اے اللہ! تو ہی میرا رب ہے، تیرے سوا کوئی معبود نہیں، تو نے مجھے پیدا کیا اور میں تیرا بندہ ہوں، اور میں اپنی طاقت کے مطابق تیرے عہد اور وعدے پر قائم ہوں۔ میں تیری پناہ مانگتا ہوں اس چیز کے شر سے جو میں نے کی۔ میں تیرے سامنے تیری نعمت کا اقرار کرتا ہوں اور اپنے گناہ کا اعتراف کرتا ہوں، پس مجھے بخش دے، کیونکہ تیرے سوا کوئی گناہوں کو نہیں بخش سکتا",
       "reference": {
         "source": "hadith",
         "book": "Bukhari",
@@ -4281,6 +4145,408 @@
         "fasting intention",
         "niyyah",
         "نیت"
+      ]
+    },
+    {
+      "id": "anxiety_005",
+      "title": "For Removing Debt",
+      "titleArabic": "دعاء قضاء الدين",
+      "titleUrdu": "قرضے سے نجات کی دعا",
+      "category": {
+        "id": "wealth_peace",
+        "name": "Wealth & Peace"
+      },
+      "arabicText": "اللَّهُمَّ اكْفِنِي بِحَلالِكَ عَنْ حَرَامِكَ، وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ",
+      "transliteration": "Allahummak-fini bihalalika 'an haramika, wa aghnini bifadlika 'amman siwak",
+      "translation": "O Allah, suffice me with what You have allowed instead of what You have forbidden, and make me independent of all others besides You",
+      "translationUrdu": "اے اللہ! مجھے اپنے حلال سے حرام سے بے نیاز کر دے",
+      "reference": {
+        "source": "hadith",
+        "book": "Tirmidhi",
+        "hadithNumber": "3563",
+        "authenticity": "hasan"
+      },
+      "tags": [
+        "debt",
+        "financial",
+        "worry"
+      ],
+      "searchKeywords": [
+        "debt",
+        "loan",
+        "qarz",
+        "قرضہ"
+      ]
+    },
+    {
+      "id": "business_001",
+      "title": "When Starting a Business Transaction",
+      "titleArabic": "دعاء بدء العمل التجاري",
+      "titleUrdu": "کاروبار شروع کرنے کی دعا",
+      "category": {
+        "id": "wealth_peace",
+        "name": "Wealth & Peace"
+      },
+      "arabicText": "اللَّهُمَّ بَارِكْ لِي فِي بَيْعِي وَتِجَارَتِي، وَارْزُقْنِي مِنْ فَضْلِكَ رِزْقًا حَلَالًا طَيِّبًا",
+      "transliteration": "Allahumma barik li fi bay'i wa tijarati, warzuqni min fadlika rizqan halalan tayyiba",
+      "translation": "O Allah, bless my selling and my trade, and provide me from Your bounty a pure and lawful provision",
+      "translationUrdu": "اے اللہ! میری تجارت اور کاروبار میں برکت دے، اور اپنے فضل سے مجھے حلال اور پاکیزہ رزق عطا فرما",
+      "reference": {
+        "source": "traditional",
+        "book": "Common supplication",
+        "authenticity": "widespread"
+      },
+      "tags": [
+        "business",
+        "trade",
+        "halal income"
+      ],
+      "searchKeywords": [
+        "business",
+        "trade",
+        "کاروبار"
+      ]
+    },
+    {
+      "id": "debt_002",
+      "title": "Dua When Struggling to Repay Debt",
+      "titleArabic": "دعاء عند الضيق من الدين",
+      "titleUrdu": "قرض کی تنگی کے وقت دعا",
+      "category": {
+        "id": "wealth_peace",
+        "name": "Wealth & Peace"
+      },
+      "arabicText": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْبُخْلِ وَالْجُبْنِ، وَضَلَعِ الدَّيْنِ وَغَلَبَةِ الرِّجَالِ",
+      "transliteration": "Allahumma inni a'udhu bika minal-hammi wal-hazan, wal-'ajzi wal-kasal, wal-bukhli wal-jubn, wa dala'id-dayni wa ghalabatir-rijal",
+      "translation": "O Allah, I seek refuge in You from worry and grief, from incapacity and laziness, from cowardice and miserliness, from being overcome by debt and overpowered by men",
+      "translationUrdu": "اے اللہ! میں تیری پناہ چاہتا ہوں غم اور فکر سے، عاجزی اور سستی سے، بخل اور بزدلی سے، قرض کے غلبے اور لوگوں کے غلبے سے",
+      "reference": {
+        "source": "hadith",
+        "book": "Bukhari",
+        "hadithNumber": "2893",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "debt",
+        "worry",
+        "protection"
+      ],
+      "searchKeywords": [
+        "debt struggle",
+        "qarz ki tangi",
+        "قرض"
+      ]
+    },
+    {
+      "id": "home_003",
+      "title": "For Blessing in Wealth",
+      "titleArabic": "دعاء البركة في المال",
+      "titleUrdu": "مال میں برکت کی دعا",
+      "category": {
+        "id": "wealth_peace",
+        "name": "Wealth & Peace"
+      },
+      "arabicText": "اللَّهُمَّ بَارِكْ لَنَا فِيمَا رَزَقْتَنَا، وَقِنَا عَذَابَ النَّارِ",
+      "transliteration": "Allahumma barik lana fima razaqtana, wa qina 'adhaban-nar",
+      "translation": "O Allah, bless us in what You have provided us, and save us from the punishment of the Fire",
+      "translationUrdu": "اے اللہ! جو تو نے ہمیں رزق دیا ہے اس میں برکت دے",
+      "reference": {
+        "source": "hadith",
+        "book": "Muslim",
+        "hadithNumber": "2715",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "wealth",
+        "blessing",
+        "barakah"
+      ],
+      "searchKeywords": [
+        "wealth",
+        "money",
+        "barakah",
+        "barkat",
+        "maal",
+        "برکت"
+      ]
+    },
+    {
+      "id": "peace_001",
+      "title": "Dua of Peace After Prayer",
+      "titleArabic": "دعاء السلام بعد الصلاة",
+      "titleUrdu": "نماز کے بعد سلامتی کی دعا",
+      "category": {
+        "id": "wealth_peace",
+        "name": "Wealth & Peace"
+      },
+      "arabicText": "اللَّهُمَّ أَنْتَ السَّلَامُ وَمِنْكَ السَّلَامُ، تَبَارَكْتَ يَا ذَا الْجَلَالِ وَالْإِكْرَامِ",
+      "transliteration": "Allahumma Antas-Salamu wa minkas-salam, tabarakta ya Dhal-Jalali wal-Ikram",
+      "translation": "O Allah, You are Peace and from You comes peace. Blessed are You, O Possessor of majesty and honor",
+      "translationUrdu": "اے اللہ! تو سلامتی والا ہے اور تجھی سے سلامتی ہے، تو بابرکت ہے اے جلال اور اکرام والے",
+      "reference": {
+        "source": "hadith",
+        "book": "Muslim",
+        "hadithNumber": "591",
+        "authenticity": "sahih"
+      },
+      "benefits": "The Prophet ﷺ used to say this immediately after finishing every obligatory prayer",
+      "benefitsUrdu": "نبی ﷺ ہر فرض نماز کے بعد فوراً یہ دعا پڑھتے تھے",
+      "tags": [
+        "peace",
+        "tranquility",
+        "after prayer"
+      ],
+      "searchKeywords": [
+        "peace",
+        "sakoon",
+        "salam",
+        "سکون"
+      ]
+    },
+    {
+      "id": "peace_002",
+      "title": "Comprehensive Dua for Safety and Peace",
+      "titleArabic": "دعاء السلامة الشاملة",
+      "titleUrdu": "مکمل سلامتی کی دعا",
+      "category": {
+        "id": "wealth_peace",
+        "name": "Wealth & Peace"
+      },
+      "arabicText": "اللَّهُمَّ إِنَّا نَسْأَلُكَ سَلَامَةً فِي الدِّينِ، وَعَافِيَةً فِي الْجَسَدِ، وَزِيَادَةً فِي الْعِلْمِ، وَبَرَكَةً فِي الرِّزْقِ، وَتَوْبَةً قَبْلَ الْمَوْتِ، وَرَحْمَةً عِنْدَ الْمَوْتِ، وَمَغْفِرَةً بَعْدَ الْمَوْتِ",
+      "transliteration": "Allahumma inna nas'aluka salamatan fid-din, wa 'afiyatan fil-jasad, wa ziyadatan fil-'ilm, wa barakatan fir-rizq, wa tawbatan qablal-mawt, wa rahmatan 'indal-mawt, wa maghfiratan ba'dal-mawt",
+      "translation": "O Allah, we ask You for peace in our religion, well-being in our body, increase in knowledge, blessing in our provision, repentance before death, mercy at death, and forgiveness after death",
+      "translationUrdu": "اے اللہ! ہم تجھ سے دین میں سلامتی، جسم میں عافیت، علم میں اضافہ، رزق میں برکت، موت سے پہلے توبہ، موت کے وقت رحمت، اور موت کے بعد بخشش مانگتے ہیں",
+      "reference": {
+        "source": "hadith",
+        "book": "Ahmad",
+        "hadithNumber": "1749",
+        "authenticity": "hasan"
+      },
+      "tags": [
+        "peace",
+        "safety",
+        "wealth",
+        "provision"
+      ],
+      "searchKeywords": [
+        "comprehensive peace",
+        "safety dua",
+        "سلامتی"
+      ]
+    },
+    {
+      "id": "rizq_001",
+      "title": "For Provision and Sufficiency",
+      "titleArabic": "دعاء الرزق والكفاية",
+      "titleUrdu": "رزق اور کفایت کی دعا",
+      "category": {
+        "id": "wealth_peace",
+        "name": "Wealth & Peace"
+      },
+      "arabicText": "اللَّهُمَّ اكْفِنِي بِحَلَالِكَ عَنْ حَرَامِكَ، وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ، اللَّهُمَّ إِنِّي أَسْأَلُكَ الْهُدَى وَالتُّقَى، وَالْعَفَافَ وَالْغِنَى",
+      "transliteration": "Allahummak-fini bihalalika 'an haramika, wa aghnini bifadlika 'amman siwak, Allahumma inni as'alukal-huda wat-tuqa, wal-'afafa wal-ghina",
+      "translation": "O Allah, suffice me with what is lawful instead of what is unlawful, and enrich me by Your favor above all others. O Allah, I ask You for guidance, piety, chastity, and self-sufficiency",
+      "translationUrdu": "اے اللہ! مجھے اپنے حلال سے حرام سے بچا، اور اپنے فضل سے مجھے تیرے علاوہ سب سے بے نیاز کر۔ اے اللہ! میں تجھ سے ہدایت، تقویٰ، پاکیزگی اور خوشحالی مانگتا ہوں",
+      "reference": {
+        "source": "hadith",
+        "book": "Muslim",
+        "hadithNumber": "2721",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "provision",
+        "rizq",
+        "sufficiency"
+      ],
+      "searchKeywords": [
+        "provision",
+        "rizq",
+        "sustenance",
+        "رزق"
+      ]
+    },
+    {
+      "id": "wealth_001",
+      "title": "Seeking Refuge from Poverty",
+      "titleArabic": "دعاء الاستعاذة من الفقر",
+      "titleUrdu": "غربت سے پناہ کی دعا",
+      "category": {
+        "id": "wealth_peace",
+        "name": "Wealth & Peace"
+      },
+      "arabicText": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ وَالْفَقْرِ",
+      "transliteration": "Allahumma inni a'udhu bika minal-kufri wal-faqr",
+      "translation": "O Allah, I seek refuge in You from disbelief and poverty",
+      "translationUrdu": "اے اللہ! میں تیری پناہ چاہتا ہوں کفر اور غربت سے",
+      "reference": {
+        "source": "hadith",
+        "book": "Abu Dawud",
+        "hadithNumber": "1544",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "poverty",
+        "wealth",
+        "refuge"
+      ],
+      "searchKeywords": [
+        "poverty",
+        "faqr",
+        "غربت"
+      ]
+    },
+    {
+      "id": "character_001",
+      "title": "For Good Character",
+      "titleArabic": "دعاء حسن الخلق",
+      "titleUrdu": "اچھے اخلاق کی دعا",
+      "category": {
+        "id": "character",
+        "name": "Character & Manners"
+      },
+      "arabicText": "اللَّهُمَّ اهْدِنِي لِأَحْسَنِ الْأَخْلَاقِ لَا يَهْدِي لِأَحْسَنِهَا إِلَّا أَنْتَ، وَاصْرِفْ عَنِّي سَيِّئَهَا لَا يَصْرِفُ عَنِّي سَيِّئَهَا إِلَّا أَنْتَ",
+      "transliteration": "Allahummahdini li ahsanil-akhlaqi la yahdi li ahsaniha illa Anta, wasrif 'anni sayyi'aha la yasrifu 'anni sayyi'aha illa Ant",
+      "translation": "O Allah, guide me to the best of manners, for none guides to the best of them except You, and turn away from me the bad ones, for none turns away the bad ones except You",
+      "translationUrdu": "اے اللہ! مجھے بہترین اخلاق کی ہدایت دے، تیرے سوا کوئی بہترین اخلاق کی ہدایت نہیں دے سکتا، اور مجھ سے برے اخلاق کو دور فرما، تیرے سوا کوئی برے اخلاق کو دور نہیں کر سکتا",
+      "reference": {
+        "source": "hadith",
+        "book": "Muslim",
+        "hadithNumber": "771",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "character",
+        "manners",
+        "akhlaq"
+      ],
+      "searchKeywords": [
+        "good character",
+        "akhlaq",
+        "اخلاق"
+      ]
+    },
+    {
+      "id": "character_002",
+      "title": "Seeking Refuge from Bad Character",
+      "titleArabic": "التعوذ من منكرات الأخلاق",
+      "titleUrdu": "برے اخلاق سے پناہ کی دعا",
+      "category": {
+        "id": "character",
+        "name": "Character & Manners"
+      },
+      "arabicText": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ مُنْكَرَاتِ الْأَخْلَاقِ وَالْأَعْمَالِ وَالْأَهْوَاءِ",
+      "transliteration": "Allahumma inni a'udhu bika min munkaratil-akhlaqi wal-a'mali wal-ahwa'",
+      "translation": "O Allah, I seek refuge in You from evil character, evil deeds, and evil desires",
+      "translationUrdu": "اے اللہ! میں تیری پناہ چاہتا ہوں برے اخلاق، برے اعمال اور بری خواہشات سے",
+      "reference": {
+        "source": "hadith",
+        "book": "Tirmidhi",
+        "hadithNumber": "3591",
+        "authenticity": "hasan"
+      },
+      "tags": [
+        "character",
+        "refuge",
+        "protection"
+      ],
+      "searchKeywords": [
+        "bad character",
+        "evil deeds",
+        "desires",
+        "برے اخلاق"
+      ]
+    },
+    {
+      "id": "character_003",
+      "title": "For a Truthful Tongue and Sound Heart",
+      "titleArabic": "دعاء اللسان الصادق والقلب السليم",
+      "titleUrdu": "سچی زبان اور صحیح دل کی دعا",
+      "category": {
+        "id": "character",
+        "name": "Character & Manners"
+      },
+      "arabicText": "اللَّهُمَّ إِنِّي أَسْأَلُكَ ثَبَاتًا فِي الْأَمْرِ، وَالْعَزِيمَةَ عَلَى الرُّشْدِ، وَأَسْأَلُكَ شُكْرَ نِعْمَتِكَ، وَحُسْنَ عِبَادَتِكَ، وَأَسْأَلُكَ قَلْبًا سَلِيمًا، وَلِسَانًا صَادِقًا",
+      "transliteration": "Allahumma inni as'aluka thabatan fil-amri, wal-'azimata 'alar-rushdi, wa as'aluka shukra ni'matika, wa husna 'ibadatika, wa as'aluka qalban saliman, wa lisanan sadiqa",
+      "translation": "O Allah, I ask You for steadfastness in my affairs, and determination upon guidance. I ask You to make me grateful for Your blessings and to worship You well. I ask You for a sound heart and a truthful tongue",
+      "translationUrdu": "اے اللہ! میں تجھ سے اپنے کام میں ثابت قدمی اور ہدایت پر عزم مانگتا ہوں، اور تیری نعمت کا شکر اور تیری اچھی عبادت مانگتا ہوں، اور میں تجھ سے صحیح دل اور سچی زبان مانگتا ہوں",
+      "reference": {
+        "source": "hadith",
+        "book": "An-Nasai",
+        "hadithNumber": "1304",
+        "authenticity": "sahih"
+      },
+      "tags": [
+        "character",
+        "truthfulness",
+        "sincerity"
+      ],
+      "searchKeywords": [
+        "truthful tongue",
+        "sound heart",
+        "sachi zuban",
+        "سچی زبان"
+      ]
+    },
+    {
+      "id": "character_004",
+      "title": "Prophet's Dua of Patience for Those Who Harmed Him",
+      "titleArabic": "دعاء النبي للقوم الذين آذوه",
+      "titleUrdu": "تکلیف دینے والوں کے لیے نبی ﷺ کی دعا",
+      "category": {
+        "id": "character",
+        "name": "Character & Manners"
+      },
+      "arabicText": "اللَّهُمَّ اهْدِ قَوْمِي فَإِنَّهُمْ لَا يَعْلَمُونَ",
+      "transliteration": "Allahummahdi qawmi fa innahum la ya'lamun",
+      "translation": "O Allah, guide my people, for indeed they do not know",
+      "translationUrdu": "اے اللہ! میری قوم کو ہدایت دے کیونکہ وہ نہیں جانتے",
+      "reference": {
+        "source": "hadith",
+        "book": "Al-Bayhaqi (Dala'il an-Nubuwwah)",
+        "authenticity": "hasan"
+      },
+      "benefits": "Said by the Prophet ﷺ after being violently rejected and injured by the people of Ta'if, showing the character of forgiveness and patience toward those who wrong us",
+      "benefitsUrdu": "نبی ﷺ نے طائف والوں کی طرف سے اذیت دیے جانے کے بعد یہ دعا فرمائی، جو دوسروں کی زیادتی پر صبر اور معافی کی مثال ہے",
+      "tags": [
+        "character",
+        "patience",
+        "forgiveness"
+      ],
+      "searchKeywords": [
+        "patience with people",
+        "forgiving others",
+        "taif",
+        "صبر"
+      ]
+    },
+    {
+      "id": "character_005",
+      "title": "For Sincerity in Deeds",
+      "titleArabic": "دعاء الإخلاص في العمل",
+      "titleUrdu": "اعمال میں اخلاص کی دعا",
+      "category": {
+        "id": "character",
+        "name": "Character & Manners"
+      },
+      "arabicText": "اللَّهُمَّ اجْعَلْ عَمَلِي كُلَّهُ صَالِحًا، وَاجْعَلْهُ لِوَجْهِكَ خَالِصًا، وَلَا تَجْعَلْ لِأَحَدٍ فِيهِ شَيْئًا",
+      "transliteration": "Allahummaj'al 'amali kullahu salihan, waj'alhu liwajhika khalisan, wa la taj'al li ahadin fihi shay'a",
+      "translation": "O Allah, make all my deeds righteous, make them purely for Your sake, and let no one else have any share in them",
+      "translationUrdu": "اے اللہ! میرے تمام اعمال کو نیک بنا، انہیں خالص اپنی رضا کے لیے بنا، اور اس میں کسی اور کا کوئی حصہ نہ رکھ",
+      "reference": {
+        "source": "hadith",
+        "book": "Ibn Majah",
+        "hadithNumber": "3985",
+        "authenticity": "hasan"
+      },
+      "tags": [
+        "character",
+        "sincerity",
+        "ikhlas"
+      ],
+      "searchKeywords": [
+        "sincerity",
+        "ikhlas",
+        "اخلاص"
       ]
     }
   ]
